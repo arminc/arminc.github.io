@@ -8,4 +8,6 @@ Develop
 
 Run docker
 ~~~~~~~~~~
-docker run -t -i -v /FOLDER/TO/SOURCES:/home ruby /bin/bash
+docker run --rm -v "$PWD:/src" -p 4000:4000 grahamc/jekyll build
+
+docker run --rm -v "$PWD:/src" -p 4000:4000 grahamc/jekyll serve
