@@ -3,11 +3,23 @@ arminc.github.io
 
 Jekyll blog for: blog.coralic.nl
 
+Install
+=======
+bundle install
+
 Develop
 =======
+jeklly build
+jekkly serve
 
-Run docker
-~~~~~~~~~~
-docker run --rm -v "$PWD:/src" -p 4000:4000 grahamc/jekyll build
+TODO
+====
++ Fix the front end page
++ Fix about page
++ How to create post?
++ Find a layout
++ Migrate the old posts
++ Plugins?
++ How fast that the site load online?
 
-docker run --rm -v "$PWD:/src" -p 4000:4000 grahamc/jekyll serve
+
