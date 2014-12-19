@@ -25,8 +25,11 @@ TODO
 + Migrate the old posts
 + Plugins?
 + How fast that the site load online?
-+ tags/categories?
++ Remove date beneath post title?
 + fix startup error
++ share posts
++ google analytics
 + remove unused files (images)
 + How about changing the colors?
 + add linkedin next to github/google+
++ feed.xml?
