@@ -5,7 +5,12 @@ Jekyll blog for: blog.coralic.nl
 
 Install
 =======
-bundle install
+You need 
++ Ruby 1.9 or 2
++ bundler (gem install bundler)
+
+Install dependencies of the project
++ bundle install
 
 Develop
 =======
@@ -16,7 +21,6 @@ TODO
 ====
 + Fix the front end page
 	+ Remove unwanted links on the site
-	+ Clean up the unwanted/unused configs 
 + Fix about page
 + How to create post?
 	+ What formats can I use?
