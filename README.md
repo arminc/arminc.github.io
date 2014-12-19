@@ -19,16 +19,14 @@ jekkly serve
 
 TODO
 ====
-+ add quotes page
 + How to create post?
 	+ What formats can I use?
 	+ Any tools that can help?
 + Migrate the old posts
 + Plugins?
 + How fast that the site load online?
-+ How about changing the colors?
-+ Fix any errors
 + tags/categories?
-+ add linkedin next to github/google+
 + fix startup error
-
++ remove unused files (images)
++ How about changing the colors?
++ add linkedin next to github/google+
