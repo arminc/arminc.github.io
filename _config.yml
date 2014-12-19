@@ -16,8 +16,6 @@ harmony:
     github: arminc
     twitter: acoralic
     gplus: +103823895018150177843
-  # Toggle disclaimer in footer
-  show_disclaimer: true
 
 # Conversion / Build settings 
 markdown:    kramdown

@@ -19,8 +19,6 @@ jekkly serve
 
 TODO
 ====
-+ Fix the front end page
-	+ Remove unwanted links on the site
 + Fix about page
 + How to create post?
 	+ What formats can I use?
@@ -29,4 +27,5 @@ TODO
 + Plugins?
 + How fast that the site load online?
 + How about changing the colors?
++ Fix any errors
 
