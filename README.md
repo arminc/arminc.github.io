@@ -41,3 +41,4 @@ TODO
 + add linkedin next to github/google+
 + feed.xml?
 + tips and tricks?
++ What does "Related Posts" show?
