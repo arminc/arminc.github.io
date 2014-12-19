@@ -19,7 +19,7 @@ jekkly serve
 
 TODO
 ====
-+ Fix about page
++ add quotes page
 + How to create post?
 	+ What formats can I use?
 	+ Any tools that can help?
@@ -29,6 +29,6 @@ TODO
 + How about changing the colors?
 + Fix any errors
 + tags/categories?
-+ add quotes page
 + add linkedin next to github/google+
++ fix startup error
 

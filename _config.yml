@@ -3,7 +3,6 @@ baseurl:
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Armin Coralic
   # Little description about your site
   meta_description: Armin's blog
   basetheme: theme-base-01
