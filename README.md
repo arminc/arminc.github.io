@@ -23,8 +23,8 @@ Add a file to _posts, commit and push to git.
 
 TODO
 ====
-+ Remove date beneath post title?
 + Migrate the old posts (https://github.com/benbalter/wordpress-to-jekyll-exporter)
+	+ check all pages and fix errors
 + remove unused files (images)
 + google analytics
 
