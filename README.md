@@ -25,8 +25,8 @@ TODO
 ====
 + Migrate the old posts (https://github.com/benbalter/wordpress-to-jekyll-exporter)
 	+ check all pages and fix errors
-+ remove unused files (images)
 + google analytics
++ Does it work on mobile?
 
 + How fast does the site load online?
 + Are the links the same as on blog.coralic.nl
