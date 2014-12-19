@@ -28,4 +28,7 @@ TODO
 + How fast that the site load online?
 + How about changing the colors?
 + Fix any errors
++ tags/categories?
++ add quotes page
++ add linkedin next to github/google+
 
