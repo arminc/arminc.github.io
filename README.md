@@ -17,16 +17,27 @@ Develop
 jeklly build
 jekkly serve
 
+Creating a post
+===============
+Add a file to _posts, commit and push to git.
+
 TODO
 ====
-+ How to create post?
-	+ What formats can I use?
-	+ Any tools that can help?
-+ Migrate the old posts
-+ Plugins?
-+ How fast that the site load online?
-+ tags/categories?
-+ fix startup error
++ Remove date beneath post title?
++ Migrate the old posts (https://github.com/benbalter/wordpress-to-jekyll-exporter)
 + remove unused files (images)
++ google analytics
+
++ How fast does the site load online?
++ Are the links the same as on blog.coralic.nl
++ Switch DNS (does everything stil works?)
+
++ sublime preview markdown
++ fix startup error
+
++ Plugins?
++ share posts
 + How about changing the colors?
 + add linkedin next to github/google+
++ feed.xml?
++ tips and tricks?
