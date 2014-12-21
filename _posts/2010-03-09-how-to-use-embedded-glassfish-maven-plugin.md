@@ -3,7 +3,7 @@ title: How to use embedded glassfish maven plugin?
 layout: post
 permalink: /2010/03/09/how-to-use-embedded-glassfish-maven-plugin/
 categories:
-  - Java
+  - java
 tags:
   - embedded glassfish maven plugin
   - glassfish

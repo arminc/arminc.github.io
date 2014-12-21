@@ -2,12 +2,8 @@
 title: '5 reasons sprint planning doesn&#8217;t go perfectly'
 layout: post
 permalink: /2012/12/10/5-reasons-sprint-planning-doesnt-go-perfectly/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - sprint planning
 ---

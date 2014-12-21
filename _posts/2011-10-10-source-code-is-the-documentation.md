@@ -2,12 +2,8 @@
 title: Source Code is the documentation
 layout: post
 permalink: /2011/10/10/source-code-is-the-documentation/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - agile
   - agile architecture

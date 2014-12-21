@@ -2,12 +2,8 @@
 title: Blog updates
 layout: post
 permalink: /2010/12/15/blog-updates/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - blog update
 ---

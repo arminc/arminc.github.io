@@ -3,9 +3,9 @@ title: How to create a custom rom for Hero from Android sources
 layout: post
 permalink: /2010/01/21/how-to-create-a-custom-rom-for-hero-from-android-sources/
 categories:
-  - Android
+  - android
 tags:
-  - Android
+  - android
   - compile
   - compile android
   - compile hero

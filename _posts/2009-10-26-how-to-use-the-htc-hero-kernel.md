@@ -3,7 +3,7 @@ title: How to use the HTC Hero kernel
 layout: post
 permalink: /2009/10/26/how-to-use-the-htc-hero-kernel/
 categories:
-  - Android
+  - android
 tags:
   - boot
   - boot.img

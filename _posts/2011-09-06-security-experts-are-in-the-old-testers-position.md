@@ -2,12 +2,8 @@
 title: Security experts are in the old Testers position?
 layout: post
 permalink: /2011/09/06/security-experts-are-in-the-old-testers-position/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - agile
   - scrum

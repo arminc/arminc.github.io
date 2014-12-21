@@ -2,12 +2,8 @@
 title: 'Jason Fried: Why work doesn&#8217;t happen at work'
 layout: post
 permalink: /2010/12/01/jason-fried-why-work-doesnt-happen-at-work/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - creativity
   - no interruption

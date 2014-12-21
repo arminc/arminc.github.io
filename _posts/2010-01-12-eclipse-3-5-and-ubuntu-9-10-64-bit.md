@@ -3,12 +3,12 @@ title: Eclipse 3.5 and Ubuntu 9.10 64 bit
 layout: post
 permalink: /2010/01/12/eclipse-3-5-and-ubuntu-9-10-64-bit/
 categories:
-  - Linux
+  - linux
 tags:
   - button
   - eclipse
   - not working
-  - Ubuntu
+  - ubuntu
 ---
 I installed my new laptop with the latest Ubuntu after that I downloaded Eclipse zip and unzipped it. I started the Eclipse and wanted to install some updates and plugins when I found out that the windows where not working properly. Windows would not refresh right and also all buttons on popup windows where not responding. <!--more-->
 

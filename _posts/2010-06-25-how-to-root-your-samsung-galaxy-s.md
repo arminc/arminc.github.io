@@ -2,12 +2,8 @@
 title: How to root your Samsung Galaxy S
 layout: post
 permalink: /2010/06/25/how-to-root-your-samsung-galaxy-s/
-aktt_tweeted:
-  - 1
-aktt_notify_twitter:
-  - yes
 categories:
-  - Android
+  - android
 tags:
   - galaxy s
   - how to

@@ -2,16 +2,12 @@
 title: Creating chroot for arm on Ubuntu with rootstock
 layout: post
 permalink: /2010/08/12/creating-chroot-for-arm-on-ubuntu-with-rootstock/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Linux
+  - linux
 tags:
   - chroot
   - chroot arm ubuntu
-  - Ubuntu
+  - ubuntu
   - ubuntu arm
 ---
 Some of you may or may not be familiar with chroot, for those who are familiar with chroot good job and for those that aren&#8217;t shame on you. Just kidding please read this for some more info about [chroot][1].  

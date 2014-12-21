@@ -2,17 +2,13 @@
 title: Ubuntu on Samsung Galaxy S (Android)
 layout: post
 permalink: /2010/08/17/ubuntu-on-samsung-galaxy-s-android/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Android
+  - android
 tags:
-  - Android
+  - android
   - galaxy s
   - samsung galaxy s
-  - Ubuntu
+  - ubuntu
   - ubuntu on android
   - ubuntu on galaxy s
 ---

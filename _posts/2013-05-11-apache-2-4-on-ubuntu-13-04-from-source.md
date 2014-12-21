@@ -3,14 +3,14 @@ title: Apache 2.4 on Ubuntu 13.04 from source
 layout: post
 permalink: /2013/05/11/apache-2-4-on-ubuntu-13-04-from-source/
 categories:
-  - Linux
+  - linux
 tags:
   - apache
   - apache 2.4
   - compile
   - install
   - source
-  - Ubuntu
+  - ubuntu
   - ubuntu 13.04
 ---
 I wanted to test Apache 2.4 on my Ubuntu 13.04 but it was not available as a package, so I went and compiled the sources. In this post you can find the steps needed to make the latest Apache available on your Ubuntu.<!--more-->

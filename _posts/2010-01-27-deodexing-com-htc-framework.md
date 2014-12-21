@@ -3,7 +3,7 @@ title: Deodexing com.htc.framework
 layout: post
 permalink: /2010/01/27/deodexing-com-htc-framework/
 categories:
-  - Android
+  - android
 tags:
   - backsmali
   - com.htc.framework

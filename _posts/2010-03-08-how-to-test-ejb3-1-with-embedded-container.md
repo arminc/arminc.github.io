@@ -3,7 +3,7 @@ title: How to test EJB3.1 with embedded container?
 layout: post
 permalink: /2010/03/08/how-to-test-ejb3-1-with-embedded-container/
 categories:
-  - Java
+  - java
 tags:
   - ejb
   - ejb3.1

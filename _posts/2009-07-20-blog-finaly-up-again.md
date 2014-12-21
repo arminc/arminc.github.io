@@ -3,7 +3,7 @@ title: Blog Finaly UP again
 layout: post
 permalink: /2009/07/20/blog-finaly-up-again/
 categories:
-  - Other
+  - other
 ---
 I am sorry for this big delay. Some have noticed some have not that my blog was offline for a long period. The reason is as follow, my provider got hacked and almost every customer at them got issues (talking about thousands of customers and hundred thousand websites). <!--more-->
 

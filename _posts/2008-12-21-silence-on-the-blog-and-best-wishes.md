@@ -3,7 +3,7 @@ title: Silence on the blog and best wishes
 layout: post
 permalink: /2008/12/21/silence-on-the-blog-and-best-wishes/
 categories:
-  - Other
+  - other
 tags:
   - happy holliday
   - happy new year

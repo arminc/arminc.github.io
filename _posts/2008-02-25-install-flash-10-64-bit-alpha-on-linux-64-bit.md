@@ -3,14 +3,14 @@ title: Install Flash 10 64 bit (alpha) on Linux 64 bit
 layout: post
 permalink: /2008/02/25/install-flash-10-64-bit-alpha-on-linux-64-bit/
 categories:
-  - Linux
+  - linux
 tags:
   - 64bit
   - alpha
   - flash 10
   - flash 64 bit
-  - Linux
-  - Ubuntu
+  - linux
+  - ubuntu
 ---
 Finally 64 bit Linux users can enjoy Flash without ndiswrapper. Adobe has showed us some mercy and they made a native Flash 10 for 64 bit platform for Linux. On this moment it is only an alpha version but it seems to work quite nice.
 

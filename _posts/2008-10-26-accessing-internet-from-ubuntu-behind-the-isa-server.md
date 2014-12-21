@@ -3,10 +3,10 @@ title: Accessing internet from Ubuntu behind the ISA Server
 layout: post
 permalink: /2008/10/26/accessing-internet-from-ubuntu-behind-the-isa-server/
 categories:
-  - Linux
+  - linux
 tags:
   - ISA
-  - Linux
+  - linux
   - NTLMAPS
   - proxy
   - WAS

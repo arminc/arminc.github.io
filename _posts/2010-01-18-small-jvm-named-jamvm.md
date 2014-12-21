@@ -3,7 +3,7 @@ title: Small JVM named Jamvm
 layout: post
 permalink: /2010/01/18/small-jvm-named-jamvm/
 categories:
-  - Java
+  - java
 tags:
   - compile jamvm
   - gnu classes

@@ -3,7 +3,7 @@ title: Repair items in /dev under RedHat
 layout: post
 permalink: /2008/11/18/repair-items-in-dev-under-redhat/
 categories:
-  - Linux
+  - linux
 tags:
   - /dev
   - makedev

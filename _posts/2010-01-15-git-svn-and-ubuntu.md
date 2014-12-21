@@ -3,12 +3,12 @@ title: Git svn and Ubuntu
 layout: post
 permalink: /2010/01/15/git-svn-and-ubuntu/
 categories:
-  - Other
+  - other
 tags:
   - git
   - git-svn
   - svn
-  - Ubuntu
+  - ubuntu
 ---
 Recently I tried git on my machine and I must say I like it. But because a lot of other people are still using svn I tried to combine that.<!--more-->
 

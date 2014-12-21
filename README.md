@@ -28,10 +28,9 @@ Theme: https://github.com/gayanvirajith/harmony
 TODO
 ====
 + Check all migrated pages and fix errors
-	- all categories and tags lowercase
 	- add description
+	- check post
 
-+ Bring date back in the post
 + google analytics
 + Does it work on mobile?
 

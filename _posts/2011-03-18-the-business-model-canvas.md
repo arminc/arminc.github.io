@@ -2,12 +2,8 @@
 title: The Business Model Canvas
 layout: post
 permalink: /2011/03/18/the-business-model-canvas/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - Business Model Canvas
 ---

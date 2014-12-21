@@ -3,7 +3,7 @@ title: How to create otapackage (aka update.zip) from your build
 layout: post
 permalink: /2010/01/27/how-to-create-otapackage-aka-update-zip-from-your-build/
 categories:
-  - Android
+  - android
 ---
 When you compile your android source and you want to create an automatic update.zip instead of your own then do this: <!--more-->
 

@@ -2,12 +2,8 @@
 title: I bought an iPad :(
 layout: post
 permalink: /2011/02/17/i-bought-an-ipad/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - ipad
 ---

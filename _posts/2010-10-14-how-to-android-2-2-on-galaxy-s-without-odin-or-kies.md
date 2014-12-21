@@ -2,12 +2,8 @@
 title: How to:Android 2.2 on Galaxy S without Odin or Kies
 layout: post
 permalink: /2010/10/14/how-to-android-2-2-on-galaxy-s-without-odin-or-kies/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Android
+  - android
 tags:
   - android 2.2
   - clockwork recovery

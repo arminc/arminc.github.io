@@ -2,12 +2,10 @@
 title: Creating workspace for the Android source
 layout: post
 permalink: /2009/10/25/creating-workspace-for-the-android-source/
-aktt_notify_twitter:
-  - yes
 categories:
-  - Android
+  - android
 tags:
-  - Android
+  - android
   - source
 ---
 I was playing around with the Android sources lately. I followed the [androids][1]{.broken_link} way of creating the workspace on you machine, although that works perfectly it&#8217;s manual approach. So to make it a bit easier for you guys I just made a small script that can do all those steps for you. <!--more-->

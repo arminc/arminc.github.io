@@ -3,10 +3,10 @@ title: Stopping kvm to load or removing kvm in Ubuntu
 layout: post
 permalink: /2008/11/13/stopping-kvm-to-load-or-removing-kvm-in-ubuntu/
 categories:
-  - Linux
+  - linux
 tags:
   - kvm
-  - Ubuntu
+  - ubuntu
   - virtualbox
   - vmware
 ---

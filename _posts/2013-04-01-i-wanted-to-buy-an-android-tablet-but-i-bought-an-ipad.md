@@ -3,9 +3,9 @@ title: I wanted to buy an Android tablet but I bought an iPad
 layout: post
 permalink: /2013/04/01/i-wanted-to-buy-an-android-tablet-but-i-bought-an-ipad/
 categories:
-  - Android
+  - android
 tags:
-  - Android
+  - android
   - netherlands
   - new iPad
   - no choice

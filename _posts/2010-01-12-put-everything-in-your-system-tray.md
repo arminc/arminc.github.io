@@ -3,7 +3,7 @@ title: Put everything in your system tray
 layout: post
 permalink: /2010/01/12/put-everything-in-your-system-tray/
 categories:
-  - Linux
+  - linux
 tags:
   - alltray
   - dock to tray

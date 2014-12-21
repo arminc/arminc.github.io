@@ -3,7 +3,7 @@ title: Apache 2.4 vs Nginx 1.4
 layout: post
 permalink: /2013/05/12/apache-2-4-vs-nginx-1-4/
 categories:
-  - Linux
+  - linux
 tags:
   - apache
   - compare

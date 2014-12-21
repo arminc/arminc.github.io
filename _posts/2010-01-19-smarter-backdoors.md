@@ -3,7 +3,7 @@ title: Smarter backdoors
 layout: post
 permalink: /2010/01/19/smarter-backdoors/
 categories:
-  - Other
+  - other
 tags:
   - backdoor
   - smarter backdoor

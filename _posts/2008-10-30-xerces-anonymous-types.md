@@ -3,7 +3,7 @@ title: Xerces Anonymous types
 layout: post
 permalink: /2008/10/30/xerces-anonymous-types/
 categories:
-  - Java
+  - java
 tags:
   - anonymous types
   - svn

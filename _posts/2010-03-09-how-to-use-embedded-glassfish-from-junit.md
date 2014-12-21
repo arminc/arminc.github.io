@@ -3,7 +3,7 @@ title: How to use embedded glassfish from junit?
 layout: post
 permalink: /2010/03/09/how-to-use-embedded-glassfish-from-junit/
 categories:
-  - Java
+  - java
 tags:
   - ejb
   - ejb3.1

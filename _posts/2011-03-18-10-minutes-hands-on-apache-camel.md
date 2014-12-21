@@ -2,12 +2,8 @@
 title: '10 Minutes Hands-On: Apache Camel'
 layout: post
 permalink: /2011/03/18/10-minutes-hands-on-apache-camel/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Java
+  - java
 tags:
   - apache camel
   - camel

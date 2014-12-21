@@ -3,10 +3,10 @@ title: Ubuntu 8.10 released
 layout: post
 permalink: /2008/10/30/ubuntu-810-released/
 categories:
-  - Linux
+  - linux
 tags:
   - 8.10
-  - Ubuntu
+  - ubuntu
 ---
 Canonical has released the new version of Ubuntu. You can find more information about the release [here][1]{.broken_link}. For those who want to download the CD go [here][2].
 

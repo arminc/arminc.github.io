@@ -3,12 +3,12 @@ title: Java 64 bit performance problem
 layout: post
 permalink: /2009/01/24/java-64-bit-performance-problem/
 categories:
-  - Java
+  - java
 tags:
   - 64 bit
   - contains
   - equals
-  - Java
+  - java
   - java 64 bit
   - performance problem
 ---

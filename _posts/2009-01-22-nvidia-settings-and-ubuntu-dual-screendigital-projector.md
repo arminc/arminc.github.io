@@ -3,13 +3,13 @@ title: nvidia-settings and Ubuntu (dual screen,digital projector)
 layout: post
 permalink: /2009/01/22/nvidia-settings-and-ubuntu-dual-screendigital-projector/
 categories:
-  - Linux
+  - linux
 tags:
   - dual screen
   - nvidia
   - nvidia-settings
   - second screen
-  - Ubuntu
+  - ubuntu
 ---
 <!-- 	 	 -->
 

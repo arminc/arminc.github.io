@@ -3,12 +3,12 @@ title: VirtualBox 4.2 performance in Ubuntu 12.04
 layout: post
 permalink: /2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/
 categories:
-  - Linux
+  - linux
 tags:
   - performance
-  - Phoronix
-  - Phoronix test suite
-  - Ubuntu
+  - phoronix
+  - phoronix test suite
+  - ubuntu
   - virtualbox
   - workstation
 ---

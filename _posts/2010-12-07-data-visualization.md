@@ -2,12 +2,8 @@
 title: Data visualization
 layout: post
 permalink: /2010/12/07/data-visualization/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Other
+  - other
 tags:
   - data visualization
 ---

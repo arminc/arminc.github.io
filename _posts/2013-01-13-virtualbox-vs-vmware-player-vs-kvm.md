@@ -3,7 +3,7 @@ title: VirtualBox vs VMware Player vs KVM
 layout: post
 permalink: /2013/01/13/virtualbox-vs-vmware-player-vs-kvm/
 categories:
-  - Linux
+  - linux
 tags:
   - kvm
   - performance

@@ -2,12 +2,8 @@
 title: Google Tasks
 layout: post
 permalink: /2010/12/07/google-tasks/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Apps
+  - apps
 tags:
   - alltray
   - google tasks

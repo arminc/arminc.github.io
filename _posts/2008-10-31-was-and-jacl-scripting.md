@@ -3,7 +3,7 @@ title: WAS and JACL scripting
 layout: post
 permalink: /2008/10/31/was-and-jacl-scripting/
 categories:
-  - Other
+  - other
 tags:
   - AdminConfig
   - application server

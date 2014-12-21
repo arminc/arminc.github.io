@@ -3,7 +3,7 @@ title: Build Eclair aka Android 2.1 for Hero from source
 layout: post
 permalink: /2010/01/28/build-eclair-aka-android-2-1-for-hero-from-source/
 categories:
-  - Android
+  - android
 ---
 First of all let met thank (loxK, kiall, jnwhiteh and Behnaam) because those guys are doing a very good job buy creating rom&#8217;s for Hero and posting there information on the net. This post is all about eclair and Hero. What you will see here is how to build eclair for Hero and how to create an update.zip so you can flash your Hero. <!--more-->
 

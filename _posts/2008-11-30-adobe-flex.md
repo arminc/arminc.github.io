@@ -3,7 +3,7 @@ title: Adobe Flex
 layout: post
 permalink: /2008/11/30/adobe-flex/
 categories:
-  - Other
+  - other
 tags:
   - adobe flex
   - flex 3

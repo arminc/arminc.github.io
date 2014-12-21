@@ -3,11 +3,11 @@ title: Parallelism simplified by Akka in Java
 layout: post
 permalink: /2013/08/30/parallelism-simplified-by-akka-in-java/
 categories:
-  - Java
+  - java
 tags:
   - actor
   - akka
-  - Java
+  - java
   - parallelism
   - thread
 ---

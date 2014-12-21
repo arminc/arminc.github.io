@@ -3,7 +3,7 @@ title: Performance of my new laptop
 layout: post
 permalink: /2013/01/26/performance-of-my-new-laptop/
 categories:
-  - Linux
+  - linux
 tags:
   - dell m4700
   - i7-3840qm

@@ -2,14 +2,10 @@
 title: Java 7, this is it?
 layout: post
 permalink: /2011/09/06/java-7-this-is-it/
-aktt_notify_twitter:
-  - yes
-aktt_tweeted:
-  - 1
 categories:
-  - Java
+  - java
 tags:
-  - Java
+  - java
   - java 7
 ---
 Original post can be found at [It-Eye][1]

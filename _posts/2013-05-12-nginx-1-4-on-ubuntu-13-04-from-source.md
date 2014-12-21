@@ -3,14 +3,14 @@ title: Nginx 1.4 on Ubuntu 13.04 from source
 layout: post
 permalink: /2013/05/12/nginx-1-4-on-ubuntu-13-04-from-source/
 categories:
-  - Linux
+  - linux
 tags:
   - compile
   - install
   - nginx
   - nginx 1.4
   - ubuntu 13.04
-  - ubunut
+  - ubuntu
 ---
 I worked with Apache for a long time and I never had the chance to do something with nginx until now. I decided to try nginx and see if I can get it up and running. In this post you can find the steps needed to make the nginx 1.4 available on your Ubuntu.<!--more-->
 
