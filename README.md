@@ -49,3 +49,5 @@ TODO
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
 + Sample post to be used to quickly start
 + sublime preview markdown
+
+
