@@ -21,10 +21,15 @@ Creating a post
 ===============
 Add a file to _posts, commit and push to git.
 
+Info
+====
+Theme: https://github.com/gayanvirajith/harmony
+
 TODO
 ====
-+ Migrate the old posts (https://github.com/benbalter/wordpress-to-jekyll-exporter)
-	+ check all pages and fix errors
++ Check all migrated pages and fix errors
+	- remove "author: admin"
+
 + google analytics
 + Does it work on mobile?
 
@@ -42,3 +47,4 @@ TODO
 + feed.xml?
 + tips and tricks?
 + What does "Related Posts" show?
++ add tags next to the date on the front page of the posts
