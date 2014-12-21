@@ -1,6 +1,7 @@
 ---
 title: Goodbye Ubuntu, Welcome Arch Linux
 layout: post
+permalink: /2013/11/17/goodbye-ubuntu-welcome-arch-linux/
 categories:
   - linux
 tags:

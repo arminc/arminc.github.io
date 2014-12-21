@@ -28,8 +28,10 @@ Theme: https://github.com/gayanvirajith/harmony
 TODO
 ====
 + Check all migrated pages and fix errors
-	- 
+	- all categories and tags lowercase
+	- add description
 
++ Bring date back in the post
 + google analytics
 + Does it work on mobile?
 
@@ -51,3 +53,4 @@ TODO
 + add pagination on the index screen
 + Blog Archive per year and per categorie
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
++ Sample post to be used to quickly start
