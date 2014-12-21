@@ -29,7 +29,7 @@ TODO
 ====
 + Check all migrated pages and fix errors
 	- check post
-	
+
 + google analytics
 + Does it work on mobile?
 
@@ -47,7 +47,6 @@ TODO
 + tips and tricks?
 + What does "Related Posts" show?
 + add tags next to the date on the front page of the posts
-+ add pagination on the index screen
 + Blog Archive per year and per categorie
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
 + Sample post to be used to quickly start
