@@ -10,15 +10,16 @@ tags:
   - kies
   - odin
   - update rom
+description: You may have heard or maybe not but there is an 2.2 version available for the Samsung Galaxy S. You may also know that the update over Kies will take a wile because Samsung has not released that yet. You may also know that you can flash your device with Odin witch is fine off course, but there is also a third method using the recovery and I am going to show you how.
 ---
-You may have heard or maybe not but there is an 2.2 version available for the Samsung Galaxy S. You may also know that the update over Kies will take a wile because Samsung has not released that yet. You may also know that you can flash your device with Odin witch is fine off course, but there is also a third method using the recovery and I am going to show you how.<!--more-->
+You may have heard or maybe not but there is an 2.2 version available for the Samsung Galaxy S. You may also know that the update over Kies will take a wile because Samsung has not released that yet. You may also know that you can flash your device with Odin witch is fine off course, but there is also a third method using the recovery and I am going to show you how.
 
 First of all if you like Odin then stick to that <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> if not this is how you can upgrade your Samsung Galaxy S using the recovery mode and the update.zip
 
-First of all you need to have clockwork [recovery][1].You can use auto or manual way, I am going to show you the manual way. Download the recovery for Galaxy S from koush&#8217;s [website][2].
+First of all you need to have clockwork [recovery][1].You can use auto or manual way, I am going to show you the manual way. Download the recovery for Galaxy S from koush's [website][2].
 
 Besides the recovery you need to have a rom off course, thanks to DocRambone you can download one from XDA forum [here][3] direct link to rom is [here][4].  
-Doc&#8217;s ROM is a slim version, meaning all the Samsung apps are removed and it also means it is pre rooted and contains busybox and superuser. Do not install this rom if you want those!
+Doc's ROM is a slim version, meaning all the Samsung apps are removed and it also means it is pre rooted and contains busybox and superuser. Do not install this rom if you want those!
 
 **Before you proceed you must know that everything you do is on your own risk, you can not blame me or others for destroying your device.** 
 
@@ -27,7 +28,7 @@ Doc&#8217;s ROM is a slim version, meaning all the Samsung apps are removed and 
 **Clockwork recovery:** it is not permanent it just loads the recovery in to ramdisk, it means when you exit the recovery reboot and then come back to recovery again you will see stock one again!
 
 STEP 1:  
-Rename the recovery zip to update.zip and upload it to your phone on the SDCARD. Now upload the rom as well, you don&#8217;t need to rename it.
+Rename the recovery zip to update.zip and upload it to your phone on the SDCARD. Now upload the rom as well, you don't need to rename it.
 
 STEP 2:  
 Turn off your phone
@@ -48,7 +49,7 @@ STEP 7:
 It is smart to create an backup of your phone using nandroid!
 
 STEP 8:  
-Now install the rom using the option “install zip from sdcard” and selecting the doc&#8217;s rom.
+Now install the rom using the option “install zip from sdcard” and selecting the doc's rom.
 
 STEP 9:  
 Now you just wait and be patience until the install finishes. If all goes well you will return back to clockwork recovery. If so then choose reboot <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
@@ -56,7 +57,7 @@ Now you just wait and be patience until the install finishes. If all goes well y
 STEP 10:  
 You are done, the phone is booting in to your new ROM!
 
-If for some reason this does not work for you, use Odin to install an other &#8216;older&#8217; rom.
+If for some reason this does not work for you, use Odin to install an other &#8216;older' rom.
 
 Credits go to: Koush and to DocRambone
 

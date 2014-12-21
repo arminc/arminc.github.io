@@ -8,8 +8,9 @@ tags:
   - embedded glassfish maven plugin
   - glassfish
   - maven
+description: You already know how to use embedded glassfish from junit now it's time to show you how to use the maven plugin to achieve the same.
 ---
-You already know how to use embedded glassfish from junit now it&#8217;s time to show you how to use the maven plugin to achieve the same.<!--more-->
+You already know how to use embedded glassfish from junit now it's time to show you how to use the maven plugin to achieve the same.
 
 You can download the full package [here][1].
 

@@ -8,13 +8,14 @@ tags:
   - code
   - code size
   - syntax
+description: There are lot of programming languages in the world, there is one for everybody. All those languages have something in common and that is that they are trying to help you solve a problem. But they all try to do it there own way.  
 ---
 Original post can be found at [It-Eye][1]
 
 There are lot of programming languages in the world, there is one for everybody. All those languages have something in common and that is that they are trying to help you solve a problem. But they all try to do it there own way.  
-Every company has struggled one way or another to chose what programming language to use for a project. If they haven&#8217;t then they probably chose what they already have been using. For those that have been choosing most of the time they were looking at things like, can we find experts, is the language fast, secure, does it help us solve our problems faster and tools for the language. But have we ever looked at code size or language syntax and decided on that as well? Probably not, but should we? <!--more-->
+Every company has struggled one way or another to chose what programming language to use for a project. If they haven't then they probably chose what they already have been using. For those that have been choosing most of the time they were looking at things like, can we find experts, is the language fast, secure, does it help us solve our problems faster and tools for the language. But have we ever looked at code size or language syntax and decided on that as well? Probably not, but should we? 
 
-Let&#8217;s look at some “&#8217;Hello World” coding examples. [Source][2]
+Let's look at some “'Hello World” coding examples. [Source][2]
 
 Java
 
@@ -65,7 +66,7 @@ So would it matter that a software engineer only needs to write one line instead
 
 Does the code size and syntax really matter? 
 
-I would say, in most cases it does not. The reason why I think that is because for most languages we have great tools that do a lot for the software engineer so you don&#8217;t need to write all those lines, most of them get generated or added on the fly anyway. Regarding code maintainability and readability, no programming language has yet been discovers that makes a bad software engineer do those things good.  
+I would say, in most cases it does not. The reason why I think that is because for most languages we have great tools that do a lot for the software engineer so you don't need to write all those lines, most of them get generated or added on the fly anyway. Regarding code maintainability and readability, no programming language has yet been discovers that makes a bad software engineer do those things good.  
 What matters is that the programming language should allow the software engineer to focus on his problem instead of breaking his mind about programming details. This is also the reason why languages like Scala, Groovy, Ruby are getting popular. Looking at these languages you could conclude that it seems that syntax definitely can matter sometimes.
 
  [1]: http://www.it-eye.nl/2011/09/07/coding-size-or-language-syntax-does-it-matter/

@@ -10,8 +10,10 @@ tags:
   - deodexerant
   - deodexing
   - smali
+description: This is just an small tutorial that shows how deodexing works.
+
 ---
-This is just an small tutorial that shows how deodexing works.<!--more-->
+This is just an small tutorial that shows how deodexing works.
 
 First of all you need these three tools, [deodexerant][1] , [baksmali][2] and [smali][3]
 
@@ -30,7 +32,7 @@ Now that you have a deodexd files in the out folder you need to create the class
 <pre class="brush: bash; title: ; notranslate" title="">java -jar smali-1.1.jar -d classes.dex out
 </pre>
 
-It&#8217;s time to put the classes.dex in to the empty com.htc.framework.jar.
+It's time to put the classes.dex in to the empty com.htc.framework.jar.
 
 <pre class="brush: bash; title: ; notranslate" title="">adb pull  com.htc.framework.jar
 zip com.htc.framework.jar classes.dex

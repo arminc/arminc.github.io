@@ -1,19 +1,20 @@
 ---
-title: '5 reasons sprint planning doesn&#8217;t go perfectly'
+title: '5 reasons sprint planning doesn't go perfectly'
 layout: post
 permalink: /2012/12/10/5-reasons-sprint-planning-doesnt-go-perfectly/
 categories:
   - other
 tags:
   - sprint planning
+description: There are many reasons why sprint planning sessions don't go the way you want them to. Here is my short list of the things that I have seen breaking the sprint planning sessions the most.
 ---
 Original post can be found at [It-Eye][1]
 
-There are many reasons why sprint planning sessions don&#8217;t go the way you want them to. Here is my short list of the things that I have seen breaking the sprint planning sessions the most.
+There are many reasons why sprint planning sessions don't go the way you want them to. Here is my short list of the things that I have seen breaking the sprint planning sessions the most.
 
   1. **No Product Owner or not available**
 
-Not having a Product Owner available in sprint planning is a bad idea. Even if your user stories are written well there are always questions or decisions that need to be made regarding the functionality or the priority. A solution is to have one other team member be the substitute Product Owner as long as he/she collaborates with the Product Owner and is allowed to make decisions.<!--more-->
+Not having a Product Owner available in sprint planning is a bad idea. Even if your user stories are written well there are always questions or decisions that need to be made regarding the functionality or the priority. A solution is to have one other team member be the substitute Product Owner as long as he/she collaborates with the Product Owner and is allowed to make decisions.
 
 <ol start="2">
   <li>
@@ -21,7 +22,7 @@ Not having a Product Owner available in sprint planning is a bad idea. Even if y
   </li>
 </ol>
 
-Most of the teams are very technically oriented, this means that they often tend to dive into discussions about the technical solution because that is their expertise. This is not a bad thing per se but these discussion often tend to be long, they don&#8217;t contribute anything to the sprint planning and can be done later when needed. Solution to this is not to allow technical discussions or have them on a high level instead of talking about all the details.
+Most of the teams are very technically oriented, this means that they often tend to dive into discussions about the technical solution because that is their expertise. This is not a bad thing per se but these discussion often tend to be long, they don't contribute anything to the sprint planning and can be done later when needed. Solution to this is not to allow technical discussions or have them on a high level instead of talking about all the details.
 
 <ol start="3">
   <li>
@@ -29,7 +30,7 @@ Most of the teams are very technically oriented, this means that they often tend
   </li>
 </ol>
 
-Having vague user stories is one of the worst things you can have in a sprint planning. These user stories don&#8217;t allow the team to focus on planning but lets them wonder about what is meant and always bring up discussion where in the end the product owner needs to explain what is needed. In this process a lot will be said but most of the time this information eventually gets lost and is a waste of time. Creating well written stories that have a summarized self explanatory title and a clear scope with explicit points of functionality explaining what is expected and what not helps avoiding these discussions.
+Having vague user stories is one of the worst things you can have in a sprint planning. These user stories don't allow the team to focus on planning but lets them wonder about what is meant and always bring up discussion where in the end the product owner needs to explain what is needed. In this process a lot will be said but most of the time this information eventually gets lost and is a waste of time. Creating well written stories that have a summarized self explanatory title and a clear scope with explicit points of functionality explaining what is expected and what not helps avoiding these discussions.
 
 <ol start="4">
   <li>
@@ -37,7 +38,7 @@ Having vague user stories is one of the worst things you can have in a sprint pl
   </li>
 </ol>
 
-There tend to be two problems here, one is about not understanding how planning poker works and can be fixed by practicing. The second problem is where people don&#8217;t know what to take in to account when voting. These people tend to use different criteria when voting and making the planning variate a lot. Possible solution to this problem is creating a short list of criteria points to think about when voting.
+There tend to be two problems here, one is about not understanding how planning poker works and can be fixed by practicing. The second problem is where people don't know what to take in to account when voting. These people tend to use different criteria when voting and making the planning variate a lot. Possible solution to this problem is creating a short list of criteria points to think about when voting.
 
 <ol start="5">
   <li>

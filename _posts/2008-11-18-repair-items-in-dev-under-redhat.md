@@ -14,8 +14,9 @@ tags:
   - ssh
   - tty
   - urandom
+description: Everyone knows this but I have to say it again, DONT forget to backup your stuff. 
 ---
-Everyone knows this but I have to say it again, DONT forget to backup your stuff. Because if you don&#8217;t you could end up spending valuable time recovering or repairing things like I had to. I will spare you the details what went wrong here that made it necessary to repair my /DEV, but the head problem was that I could not login with SSH and that terminal was not starting properly. This was happening because some of the items in /DEV where gone. To repair those tings this is what I did.<!--more-->
+Everyone knows this but I have to say it again, DONT forget to backup your stuff. Because if you don't you could end up spending valuable time recovering or repairing things like I had to. I will spare you the details what went wrong here that made it necessary to repair my /DEV, but the head problem was that I could not login with SSH and that terminal was not starting properly. This was happening because some of the items in /DEV where gone. To repair those tings this is what I did.
 
 I am not giving you a solution to ONE problem or anything like that here. I am showing you how you can recover or repair some stuff in /dev in RedHat.
 
@@ -59,7 +60,7 @@ Create /dev/urandom
   </tr>
 </table>
 
-For creating pty, ptmx and tty you need MAKEDEV that can be found in /sbin. If it&#8217;s not there try to copy it from another machine like I did, and placing it in /sbin.
+For creating pty, ptmx and tty you need MAKEDEV that can be found in /sbin. If it's not there try to copy it from another machine like I did, and placing it in /sbin.
 
 Create pty,tty,ptmx
 

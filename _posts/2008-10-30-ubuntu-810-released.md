@@ -7,6 +7,7 @@ categories:
 tags:
   - 8.10
   - ubuntu
+description: Canonical has released the new version of Ubuntu. You can find more information about the release [here][1]{.broken_link}. For those who want to download the CD go [here][2].
 ---
 Canonical has released the new version of Ubuntu. You can find more information about the release [here][1]{.broken_link}. For those who want to download the CD go [here][2].
 

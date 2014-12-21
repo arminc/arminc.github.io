@@ -11,6 +11,7 @@ tags:
   - flash 64 bit
   - linux
   - ubuntu
+description: Finally 64 bit Linux users can enjoy Flash without ndiswrapper. Adobe has showed us some mercy and they made a native Flash 10 for 64 bit platform for Linux. On this moment it is only an alpha version but it seems to work quite nice.
 ---
 Finally 64 bit Linux users can enjoy Flash without ndiswrapper. Adobe has showed us some mercy and they made a native Flash 10 for 64 bit platform for Linux. On this moment it is only an alpha version but it seems to work quite nice.
 
@@ -19,7 +20,7 @@ Here are the installation instructions from Adobe it self:
 <table border="1" cellspacing="0" cellpadding="4" width="100%">
   <col width="256"></col> <tr>
     <td width="100%" valign="top">
-      <em>1. Download the plugin to begin installation. A dialog box will appear asking you where to save the file. </em><br /> <em>2. Save the .tar.gz file to your desktop and wait for the file to download completely. </em><br /> <em>3. Quit your browser. </em><br /> <em>4. Remove all existing Adobe Flash Player installations from the system. </em><br /> <em>5. Unpackage the file. A directory with contains libflashplayer.so will be created. </em><br /> <em>6. Copy libflashplayer.so to ~/.mozilla/plugins. Create the &#8216;plugins&#8217; folder if it does not exist yet. </em><br /> <em>7. Launch your brower. To verify installation in Firefox choose Help > About Plug-ins from the browser menu. </em>
+      <em>1. Download the plugin to begin installation. A dialog box will appear asking you where to save the file. </em><br /> <em>2. Save the .tar.gz file to your desktop and wait for the file to download completely. </em><br /> <em>3. Quit your browser. </em><br /> <em>4. Remove all existing Adobe Flash Player installations from the system. </em><br /> <em>5. Unpackage the file. A directory with contains libflashplayer.so will be created. </em><br /> <em>6. Copy libflashplayer.so to ~/.mozilla/plugins. Create the &#8216;plugins' folder if it does not exist yet. </em><br /> <em>7. Launch your brower. To verify installation in Firefox choose Help > About Plug-ins from the browser menu. </em>
     </td>
   </tr>
 </table>

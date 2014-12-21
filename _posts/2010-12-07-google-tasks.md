@@ -9,8 +9,9 @@ tags:
   - google tasks
   - gtasks
   - tasks
+description: I like doing a lot of things, and that means I have a lot of stuff to do that I need to remember. I used to create todo text files and that works oke, but you soon end up with a lot of files and the stuff is usually on your PC only. This means that when I get an idea or I remember something I want to do I can not add it to the list. Yes I can add it somewhere els and then merge it but it means I need to manage multiple input lists and eventually I will forget to merge something.
 ---
-I like doing a lot of things, and that means I have a lot of stuff to do that I need to remember. I used to create todo text files and that works oke, but you soon end up with a lot of files and the stuff is usually on your PC only. This means that when I get an idea or I remember something I want to do I can not add it to the list. Yes I can add it somewhere els and then merge it but it means I need to manage multiple input lists and eventually I will forget to merge something.<!--more-->
+I like doing a lot of things, and that means I have a lot of stuff to do that I need to remember. I used to create todo text files and that works oke, but you soon end up with a lot of files and the stuff is usually on your PC only. This means that when I get an idea or I remember something I want to do I can not add it to the list. Yes I can add it somewhere els and then merge it but it means I need to manage multiple input lists and eventually I will forget to merge something.
 
 So I decided I need a change <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> My criteria was:
 

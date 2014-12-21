@@ -4,8 +4,9 @@ layout: post
 permalink: /2010/07/26/chromium-and-the-html5-video-youtube/
 categories:
   - other
+description: If you are like me and are using chromium (dev channel) instead of chrome you may have noticed that playing HTML5 video from youtube or others is not working. That is because the default chromium ships with free codecs only. So to fix this problem do the following.
 ---
-If you are like me and are using chromium (dev channel) instead of chrome you may have noticed that playing HTML5 video from youtube or others is not working. That is because the default chromium ships with free codecs only. So to fix this problem do the following.<!--more-->
+If you are like me and are using chromium (dev channel) instead of chrome you may have noticed that playing HTML5 video from youtube or others is not working. That is because the default chromium ships with free codecs only. So to fix this problem do the following.
 
 With your chromium try to watch this movie: 
 

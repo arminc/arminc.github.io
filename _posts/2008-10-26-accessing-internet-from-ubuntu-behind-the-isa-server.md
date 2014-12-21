@@ -10,15 +10,16 @@ tags:
   - NTLMAPS
   - proxy
   - WAS
+description: When you are behind a ISA server in let's say business network you can use Firefox to just surf the net. Because Firefox detects can detect the proxy settings and it will trow you the login screen. But when you need to be able to update your Ubuntu from that network or just proxy your whole Ubuntu PC/laptop you can use NTLMAPS to accomplish that.
 ---
-When you are behind a ISA server in let&#8217;s say business network you can use Firefox to just surf the net. Because Firefox detects can detect the proxy settings and it will trow you the login screen. But when you need to be able to update your Ubuntu from that network or just proxy your whole Ubuntu PC/laptop you can use NTLMAPS to accomplish that.
+When you are behind a ISA server in let's say business network you can use Firefox to just surf the net. Because Firefox detects can detect the proxy settings and it will trow you the login screen. But when you need to be able to update your Ubuntu from that network or just proxy your whole Ubuntu PC/laptop you can use NTLMAPS to accomplish that.
 
 <p style="margin-bottom:0" lang="en-US">
   What NTLMAPS actually does is connects to the ISA server and sets up a local proxy. By setting your Ubuntu to use the local proxy you are acutely surfing trough the proxy.
 </p>
 
 <p style="margin-bottom:0" lang="en-US">
-  <!--more-->Step 1)
+  Step 1)
   
   <br /> Download <a title="NTLMAPS" href="http://ntlmaps.sourceforge.net/" target="_blank">NTLMAPS</a>
 </p>

@@ -6,8 +6,9 @@ categories:
   - other
 tags:
   - data visualization
+description: What do you see when you look on the Internet? You see a lot of data. With the computer we can do a lot of things and one of them is creating more and more data. At some point the amount of data is going to be so big that we are not going to be able to read anything useful from it while trying to read raw data. 
 ---
-What do you see when you look on the Internet? You see a lot of data. With the computer we can do a lot of things and one of them is creating more and more data. At some point the amount of data is going to be so big that we are not going to be able to read anything useful from it while trying to read raw data. <!--more-->
+What do you see when you look on the Internet? You see a lot of data. With the computer we can do a lot of things and one of them is creating more and more data. At some point the amount of data is going to be so big that we are not going to be able to read anything useful from it while trying to read raw data. 
 
 In the future to be able to process a big amounts of data and get something useful from it we will need to visualize this data. I am not an data visualization expert but there are people who are. I have selected two movies that show what I mean by big amounts of data that are shown in an useful way.
 

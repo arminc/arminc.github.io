@@ -30,6 +30,7 @@ TODO
 + Check all migrated pages and fix errors
 	- add description
 	- check post
++ using "permalink: /:title" breakes archive 
 
 + google analytics
 + Does it work on mobile?

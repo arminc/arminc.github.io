@@ -9,10 +9,11 @@ tags:
   - ubuntu
   - virtualbox
   - vmware
+description: hen I was working with VirtualBox and Vmware server I found out that if I enabled my hardware virtualization everything would freeze. So how com?
 ---
 When I was working with VirtualBox and Vmware server I found out that if I enabled my hardware virtualization everything would freeze. So how com?
 
-You have probably heard about kvm (kernel-based Virtual Machine) that is available in Ubuntu. It&#8217;s used for creating virtual machines in ubuntu. It works nice but I wanted to use Vmware server, and this is where things go down.<!--more-->
+You have probably heard about kvm (kernel-based Virtual Machine) that is available in Ubuntu. It's used for creating virtual machines in ubuntu. It works nice but I wanted to use Vmware server, and this is where things go down.
 
 When I am working with Vmware server and my hardware virtualization off everything works fine, but at this point I can not use the option to also have 64bit guests on my 64bit host. So what do I do, I enable the hardware virtualization. You can guess what happens next, when I try to start an installation or already made virtual machine in Vmware server my PC freezes.
 
@@ -30,7 +31,7 @@ How to unload kvm just temporally, it comes back after restart:
 
 If you use the option above you will have to run the command every time before you start your Vmware.
 
-How to remove kvm from Ubuntu (I see that the line before purge – looks like it&#8217;s one but it is actually two lines &#8211; - next to each other &#8212; )
+How to remove kvm from Ubuntu (I see that the line before purge – looks like it's one but it is actually two lines &#8211; - next to each other &#8212; )
 
 <table border="1" cellspacing="0" cellpadding="4" width="100%">
   <col width="256"></col> <tr>

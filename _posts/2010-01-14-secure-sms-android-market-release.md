@@ -7,5 +7,6 @@ categories:
 tags:
   - android
   - android market
+description: Because of legal issues about the name I used for this application I am forced to close this.
 ---
 Because of legal issues about the name I used for this application I am forced to close this.

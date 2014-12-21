@@ -12,8 +12,9 @@ tags:
   - source
   - ubuntu
   - ubuntu 13.04
+description: I wanted to test Apache 2.4 on my Ubuntu 13.04 but it was not available as a package, so I went and compiled the sources. In this post you can find the steps needed to make the latest Apache available on your Ubuntu.
 ---
-I wanted to test Apache 2.4 on my Ubuntu 13.04 but it was not available as a package, so I went and compiled the sources. In this post you can find the steps needed to make the latest Apache available on your Ubuntu.<!--more-->
+I wanted to test Apache 2.4 on my Ubuntu 13.04 but it was not available as a package, so I went and compiled the sources. In this post you can find the steps needed to make the latest Apache available on your Ubuntu.
 
 Prepare the build server
 
@@ -67,4 +68,4 @@ sudo ./apachectl
 
 Apache is not completely ready now, it needs to be fine tuned. Like adding the user to run under, ip, port, etc..
 
-For those who do not want to go trough all the steps them self here is a video showing how it&#8217;s done.
+For those who do not want to go trough all the steps them self here is a video showing how it's done.

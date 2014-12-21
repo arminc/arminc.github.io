@@ -11,9 +11,10 @@ tags:
   - java
   - java 64 bit
   - performance problem
+description: This is going to be a weird blog post so I am warning you. The reason why I am saying this is because I will try to go in to details about my weird performance problem but I am not able to say everything because &#8230;.. The short line of the story is like this, I got an Java application who is using an 3th party jar and this jar has weird performance issues when running 32bit and 64 bit JVM.  
 ---
 This is going to be a weird blog post so I am warning you. The reason why I am saying this is because I will try to go in to details about my weird performance problem but I am not able to say everything because &#8230;.. The short line of the story is like this, I got an Java application who is using an 3th party jar and this jar has weird performance issues when running 32bit and 64 bit JVM.  
-<!--more-->
+
 
   
 When I was doing some testing with the Java application I found out that when I used 32 bit JVM instead of 64 bit JVM the application was much faster. In the smaller size &#8220;things&#8221; the performance was almost the same but when the &#8220;things&#8221; got bigger the performance of 64 bit was much much lower then 32 bit in terms of time. You could say that at some point 32 bit was 3 times faster than 64 bit.
@@ -78,6 +79,6 @@ The performance stays the same so I changed it to this
 }
 </pre>
 
-And guess what this almost touches the performance of 32 bit. I haven&#8217;t figured out what the problem is. It could be that objects contained in the ArrayList are handled very differently in 32 bit as in 64 bit and that this is causing problems, but it still doesn&#8217;t really explain whey using o.equals shows a performance drop and == not when at the end both are doing the same in this case.
+And guess what this almost touches the performance of 32 bit. I haven't figured out what the problem is. It could be that objects contained in the ArrayList are handled very differently in 32 bit as in 64 bit and that this is causing problems, but it still doesn't really explain whey using o.equals shows a performance drop and == not when at the end both are doing the same in this case.
 
 I have found an article about IBMs JVM 64bit performance throughput and memory improvements where the writer tries to explain and show the differences between 32bit 64bit old en new.

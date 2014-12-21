@@ -10,11 +10,12 @@ tags:
   - java
   - parallelism
   - thread
+description: I have bean writing applications in Java EE environment for some time now and I didn't need to worry about creating own threads. When I needed to create and manage my own threads it always felt wrong because of to much low level programming. Then I came across akka and wanted to try it out.
 ---
-I have bean writing applications in Java EE environment for some time now and I didn&#8217;t need to worry about creating own threads. When I needed to create and manage my own threads it always felt wrong because of to much low level programming. Then I came across akka and wanted to try it out. <!--more-->
+I have bean writing applications in Java EE environment for some time now and I didn't need to worry about creating own threads. When I needed to create and manage my own threads it always felt wrong because of to much low level programming. Then I came across akka and wanted to try it out. 
 
 **What is Akka?**  
-Quote from [akka.io][1] “We believe that writing correct concurrent, fault-tolerant and scalable applications is too hard. Most of the time it&#8217;s because we are using the wrong tools and the wrong level of abstraction. Akka is here to change that. Using the Actor Model we raise the abstraction level and provide a better platform to build correct, concurrent, and scalable applications. For fault-tolerance we adopt the &#8220;Let it crash&#8221; model which the telecom industry has used with great success to build applications that self-heal and systems that never stop. Actors also provide the abstraction for transparent distribution and the basis for truly scalable and fault-tolerant applications.”
+Quote from [akka.io][1] “We believe that writing correct concurrent, fault-tolerant and scalable applications is too hard. Most of the time it's because we are using the wrong tools and the wrong level of abstraction. Akka is here to change that. Using the Actor Model we raise the abstraction level and provide a better platform to build correct, concurrent, and scalable applications. For fault-tolerance we adopt the &#8220;Let it crash&#8221; model which the telecom industry has used with great success to build applications that self-heal and systems that never stop. Actors also provide the abstraction for transparent distribution and the basis for truly scalable and fault-tolerant applications.”
 
 **Context**  
 For the purpose of the sample we have a trivial working unit that simulates CPU intensive task that can find a factorial for a large number. We assume that we need to find factorials for many different numbers, for the purpose of consistency the number is now fixed.  

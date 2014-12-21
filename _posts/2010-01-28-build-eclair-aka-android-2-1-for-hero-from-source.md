@@ -4,12 +4,13 @@ layout: post
 permalink: /2010/01/28/build-eclair-aka-android-2-1-for-hero-from-source/
 categories:
   - android
+description: First of all let met thank (loxK, kiall, jnwhiteh and Behnaam) because those guys are doing a very good job buy creating rom's for Hero and posting there information on the net. This post is all about eclair and Hero. What you will see here is how to build eclair for Hero and how to create an update.zip so you can flash your Hero. 
 ---
-First of all let met thank (loxK, kiall, jnwhiteh and Behnaam) because those guys are doing a very good job buy creating rom&#8217;s for Hero and posting there information on the net. This post is all about eclair and Hero. What you will see here is how to build eclair for Hero and how to create an update.zip so you can flash your Hero. <!--more-->
+First of all let met thank (loxK, kiall, jnwhiteh and Behnaam) because those guys are doing a very good job buy creating rom's for Hero and posting there information on the net. This post is all about eclair and Hero. What you will see here is how to build eclair for Hero and how to create an update.zip so you can flash your Hero. 
 
 To do this you need couple of things, a workspace, eclair sources, hero vendor settings from the github [(provided by loxK, kiall and jnwhiteh)][1] and you need the HERO21 rom [(provided by loxK and Behnaam)][2].
 
-Let&#8217;s start by creating an workspace, to make it easy for you guys I made an script that will do everything for you. You can download it [HERE][3]. Be CAREFULL if you already have used my other [script][4] you will already have an folder called myandroid in your home directory. If so then you have two choices you can delete the myandroid folder
+Let's start by creating an workspace, to make it easy for you guys I made an script that will do everything for you. You can download it [HERE][3]. Be CAREFULL if you already have used my other [script][4] you will already have an folder called myandroid in your home directory. If so then you have two choices you can delete the myandroid folder
 
 <pre class="brush: bash; title: ; notranslate" title="">cd ~
 rm -rf myandroid
@@ -17,7 +18,7 @@ rm -rf myandroid
 
 or you could replace the words “myandroid” to “myeclair” in the script.
 
-So what does the script do, It installs required packages, setups folders, initializes the eclair repo, it initializes github repo (Hero vendor). Now that you have your workspace initialized it&#8217;s time to proceed.
+So what does the script do, It installs required packages, setups folders, initializes the eclair repo, it initializes github repo (Hero vendor). Now that you have your workspace initialized it's time to proceed.
 
 Before we can compile we need to do two more things.  
 **First:**  
@@ -53,7 +54,7 @@ make -j4
 
 You will have to wait for some time, but if it all goes right you have just created eclair for Hero. Bear in mind that this is an clean Android no HTC no Google stuff!
 
-It&#8217;s time to build an update.zip. There are two methods for that, you could run the following:
+It's time to build an update.zip. There are two methods for that, you could run the following:
 
 <pre class="brush: bash; title: ; notranslate" title="">make otapackage
 </pre>
@@ -66,7 +67,7 @@ There are some changes, use this [update-script][7], copy the boot.img from “~
 <pre class="brush: bash; title: ; notranslate" title="">cp ~/myandroid/out/target/product/hero/boot.img ~/update
 </pre>
 
-and as last don&#8217;t run this:
+and as last don't run this:
 
 <pre class="brush: bash; title: ; notranslate" title="">zip -r update.zip system META-INF
 </pre>

@@ -10,9 +10,8 @@ tags:
   - nvidia-settings
   - second screen
   - ubuntu
+description: Couple of days ago i needed to connect digital projector and an second screen to my laptop. I found out that when you have an nvidia graphics card you can use a nice graphical utility to do this instead of manual approach with xorg.
 ---
-<!-- 	 	 -->
-
 Couple of days ago i needed to connect digital projector and an second screen to my laptop. I found out that when you have an nvidia graphics card you can use a nice graphical utility to do this instead of manual approach with xorg.
 
 Just install:

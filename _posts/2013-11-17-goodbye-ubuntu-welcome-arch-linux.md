@@ -7,7 +7,7 @@ categories:
 tags:
   - arch
   - ubuntu
-description: I started using Linux years ago and I tried a lot of distributions but Ubuntu was always my main distribution on my work laptop.
+description: I started using Linux years ago and I tried a lot of distributions but Ubuntu was always my main distribution on my work laptop. The reason why I used Ubuntu was simple, it worked and it did not have a lot of maintenance if you didn't customize. But after so many years of Ubuntu I needed a change.
 ---
 
 I started using Linux years ago and I tried a lot of distributions but Ubuntu was always my main distribution on my work laptop. The reason why I used Ubuntu was simple, it worked and it did not have a lot of maintenance if you didn't customize. But after so many years of Ubuntu I needed a change.

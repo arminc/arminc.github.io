@@ -8,13 +8,14 @@ tags:
   - android
   - android market
   - beta-sms
+description: I have created my first android application and have published it to the android market. The application is called Beta-SMS.
 ---
-I have created my first android application and have published it to the android market. The application is called Beta-SMS.<!--more-->
+I have created my first android application and have published it to the android market. The application is called Beta-SMS.
 
 Beta-SMS can be used to send SMS over the Internet using the different Betamax VOIP resellers like voipbuster, webcalldirect and many other.
 
 VERSION 1.0  
-- Can save user/pass combo, who is sending it, difrent url&#8217;s  
+- Can save user/pass combo, who is sending it, difrent url's  
 - Can send SMS to different Betamax resellers  
 - Can brows contacts  
 - Can select witch phone to use

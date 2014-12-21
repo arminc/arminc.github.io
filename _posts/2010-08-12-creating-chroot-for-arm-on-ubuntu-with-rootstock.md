@@ -9,11 +9,12 @@ tags:
   - chroot arm ubuntu
   - ubuntu
   - ubuntu arm
+description: Some of you may or may not be familiar with chroot, for those who are familiar with chroot good job and for those that aren't shame on you.
 ---
-Some of you may or may not be familiar with chroot, for those who are familiar with chroot good job and for those that aren&#8217;t shame on you. Just kidding please read this for some more info about [chroot][1].  
-Now that we all know what chroot is, maybe it could be fun to create an chroot environment, and to make it more exciting we are not creating an x86 but an arm processor environment <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> <!--more-->
+Some of you may or may not be familiar with chroot, for those who are familiar with chroot good job and for those that aren't shame on you. Just kidding please read this for some more info about [chroot][1].  
+Now that we all know what chroot is, maybe it could be fun to create an chroot environment, and to make it more exciting we are not creating an x86 but an arm processor environment <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
 
-There are tons of ways of doing this but this is how I am doing it. You can use this method on any ubuntu from 9.04 and higher, but keep in mind I am using 10.04 so if you get error&#8217;s try to blame it on that instead off me. So first thing we need to do is prep our own ubuntu machine to be able to build a chroot environment. To do so we install rootstock, and we do it like this:
+There are tons of ways of doing this but this is how I am doing it. You can use this method on any ubuntu from 9.04 and higher, but keep in mind I am using 10.04 so if you get error's try to blame it on that instead off me. So first thing we need to do is prep our own ubuntu machine to be able to build a chroot environment. To do so we install rootstock, and we do it like this:
 
 <pre class="brush: bash; title: ; notranslate" title="">sudo aptitude install rootstock
 </pre>
@@ -45,7 +46,7 @@ Or exit it and umount it like this:
 sudo umount /mnt
 </pre>
 
-So here you go small simple way of creating a chroot environment. Is that all you may ask your self, no it&#8217;s not, what we actually have created here above is a empty non fun chroot environment. So instead of that let&#8217;s try to make something more fun and exciting like have access to internet, have ssh server running, have an vncserver running. Here are the steps in how to do this.
+So here you go small simple way of creating a chroot environment. Is that all you may ask your self, no it's not, what we actually have created here above is a empty non fun chroot environment. So instead of that let's try to make something more fun and exciting like have access to internet, have ssh server running, have an vncserver running. Here are the steps in how to do this.
 
 Step 1, Create the image containing ssh tightvncserver lxde
 
@@ -74,13 +75,13 @@ Go back to your chroot and then:
 ./config.sh
 </pre>
 
-Step 4, If you want to use SSH or VNC you will need to start those every time you login to your chroot. You can do this by running these command&#8217;s
+Step 4, If you want to use SSH or VNC you will need to start those every time you login to your chroot. You can do this by running these command's
 
 <pre class="brush: bash; title: ; notranslate" title="">vncserver -geometry 800x600
 /etc/init.d/ssh restart
 </pre>
 
-OPTIONAL: You can also add these commands to your bashrc script so that they will be executed for you. You can do this by running this, if you haven&#8217;t run step 3 yet you can also uncoment these two lines from my config.sh script.
+OPTIONAL: You can also add these commands to your bashrc script so that they will be executed for you. You can do this by running this, if you haven't run step 3 yet you can also uncoment these two lines from my config.sh script.
 
 <pre class="brush: bash; title: ; notranslate" title="">sed -i '1i vncserver -geometry 800x600' /root/.bashrc 
 sed -i '1i /etc/init.d/ssh restart' /root/.bashrc
@@ -96,9 +97,9 @@ sudo umount /mnt
 
 You all are set now, you have an arm ubuntu image and you have configured it all that is left to do is use it.
 
-As always there are people I would like to give credits to, and this time it&#8217;s [Nexus One Hacks][5].
+As always there are people I would like to give credits to, and this time it's [Nexus One Hacks][5].
 
-**UPDATE** For those who don&#8217;t like to do all this here is an img I created: [Download][6]{.broken_link}
+**UPDATE** For those who don't like to do all this here is an img I created: [Download][6]{.broken_link}
 
  [1]: http://en.wikipedia.org/wiki/Chroot
  [2]: http://files.coralic.nl/ArmChrootUbuntu/start.sh

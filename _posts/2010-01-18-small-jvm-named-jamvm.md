@@ -10,8 +10,9 @@ tags:
   - jamvm
   - jvm
   - small jvm
+description: Some of you may have heard about Jamvm, for all others, Jamvm is an very small opensource JVM. You may ask your self why do I need it, now there are couple of reasons you would like to use Jamvm.
 ---
-Some of you may have heard about Jamvm, for all others, Jamvm is an very small opensource JVM. You may ask your self why do I need it, now there are couple of reasons you would like to use Jamvm. For example you want to run java on an mobile device or a router with very limited space on it, or you want to distribute your Java application but don&#8217;t want to depend on installed Java. At the end possibilities are endless. In this post I am going to show you how to compile and use JVM. <!--more-->
+Some of you may have heard about Jamvm, for all others, Jamvm is an very small opensource JVM. You may ask your self why do I need it, now there are couple of reasons you would like to use Jamvm. For example you want to run java on an mobile device or a router with very limited space on it, or you want to distribute your Java application but don't want to depend on installed Java. At the end possibilities are endless. In this post I am going to show you how to compile and use JVM. 
 
 To use Jamvm we need to download and compile it:
 
@@ -32,7 +33,7 @@ Now that we have jamvm compiled we need to make it work. Jamvm uses GNU classpat
 
 I was going to show you how to compile GNU classes here but after countless tries on my own machine with different java versions I just gave up, I could not get it to compile. To get it to work I just installed the binary version and used that.
 
-To show you how jamvm works and to show you that you can bring it&#8217;s complete size down I create an zip file. The zip contains the following:  
+To show you how jamvm works and to show you that you can bring it's complete size down I create an zip file. The zip contains the following:  
 HelloWorldApp = prints Hello World  
 jamvm = jamvm binary  
 run.sh = bash script to run HelloWorlApp  

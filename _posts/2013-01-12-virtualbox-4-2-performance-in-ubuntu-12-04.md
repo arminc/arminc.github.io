@@ -11,8 +11,9 @@ tags:
   - ubuntu
   - virtualbox
   - workstation
+description: I am using VirtualBox for a long time now, although i know there is an performance penalty i never bothered to check how big it was. I got curious and though maybe I should test this to see how it works out. This is not an scientific test or anything fancy just a simple tests that show a difference in performance between the hardware and VirtualBox 4.2. 
 ---
-I am using VirtualBox for a long time now, although i know there is an performance penalty i never bothered to check how big it was. I got curious and though maybe I should test this to see how it works out. This is not an scientific test or anything fancy just a simple tests that show a difference in performance between the hardware and VirtualBox 4.2. <!--more-->
+I am using VirtualBox for a long time now, although i know there is an performance penalty i never bothered to check how big it was. I got curious and though maybe I should test this to see how it works out. This is not an scientific test or anything fancy just a simple tests that show a difference in performance between the hardware and VirtualBox 4.2. 
 
 **The machine I am running this test on is:**
 
@@ -514,6 +515,6 @@ I am using [Phoronix Test Suite][1] for testing and i am running the &#8220;wor
   </tr>
 </table>
 
-Looking at the table i find the performance penalty very high actually, memory is the only part where the performance differences can be ignored. Does this mean i shouldn&#8217;t use VirtualBox, NO. It just means that if i am going to have any really heavy long running tasks i better not run them in an VM if i want speed. If you are running small tasks or daily stuff the performance drops are manageable and not always in the way.
+Looking at the table i find the performance penalty very high actually, memory is the only part where the performance differences can be ignored. Does this mean i shouldn't use VirtualBox, NO. It just means that if i am going to have any really heavy long running tasks i better not run them in an VM if i want speed. If you are running small tasks or daily stuff the performance drops are manageable and not always in the way.
 
  [1]: http://www.phoronix-test-suite.com

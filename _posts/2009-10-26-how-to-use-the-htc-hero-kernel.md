@@ -10,13 +10,15 @@ tags:
   - hero
   - htc hero
   - kernel
+description: As you have seen in my previous post I have compiled the HTC Hero kernel, now is the time to use the kernel and that's what I am going to show you in this post.
+
 ---
-As you have seen in my previous post I have compiled the HTC Hero kernel, now is the time to use the kernel and that&#8217;s what I am going to show you in this post.<!--more-->
+As you have seen in my previous post I have compiled the HTC Hero kernel, now is the time to use the kernel and that's what I am going to show you in this post.
 
   
 Let me start off with telling you that you can find a lot of information regarding android and boot on the [android-dls.com][1] site.  
-There information is useful and there tools are working fine BUT they don&#8217;t work for the Hero, actually they do but they miss one thing <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  
-Let&#8217;s cut the chitchat and let me explain you how to boot your Hero with your own fresh kernel. Assume you have compiled your kernel using my way or your own way you get an zImage. Next thing you have to do is download the following things and put them all in one folder including your zImage: [boot.img][2] [mkbootimg][3] [repack-bootimg.pl(altered)][4] [unpack-bootimg.pl][5]
+There information is useful and there tools are working fine BUT they don't work for the Hero, actually they do but they miss one thing <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  
+Let's cut the chitchat and let me explain you how to boot your Hero with your own fresh kernel. Assume you have compiled your kernel using my way or your own way you get an zImage. Next thing you have to do is download the following things and put them all in one folder including your zImage: [boot.img][2] [mkbootimg][3] [repack-bootimg.pl(altered)][4] [unpack-bootimg.pl][5]
 
 **CAUTION**: Please make an backup with nandroid before proceeding!!!!!!!
 
@@ -35,7 +37,7 @@ Step 3:
 <pre>perl repack-bootimg.pl  zImage boot.img-ramdisk netBoot.img
 </pre>
 
-The repack script was fine but it missed the &#8211;base 0&#215;19200000 statement at the mkbootimg line, that&#8217;s what I added.
+The repack script was fine but it missed the &#8211;base 0&#215;19200000 statement at the mkbootimg line, that's what I added.
 
 Our newBoot.img is ready for work right now. What you need to do now is upload it to your Hero, this can be done in two ways:
 

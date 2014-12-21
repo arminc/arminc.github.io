@@ -6,10 +6,11 @@ categories:
   - other
 tags:
   - Business Model Canvas
+description: On our last IT-Eye openspace meeting we got a great explanation of The Business Model Canvas from our colleague Tim Pinchetti. I found it very interesting to see how simple The Business Model Canvas is for sketching new or existing business models.
 ---
 I totally forgot to post this on my own blog so here it is, the original one can be read at [It-Eye][1]
 
-On our last IT-Eye openspace meeting we got a great explanation of The Business Model Canvas from our colleague Tim Pinchetti. I found it very interesting to see how simple The Business Model Canvas is for sketching new or existing business models. As this was not a presentation but an open discussion we soon ended up in sketching a real life business model. While we discussed our new business model it was clear to me that the only thing you needed to know to be able to fully understand what the model meant were the 9 blocks on the canvas. When you know the meaning of those 9 blocks you are capable to sketch, understand or discuss The Business Model Canvas.<!--more-->
+On our last IT-Eye openspace meeting we got a great explanation of The Business Model Canvas from our colleague Tim Pinchetti. I found it very interesting to see how simple The Business Model Canvas is for sketching new or existing business models. As this was not a presentation but an open discussion we soon ended up in sketching a real life business model. While we discussed our new business model it was clear to me that the only thing you needed to know to be able to fully understand what the model meant were the 9 blocks on the canvas. When you know the meaning of those 9 blocks you are capable to sketch, understand or discuss The Business Model Canvas.
 
 [<img class="aligncenter size-full wp-image-1061" title="Business_Model_Canvas_1024" src="http://files.coralic.nl/jpg/Business_Model_Canvas_1024.png" alt="" width="1024" height="683" />][2]
 

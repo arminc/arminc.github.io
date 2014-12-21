@@ -8,8 +8,9 @@ tags:
   - ejb
   - ejb3.1
   - persistance.xml
+description: This post describes how to create an simple Entity and Session bean with EJB3.1. As some of you know EJB 3.1 is ready to use and makes the world much easier for the developers. No more xml configuration files except “persistence.xml”. Everything can be done using annotations and if you decide to use xml configuration files they overrule the annotations.
 ---
-This post describes how to create an simple Entity and Session bean with EJB3.1. As some of you know EJB 3.1 is ready to use and makes the world much easier for the developers. <!--more-->No more xml configuration files except “persistence.xml”. Everything can be done using annotations and if you decide to use xml configuration files they overrule the annotations.
+This post describes how to create an simple Entity and Session bean with EJB3.1. As some of you know EJB 3.1 is ready to use and makes the world much easier for the developers. No more xml configuration files except “persistence.xml”. Everything can be done using annotations and if you decide to use xml configuration files they overrule the annotations.
 
   
 I am telling you using EJB now is as easy as programming POJOs. This is how you define an simple Entity bean.

@@ -11,12 +11,13 @@ tags:
   - ubuntu
   - ubuntu on android
   - ubuntu on galaxy s
+description: In my previous [post][1] I showed you how to create an chroot environment for the arm and run it on your Ubuntu. But it's much nicer to see it work on a real device or on an Android device like Samsun Galaxy S GT-I9000.
 ---
-In my previous [post][1] I showed you how to create an chroot environment for the arm and run it on your Ubuntu. But it&#8217;s much nicer to see it work on a real device or on an Android device like Samsun Galaxy S GT-I9000.<!--more-->
+In my previous [post][1] I showed you how to create an chroot environment for the arm and run it on your Ubuntu. But it's much nicer to see it work on a real device or on an Android device like Samsun Galaxy S GT-I9000.
 
 To run Ubuntu on Android/Samsung you need to create an img file using my [post][1], you can also use two of my start and stop scripts from here [start][2] [stop][3].
 
-I have also created an img for those that don&#8217;t want to or can&#8217;t create one: [Download][4]{.broken_link}
+I have also created an img for those that don't want to or can't create one: [Download][4]{.broken_link}
 
 Step 1:  
 Lets begin by preparing our device by create an folder on android, connect your phone to your computer and do:
@@ -50,7 +51,7 @@ To exit just run:
 sh stopA_ubuntu.sh
 </pre>
 
-That&#8217;s it, no more no less <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
+That's it, no more no less <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
 
 Oh I have also created two movies, first one shows how to setup and the second one is the prove it works on galaxy S. Have fun watching.
 

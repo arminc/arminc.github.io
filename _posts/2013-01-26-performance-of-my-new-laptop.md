@@ -8,8 +8,9 @@ tags:
   - dell m4700
   - i7-3840qm
   - performance
+description: Couple of days ago I got my new laptop (Dell M4700) to replace my old one. I was interested in how it performed compared to my old laptop, to make it more interesting I added my desktop (AMD) to the comparison as well.
 ---
-Couple of days ago I got my new laptop (Dell M4700) to replace my old one. I was interested in how it performed compared to my old laptop, to make it more interesting I added my desktop (AMD) to the comparison as well. <!--more-->
+Couple of days ago I got my new laptop (Dell M4700) to replace my old one. I was interested in how it performed compared to my old laptop, to make it more interesting I added my desktop (AMD) to the comparison as well. 
 
 **My own Desktop**
 

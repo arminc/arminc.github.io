@@ -13,14 +13,16 @@ tags:
   - SOLID
   - source
   - source code
+description: In an Agile environment we try to creat “just enough documentation” and “just enough architecture”. To achieve this we need our source code to become a part of the documentation.  
+At this point most developers will jump in the air and all others will go “oooh NO”. The reason why we have such reactions is because developers think they don't need to do anything and all others think the code is not readable. I must say that in the past the last argument was pretty much true, but all of this has changed or it needs to change fast. 
 ---
 Original post can be found at [It-Eye][1]
 
 In an Agile environment we try to creat “just enough documentation” and “just enough architecture”. To achieve this we need our source code to become a part of the documentation.  
-At this point most developers will jump in the air and all others will go “oooh NO”. The reason why we have such reactions is because developers think they don&#8217;t need to do anything and all others think the code is not readable. I must say that in the past the last argument was pretty much true, but all of this has changed or it needs to change fast. <!--more-->
+At this point most developers will jump in the air and all others will go “oooh NO”. The reason why we have such reactions is because developers think they don't need to do anything and all others think the code is not readable. I must say that in the past the last argument was pretty much true, but all of this has changed or it needs to change fast. 
 
   
-Developers need to start creating more clean and readable code. The first reason why they need to do this is because the code gets better and is easier to maintain. The second reason is Developers need to be aware that the source code is part of the documentation, because they are not the only ones that need to be able to read it. But it&#8217;s not only the Developers that need to change, others in the project need to accept that the source code is a part of the documentation as well.
+Developers need to start creating more clean and readable code. The first reason why they need to do this is because the code gets better and is easier to maintain. The second reason is Developers need to be aware that the source code is part of the documentation, because they are not the only ones that need to be able to read it. But it's not only the Developers that need to change, others in the project need to accept that the source code is a part of the documentation as well.
 
 There are enough books, tips and principles to achieve this clean and readable code, some examples [SOLID principles][2], [Clean Code][3], [Boy scout rule][4]. To show what I mean here is an example.
 

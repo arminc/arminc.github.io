@@ -9,8 +9,9 @@ tags:
   - eclipse
   - not working
   - ubuntu
+description: I installed my new laptop with the latest Ubuntu after that I downloaded Eclipse zip and unzipped it. I started the Eclipse and wanted to install some updates and plugins when I found out that the windows where not working properly. Windows would not refresh right and also all buttons on popup windows where not responding. 
 ---
-I installed my new laptop with the latest Ubuntu after that I downloaded Eclipse zip and unzipped it. I started the Eclipse and wanted to install some updates and plugins when I found out that the windows where not working properly. Windows would not refresh right and also all buttons on popup windows where not responding. <!--more-->
+I installed my new laptop with the latest Ubuntu after that I downloaded Eclipse zip and unzipped it. I started the Eclipse and wanted to install some updates and plugins when I found out that the windows where not working properly. Windows would not refresh right and also all buttons on popup windows where not responding. 
 
 I was searching the net when I found out that this was a known bug in eclipse, they fixed it in 3.6 dev edition. So you have two options for solving this problem:
 

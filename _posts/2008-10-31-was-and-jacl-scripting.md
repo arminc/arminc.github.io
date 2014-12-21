@@ -11,10 +11,11 @@ tags:
   - jacl
   - scripting
   - WAS
+description: Ever wondered how you could automate the processes of configuring WebSphere application server? If so I am going to give you two simple examples.
 ---
 Ever wondered how you could automate the processes of configuring WebSphere application server? If so I am going to give you two simple examples.
 
-**How to change some variables in WAS?**<!--more-->
+**How to change some variables in WAS?**
 
 In this script we are going to change the initialHeapSize and maximumHeapSize of the JVM. Look at the script belove:
 

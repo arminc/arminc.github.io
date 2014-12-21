@@ -11,8 +11,9 @@ tags:
   - virtualbox vs vmware vs kvm
   - vmware
   - vmware player
+description: I was testing the performance of [VirtualBox and VMware Player][1] when i thought maybe i should test one of the more bare metal hypervisors like xen, kvm or esxi. Xen needs more config than kvm and esxi is without actual host so i decided to try out kvm because it is the easiest one to setup.
 ---
-I was testing the performance of [VirtualBox and VMware Player][1] when i thought maybe i should test one of the more bare metal hypervisors like xen, kvm or esxi. Xen needs more config than kvm and esxi is without actual host so i decided to try out kvm because it is the easiest one to setup.<!--more-->
+I was testing the performance of [VirtualBox and VMware Player][1] when i thought maybe i should test one of the more bare metal hypervisors like xen, kvm or esxi. Xen needs more config than kvm and esxi is without actual host so i decided to try out kvm because it is the easiest one to setup.
 
 The settings for this test are the same as for [VirtualBox][2].
 

@@ -8,12 +8,13 @@ tags:
   - apache camel
   - camel
   - integration
+description: Integration frameworks are getting more popular because you can easily integrate services or you can use them to integrate partial application parts to one application. To show you how easy it has become to integrate we did a 10 Minutes Hands-On at the It-Eye open space and this was the working result of that.
 ---
 Original post can be found at [It-Eye][1]
 
 Integration frameworks are getting more popular because you can easily integrate services or you can use them to integrate partial application parts to one application. To show you how easy it has become to integrate we did a 10 Minutes Hands-On at the It-Eye open space and this was the working result of that.
 
-<!--more-->
+
 
   
 **What is Apache Camel?**  
@@ -118,7 +119,7 @@ public class CamelExampleTest extends CamelTestSupport {
 }
 </pre>
 
-And that&#8217;s it, but what does this example do.
+And that's it, but what does this example do.
 
   1. It Starts with a direct endpoint that receives a message
   2. t ads an id to the route, this can be used to manipulate the route with JMX
@@ -131,7 +132,7 @@ And that&#8217;s it, but what does this example do.
   6. Logs the message
   7. Dispatches the messages to a endpoint based on the header
 
-As you can see it is very simple to create routes, you can use a lot of pre build components and if those are not sufficient enough you can create your own. And for those that don&#8217;t like to do this in java you can do the same in xml.
+As you can see it is very simple to create routes, you can use a lot of pre build components and if those are not sufficient enough you can create your own. And for those that don't like to do this in java you can do the same in xml.
 
 For more information look at:
 

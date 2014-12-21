@@ -8,15 +8,16 @@ tags:
   - alltray
   - dock to tray
   - system tray
+description: Ever wanted to minimize a window to system tray even if it could not buy it self? If so then alltray http://alltray.trausch.us/ is what you want.
 ---
-Ever wanted to minimize a window to system tray even if it could not buy it self? If so then alltray http://alltray.trausch.us/ is what you want.<!--more-->
+Ever wanted to minimize a window to system tray even if it could not buy it self? If so then alltray http://alltray.trausch.us/ is what you want.
 
 This is how it works, you start an application like this:
 
 <pre class="pretyprint">alltray someApp
 </pre>
 
-That&#8217;s it, the application starts normally but when you close it using X and alt-F4 it goes to system tray and stays there until you close it with File->Exit.
+That's it, the application starts normally but when you close it using X and alt-F4 it goes to system tray and stays there until you close it with File->Exit.
 
 You can also start alltray and then click some window to dock it to system tray.
 

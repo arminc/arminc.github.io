@@ -9,8 +9,9 @@ tags:
   - os x
   - osx
   - virtualbox
+description: If you are like me and like experimenting with technology then on some point it must have crossed your mind to try out the OS X. If so then this is the way to play with it without owning an mac.
 ---
-If you are like me and like experimenting with technology then on some point it must have crossed your mind to try out the OS X. If so then this is the way to play with it without owning an mac.<!--more-->
+If you are like me and like experimenting with technology then on some point it must have crossed your mind to try out the OS X. If so then this is the way to play with it without owning an mac.
 
 There are couple of things that you need for this:
 
@@ -23,7 +24,7 @@ I am using the following:
   * Intel CPU
   * Virtualbox 3.2
 
-To be able to install OS X you need OS X installation files, to make things easier there are OSX86 installation DVD&#8217;s going around provided by our lovely people at ihackintosh. I personaly used the iDeneb v1.5. To find these DVD&#8217;s just use Google.
+To be able to install OS X you need OS X installation files, to make things easier there are OSX86 installation DVD's going around provided by our lovely people at ihackintosh. I personaly used the iDeneb v1.5. To find these DVD's just use Google.
 
 **Step 1:**  
 Create an virtualbox image with the following options:

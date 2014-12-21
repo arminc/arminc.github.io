@@ -9,13 +9,14 @@ tags:
   - git-svn
   - svn
   - ubuntu
+description: Recently I tried git on my machine and I must say I like it. But because a lot of other people are still using svn I tried to combine that.
 ---
-Recently I tried git on my machine and I must say I like it. But because a lot of other people are still using svn I tried to combine that.<!--more-->
+Recently I tried git on my machine and I must say I like it. But because a lot of other people are still using svn I tried to combine that.
 
   
 The reason I like git after only using it couple of days is that I have my own local repository where I can commit all my changes to without bugging other people with it. This way I can try out new things without causing problems to others. After some days or hours I can still synchronize my local repository with an online git or svn repository. I can synchronize all my changes like I committed them with git or I can squash all my changes to one commit.
 
-First of all let&#8217;s install git:
+First of all let's install git:
 
 <pre>sudo aptitude install git-core git-svn
 </pre>

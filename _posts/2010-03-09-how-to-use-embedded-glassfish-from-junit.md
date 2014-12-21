@@ -10,8 +10,9 @@ tags:
   - embedded
   - embedded glassfish
   - glassfish
+description: In my previous [post][1] I explaind that with the new EJB you can use an embedded EJB container to test your EJB. But there is also another way and that is to use embedded glassfish that is started from inside an junit. The nice thing here is that it you can start an embedded glassfish with the container you need, with EJB or with WEB or both if you need.
 ---
-In my previous [post][1] I explaind that with the new EJB you can use an embedded EJB container to test your EJB. But there is also another way and that is to use embedded glassfish that is started from inside an junit. The nice thing here is that it you can start an embedded glassfish with the container you need, with EJB or with WEB or both if you need.<!--more-->
+In my previous [post][1] I explaind that with the new EJB you can use an embedded EJB container to test your EJB. But there is also another way and that is to use embedded glassfish that is started from inside an junit. The nice thing here is that it you can start an embedded glassfish with the container you need, with EJB or with WEB or both if you need.
 
 You can get the whole package to get you started from [here][2].
 
@@ -69,9 +70,9 @@ Now we take the sources from [here][3] and copy them to src/main/java/nl/coralic
 
 The presistance.xml from that sample goes here src/main/resources/META-INF
 
-If you have read my other post “How to test EJB3.1 with embedded container?” [http://blog.coralic.nl/2010/03/08/how-to-test-ejb3-1-with-embedded-container/] you have seen that for an embedded container we needed an domain.xml and ds\_jdbc\_ra. Luckily using embedded glassfish this way we don&#8217;t need that anymore. Two reasons for that:  
+If you have read my other post “How to test EJB3.1 with embedded container?” [http://blog.coralic.nl/2010/03/08/how-to-test-ejb3-1-with-embedded-container/] you have seen that for an embedded container we needed an domain.xml and ds\_jdbc\_ra. Luckily using embedded glassfish this way we don't need that anymore. Two reasons for that:  
 1)when you do your test glassfish does complain about that it can not find ds\_jdbc\_ra and then goes off and creates it for it self, so no problem here  
-2)we don&#8217;t need the domain.xml to tell glassfish how to configure it self because we can do that in our junit test
+2)we don't need the domain.xml to tell glassfish how to configure it self because we can do that in our junit test
 
 We need some junit to test our EJB, first we create an junit test.
 

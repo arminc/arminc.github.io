@@ -9,14 +9,15 @@ tags:
   - how to
   - root
   - root galaxy s
+description: This is an “how to”. I will show you how to root your Samsung Galaxy S. The credits go to LeshaK for rooting method and lmfwtw for providing a small tutorial that this how to is based upon.
 ---
-This is an “how to”. I will show you how to root your Samsung Galaxy S. The credits go to LeshaK for rooting method and lmfwtw for providing a small tutorial that this how to is based upon. Also credits to these sites [Samdroid][1] and [Samsung Firmwares][2]{.broken_link}.<!--more-->
+This is an “how to”. I will show you how to root your Samsung Galaxy S. The credits go to LeshaK for rooting method and lmfwtw for providing a small tutorial that this how to is based upon. Also credits to these sites [Samdroid][1] and [Samsung Firmwares][2]{.broken_link}.
 
 So lets start and try to root our phone. 
 
 THERE IS ALSO AN SECOND METHOD LOOK [HERE][3]
 
-**BUT FIRST BEFORE I BEGIN PLEASE, PLEASE DO NOT TRY THIS IF YOU DON&#8217;T KNOW WHAT YOU ARE DOING OR YOU DON&#8217;T WANT TO RISK YOUR PHONE BEEING BRICKED. ALTHOUGH THE HOW TO WORKED FOR ME AND OTHERS THAT DOES NOT MEAN IT CAN NOT GO WRONG. I TAKE NO RESPONSOBILITY ON THIS, YOU ARE ON YOUR OWN.</p> 
+**BUT FIRST BEFORE I BEGIN PLEASE, PLEASE DO NOT TRY THIS IF YOU DON'T KNOW WHAT YOU ARE DOING OR YOU DON'T WANT TO RISK YOUR PHONE BEEING BRICKED. ALTHOUGH THE HOW TO WORKED FOR ME AND OTHERS THAT DOES NOT MEAN IT CAN NOT GO WRONG. I TAKE NO RESPONSOBILITY ON THIS, YOU ARE ON YOUR OWN.</p> 
 
 YOU HAVE BEEN WARN!</strong>
 
@@ -33,7 +34,7 @@ Connect your Galaxy to the PC and wait for the drivers to get installed
 Disconnect your Galaxy from the PC and shut it down.
 
 **STEP5:**  
-Now it&#8217;s time to download Odin. Odin is the flashing program. You can download it from [here][2]{.broken_link} or you can download it directly from me [here][6]
+Now it's time to download Odin. Odin is the flashing program. You can download it from [here][2]{.broken_link} or you can download it directly from me [here][6]
 
 **STEP6:**  
 Connect your phone to your PC
@@ -69,7 +70,7 @@ exit
 </pre>
 
 **STEP14:**  
-Now you have two options you can keep this kernel or you can go back to the stock kernel. The kernel provided by LeshaK could be unstable (these are his words) so it&#8217;s up to you. If you wish to go back just flash the stock kernel like you did with LeshaK kernel. You can find different firmwares [here][2]{.broken_link} just download your firmware and then look inside the tar files find the one with zImage in it. Remove everything besides the zImage, now you can flash that kernel.
+Now you have two options you can keep this kernel or you can go back to the stock kernel. The kernel provided by LeshaK could be unstable (these are his words) so it's up to you. If you wish to go back just flash the stock kernel like you did with LeshaK kernel. You can find different firmwares [here][2]{.broken_link} just download your firmware and then look inside the tar files find the one with zImage in it. Remove everything besides the zImage, now you can flash that kernel.
 
 I my self was running XXJF3 firmware but there is no firmware online for that so I just installed the kernel from XXJF5. You can download the tar file I used [here][11]
 

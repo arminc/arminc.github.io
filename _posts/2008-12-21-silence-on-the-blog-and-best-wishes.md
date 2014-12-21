@@ -7,6 +7,7 @@ categories:
 tags:
   - happy holliday
   - happy new year
+description: I thought I would explain why it is so quite on my blog lately. First I became sick for a weak and the other two weeks I was very very busy at work, lots of deadlines and production dates to catch. Right now I am in the finishing phase at work what means that we are almost done.
 ---
 I thought I would explain why it is so quite on my blog lately. First I became sick for a weak and the other two weeks I was very very busy at work, lots of deadlines and production dates to catch. Right now I am in the finishing phase at work what means that we are almost done.
 

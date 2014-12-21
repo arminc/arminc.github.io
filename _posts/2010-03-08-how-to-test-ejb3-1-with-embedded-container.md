@@ -9,8 +9,9 @@ tags:
   - ejb3.1
   - embedded
   - embedded container
+description: This is how you can test your EJB3.1 or the one I made [here][1] using an new embedded container provided in the new EJB. You can download the full package to test this [here][2]
 ---
-This is how you can test your EJB3.1 or the one I made [here][1] using an new embedded container provided in the new EJB. You can download the full package to test this [here][2]<!--more-->
+This is how you can test your EJB3.1 or the one I made [here][1] using an new embedded container provided in the new EJB. You can download the full package to test this [here][2]
 
 We start off with creating an pom.xml so we can start using maven.
 
@@ -239,7 +240,7 @@ All the required components ready to use, so lets start the test by running mave
 <pre class="brush: bash; title: ; notranslate" title="">mvn clean compile jar:jar test
 </pre>
 
-That&#8217;s it, this is all you have to do to test your EJB. Very easy and useful.
+That's it, this is all you have to do to test your EJB. Very easy and useful.
 
  [1]: http://blog.coralic.nl/2010/03/07/how-to-create-ejb-3-1/
  [2]: http://files.coralic.nl/ejb31EmbeddedCont.zip

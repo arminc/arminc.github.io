@@ -9,8 +9,9 @@ tags:
   - compile
   - htc hero
   - kernel
+description: I don't know how many people watch the news about the sources around the HTC but couple days ago HTC released there kernel sources for the Hero phone. I though it would be nice to see if I can get it to compile.
 ---
-I don&#8217;t know how many people watch the news about the sources around the HTC but couple days ago HTC released there kernel sources for the Hero phone. I though it would be nice to see if I can get it to compile.<!--more-->
+I don't know how many people watch the news about the sources around the HTC but couple days ago HTC released there kernel sources for the Hero phone. I though it would be nice to see if I can get it to compile.
 
   
 As you may have guest I did manage to compile the kernel. Here you can find the steps how to do so your self. You can follow the manual way, if you have used my [script][1] for building your workspace then you can use these two new scripts to get and compile the scripts or you can take the scripts and modify them to work in your environment.
@@ -31,7 +32,7 @@ mv config .config
 
 Make sure your .config file is in the root of ~/myandroid/kernel-hero
 
-If you are using my script you don&#8217;t need to do this because I already have provided the config settings inside the script.
+If you are using my script you don't need to do this because I already have provided the config settings inside the script.
 
 Now that we have prepared all that we have to try to compile it, to do so we have to follow these steps:
 

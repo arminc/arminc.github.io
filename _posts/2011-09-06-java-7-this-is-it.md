@@ -7,10 +7,11 @@ categories:
 tags:
   - java
   - java 7
+description: Java 7 was released, so I gave it a spin to see what kind of improvements were made. While testing some new features I went online to look for not so obvious changes as well. Here is a short list of the new features and improvements in Java 7.
 ---
 Original post can be found at [It-Eye][1]
 
-Java 7 was released, so I gave it a spin to see what kind of improvements were made. While testing some new features I went online to look for not so obvious changes as well. Here is a short list of the new features and improvements in Java 7.<!--more-->
+Java 7 was released, so I gave it a spin to see what kind of improvements were made. While testing some new features I went online to look for not so obvious changes as well. Here is a short list of the new features and improvements in Java 7.
 
   * Strings in switch 
   * try-with-resources statement 
@@ -125,7 +126,7 @@ The list is not that big but still it has some handy improvements. Looking at th
   </tr>
 </table>
 
-Time does not tell the whole story but looking at the time frame of five years it took to release Java 7 and the feature/improvement list it makes me say “This is it?” Sure Java 6 has been updated a lot but still it doesn&#8217;t fit. We all talk about Agile, iterative development and try to convince people how it improves software but when we need to improve a programming language we throw everything over board. But not all is lost, if you look at the table you can see that Java 8 is scheduled for 2012. So let me be optimistic and believe that this was just a hick up in the Java improvement process. 
+Time does not tell the whole story but looking at the time frame of five years it took to release Java 7 and the feature/improvement list it makes me say “This is it?” Sure Java 6 has been updated a lot but still it doesn't fit. We all talk about Agile, iterative development and try to convince people how it improves software but when we need to improve a programming language we throw everything over board. But not all is lost, if you look at the table you can see that Java 8 is scheduled for 2012. So let me be optimistic and believe that this was just a hick up in the Java improvement process. 
 
 I am looking forward to Java 8.
 

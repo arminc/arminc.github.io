@@ -6,10 +6,11 @@ categories:
   - java
 tags:
   - java
+description: Last day I got a tip about this old article “[Java Is A Dead-End For Enterprise App Development][2]”. My first thought was: “Here we go again, someone who is claiming a programming language is dying. The never ending returning discussion.”
 ---
 Original post can be found at [It-Eye][1]
 
-Last day I got a tip about this old article “[Java Is A Dead-End For Enterprise App Development][2]”. My first thought was: “Here we go again, someone who is claiming a programming language is dying. The never ending returning discussion.” But I read it never the less <!--more-->and this is the summery of the article as I interpreted it: “Java was good but now we need a new better programming language that fits all and can be used to serve the business better. Java now days is just to complex to allow business to be agile (aka change).” The original author doesn’t give us any alternatives but just tells us that the new language should provide us with the following: “Dramatically increase developer productivity.” and “Allow developers to delegate change to business end users.”.
+Last day I got a tip about this old article “[Java Is A Dead-End For Enterprise App Development][2]”. My first thought was: “Here we go again, someone who is claiming a programming language is dying. The never ending returning discussion.” But I read it never the less and this is the summery of the article as I interpreted it: “Java was good but now we need a new better programming language that fits all and can be used to serve the business better. Java now days is just to complex to allow business to be agile (aka change).” The original author doesn’t give us any alternatives but just tells us that the new language should provide us with the following: “Dramatically increase developer productivity.” and “Allow developers to delegate change to business end users.”.
 
   
 There is nothing wrong with wanting a better programming language or wanting the business to be able to change quickly, but blaming it all on to Java or any other programming language in this matter is in my opinion just wrong. If you want to achieve these two things you should try this:

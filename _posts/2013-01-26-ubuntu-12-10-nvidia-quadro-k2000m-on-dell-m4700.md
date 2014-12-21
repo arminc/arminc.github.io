@@ -4,5 +4,6 @@ layout: post
 permalink: /2013/01/26/ubuntu-12-10-nvidia-quadro-k2000m-on-dell-m4700/
 categories:
   - linux
+description: To make the Nvidia proprietary drivers work make sure you disable &#8220;Optimus&#8221; in bios found in &#8220;Video&#8221; tab.
 ---
 To make the Nvidia proprietary drivers work make sure you disable &#8220;Optimus&#8221; in bios found in &#8220;Video&#8221; tab.

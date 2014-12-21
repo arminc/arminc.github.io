@@ -11,8 +11,9 @@ tags:
   - virtualbox vs vmware
   - vmware
   - vmware player
+description: Yesterday i tested the performance of [VirtualBox][1] and i thought it should be nice to see how it compares against the famous VMware. I chose to test the VMware Player instead of the workstation because it is free. The first big difference between VirtualBox and VMware Player was that the Player did not allow more than 4 cpu's to be assigned. 
 ---
-Yesterday i tested the performance of [VirtualBox][1] and i thought it should be nice to see how it compares against the famous VMware. I chose to test the VMware Player instead of the workstation because it is free. The first big difference between VirtualBox and VMware Player was that the Player did not allow more than 4 cpu&#8217;s to be assigned. <!--more-->
+Yesterday i tested the performance of [VirtualBox][1] and i thought it should be nice to see how it compares against the famous VMware. I chose to test the VMware Player instead of the workstation because it is free. The first big difference between VirtualBox and VMware Player was that the Player did not allow more than 4 cpu's to be assigned. 
 
 I was to lazy to retest VirtualBox with 4 cores so i am comparing VMware Player with 4 cores against VirtualBox with 6 cores on the same machine. The settings for VMware are the same as for the [VirtualBox][1]. 
 
@@ -508,6 +509,6 @@ I was to lazy to retest VirtualBox with 4 cores so i am comparing VMware Player 
 
 Looking at the results i think the conclusion is that VMware Player gives better performance than VirtualBox. Because of the 4 cores in VMware in stead of 6 in VirtualBox it looses almost all of the cpu tests. 
 
-VMware player lacks some of the features VirtualBox has but if you don&#8217;t need those maybe it is a better choice?
+VMware player lacks some of the features VirtualBox has but if you don't need those maybe it is a better choice?
 
  [1]: http://blog.coralic.nl/2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/
