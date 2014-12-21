@@ -39,7 +39,6 @@ TODO
 + Switch DNS (does everything stil works?)
 
 + sublime preview markdown
-+ fix startup error
 
 + Plugins?
 + share posts
