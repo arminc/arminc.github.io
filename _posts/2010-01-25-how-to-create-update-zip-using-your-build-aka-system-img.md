@@ -1,6 +1,5 @@
 ---
 title: How to create update.zip using your build aka system.img
-author: admin
 layout: post
 permalink: /2010/01/25/how-to-create-update-zip-using-your-build-aka-system-img/
 categories:

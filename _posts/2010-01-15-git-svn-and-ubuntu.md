@@ -1,6 +1,5 @@
 ---
 title: Git svn and Ubuntu
-author: admin
 layout: post
 permalink: /2010/01/15/git-svn-and-ubuntu/
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Blog Finaly UP again
-author: admin
 layout: post
 permalink: /2009/07/20/blog-finaly-up-again/
 categories:

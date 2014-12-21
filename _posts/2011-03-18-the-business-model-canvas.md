@@ -1,6 +1,5 @@
 ---
 title: The Business Model Canvas
-author: admin
 layout: post
 permalink: /2011/03/18/the-business-model-canvas/
 aktt_notify_twitter:

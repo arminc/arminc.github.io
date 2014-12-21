@@ -1,6 +1,5 @@
 ---
 title: '5 reasons sprint planning doesn&#8217;t go perfectly'
-author: admin
 layout: post
 permalink: /2012/12/10/5-reasons-sprint-planning-doesnt-go-perfectly/
 aktt_notify_twitter:

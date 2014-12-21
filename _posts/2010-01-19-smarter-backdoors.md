@@ -1,6 +1,5 @@
 ---
 title: Smarter backdoors
-author: admin
 layout: post
 permalink: /2010/01/19/smarter-backdoors/
 categories:

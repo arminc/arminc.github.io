@@ -1,6 +1,5 @@
 ---
 title: How to create EJB 3.1
-author: admin
 layout: post
 permalink: /2010/03/07/how-to-create-ejb-3-1/
 categories:

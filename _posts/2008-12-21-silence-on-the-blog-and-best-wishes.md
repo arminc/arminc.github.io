@@ -1,6 +1,5 @@
 ---
 title: Silence on the blog and best wishes
-author: admin
 layout: post
 permalink: /2008/12/21/silence-on-the-blog-and-best-wishes/
 categories:

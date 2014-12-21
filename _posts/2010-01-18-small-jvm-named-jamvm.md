@@ -1,6 +1,5 @@
 ---
 title: Small JVM named Jamvm
-author: admin
 layout: post
 permalink: /2010/01/18/small-jvm-named-jamvm/
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Creating chroot for arm on Ubuntu with rootstock
-author: admin
 layout: post
 permalink: /2010/08/12/creating-chroot-for-arm-on-ubuntu-with-rootstock/
 aktt_notify_twitter:

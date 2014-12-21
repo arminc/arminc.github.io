@@ -1,6 +1,5 @@
 ---
 title: Security experts are in the old Testers position?
-author: admin
 layout: post
 permalink: /2011/09/06/security-experts-are-in-the-old-testers-position/
 aktt_notify_twitter:

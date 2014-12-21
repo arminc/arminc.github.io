@@ -1,6 +1,5 @@
 ---
 title: Xerces Anonymous types
-author: admin
 layout: post
 permalink: /2008/10/30/xerces-anonymous-types/
 categories:

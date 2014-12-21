@@ -1,6 +1,5 @@
 ---
 title: Source Code is the documentation
-author: admin
 layout: post
 permalink: /2011/10/10/source-code-is-the-documentation/
 aktt_notify_twitter:

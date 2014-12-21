@@ -1,6 +1,5 @@
 ---
 title: Build Eclair aka Android 2.1 for Hero from source
-author: admin
 layout: post
 permalink: /2010/01/28/build-eclair-aka-android-2-1-for-hero-from-source/
 categories:

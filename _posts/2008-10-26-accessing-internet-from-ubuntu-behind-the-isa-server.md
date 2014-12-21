@@ -1,6 +1,5 @@
 ---
 title: Accessing internet from Ubuntu behind the ISA Server
-author: admin
 layout: post
 permalink: /2008/10/26/accessing-internet-from-ubuntu-behind-the-isa-server/
 categories:

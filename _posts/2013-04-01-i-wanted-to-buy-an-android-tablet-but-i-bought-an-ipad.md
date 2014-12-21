@@ -1,6 +1,5 @@
 ---
 title: I wanted to buy an Android tablet but I bought an iPad
-author: admin
 layout: post
 permalink: /2013/04/01/i-wanted-to-buy-an-android-tablet-but-i-bought-an-ipad/
 categories:

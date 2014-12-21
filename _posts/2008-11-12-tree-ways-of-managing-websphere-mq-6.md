@@ -1,6 +1,5 @@
 ---
 title: Three ways of managing WebSphere MQ 6
-author: admin
 layout: post
 permalink: /2008/11/12/tree-ways-of-managing-websphere-mq-6/
 categories:

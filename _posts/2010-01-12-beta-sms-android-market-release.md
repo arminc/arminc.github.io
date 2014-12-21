@@ -1,6 +1,5 @@
 ---
 title: 'Beta-SMS [Android Market Release]'
-author: admin
 layout: post
 permalink: /2010/01/12/beta-sms-android-market-release/
 categories:

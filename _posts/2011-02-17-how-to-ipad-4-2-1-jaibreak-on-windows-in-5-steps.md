@@ -1,6 +1,5 @@
 ---
 title: 'How to: iPad 4.2.1 jaibreak on windows in 5 steps'
-author: admin
 layout: post
 permalink: /2011/02/17/how-to-ipad-4-2-1-jaibreak-on-windows-in-5-steps/
 aktt_notify_twitter:

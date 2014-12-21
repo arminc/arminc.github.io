@@ -1,6 +1,5 @@
 ---
 title: VirtualBox 4.2 vs VMware Player 5
-author: admin
 layout: post
 permalink: /2013/01/13/virtualbox-4-2-vs-vmware-player-5/
 categories:

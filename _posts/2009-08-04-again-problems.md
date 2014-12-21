@@ -1,6 +1,5 @@
 ---
 title: Again problems
-author: admin
 layout: post
 permalink: /2009/08/04/again-problems/
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Java 64 bit performance problem
-author: admin
 layout: post
 permalink: /2009/01/24/java-64-bit-performance-problem/
 categories:

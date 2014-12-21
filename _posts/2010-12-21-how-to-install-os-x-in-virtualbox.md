@@ -1,6 +1,5 @@
 ---
 title: How to install OS X in Virtualbox
-author: admin
 layout: post
 permalink: /2010/12/21/how-to-install-os-x-in-virtualbox/
 aktt_notify_twitter:

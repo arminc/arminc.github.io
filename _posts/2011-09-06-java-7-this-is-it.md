@@ -1,6 +1,5 @@
 ---
 title: Java 7, this is it?
-author: admin
 layout: post
 permalink: /2011/09/06/java-7-this-is-it/
 aktt_notify_twitter:

@@ -1,6 +1,5 @@
 ---
 title: Coding size or language syntax, does it matter?
-author: admin
 layout: post
 permalink: /2011/09/07/coding-size-or-language-syntax-does-it-matter/
 aktt_notify_twitter:

@@ -1,6 +1,5 @@
 ---
 title: How to create a custom rom for Hero from Android sources
-author: admin
 layout: post
 permalink: /2010/01/21/how-to-create-a-custom-rom-for-hero-from-android-sources/
 categories:

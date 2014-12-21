@@ -1,6 +1,5 @@
 ---
 title: Java Is A Dead-End For Enterprise App Development
-author: admin
 layout: post
 permalink: /2011/08/18/java-is-a-dead-end-for-enterprise-app-development/
 aktt_notify_twitter:

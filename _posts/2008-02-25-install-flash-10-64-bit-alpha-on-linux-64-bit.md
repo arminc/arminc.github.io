@@ -1,6 +1,5 @@
 ---
 title: Install Flash 10 64 bit (alpha) on Linux 64 bit
-author: admin
 layout: post
 permalink: /2008/02/25/install-flash-10-64-bit-alpha-on-linux-64-bit/
 categories:

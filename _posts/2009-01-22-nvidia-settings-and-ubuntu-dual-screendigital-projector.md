@@ -1,6 +1,5 @@
 ---
 title: nvidia-settings and Ubuntu (dual screen,digital projector)
-author: admin
 layout: post
 permalink: /2009/01/22/nvidia-settings-and-ubuntu-dual-screendigital-projector/
 categories:

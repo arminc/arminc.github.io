@@ -1,6 +1,5 @@
 ---
 title: How to create otapackage (aka update.zip) from your build
-author: admin
 layout: post
 permalink: /2010/01/27/how-to-create-otapackage-aka-update-zip-from-your-build/
 categories:

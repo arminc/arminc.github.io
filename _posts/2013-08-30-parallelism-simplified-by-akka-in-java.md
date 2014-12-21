@@ -1,6 +1,5 @@
 ---
 title: Parallelism simplified by Akka in Java
-author: admin
 layout: post
 permalink: /2013/08/30/parallelism-simplified-by-akka-in-java/
 categories:

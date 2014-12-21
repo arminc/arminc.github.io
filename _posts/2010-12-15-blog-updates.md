@@ -1,6 +1,5 @@
 ---
 title: Blog updates
-author: admin
 layout: post
 permalink: /2010/12/15/blog-updates/
 aktt_notify_twitter:

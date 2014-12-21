@@ -1,6 +1,5 @@
 ---
 title: Adobe Flex
-author: admin
 layout: post
 permalink: /2008/11/30/adobe-flex/
 categories:

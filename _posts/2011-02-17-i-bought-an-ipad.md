@@ -1,6 +1,5 @@
 ---
 title: I bought an iPad :(
-author: admin
 layout: post
 permalink: /2011/02/17/i-bought-an-ipad/
 aktt_notify_twitter:

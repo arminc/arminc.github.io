@@ -1,6 +1,5 @@
 ---
 title: '10 Minutes Hands-On: Apache Camel'
-author: admin
 layout: post
 permalink: /2011/03/18/10-minutes-hands-on-apache-camel/
 aktt_notify_twitter:

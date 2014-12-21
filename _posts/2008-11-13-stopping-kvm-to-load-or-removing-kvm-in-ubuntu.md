@@ -1,6 +1,5 @@
 ---
 title: Stopping kvm to load or removing kvm in Ubuntu
-author: admin
 layout: post
 permalink: /2008/11/13/stopping-kvm-to-load-or-removing-kvm-in-ubuntu/
 categories:

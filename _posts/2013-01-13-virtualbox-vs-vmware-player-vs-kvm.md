@@ -1,6 +1,5 @@
 ---
 title: VirtualBox vs VMware Player vs KVM
-author: admin
 layout: post
 permalink: /2013/01/13/virtualbox-vs-vmware-player-vs-kvm/
 categories:

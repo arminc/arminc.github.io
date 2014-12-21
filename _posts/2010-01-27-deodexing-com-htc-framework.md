@@ -1,6 +1,5 @@
 ---
 title: Deodexing com.htc.framework
-author: admin
 layout: post
 permalink: /2010/01/27/deodexing-com-htc-framework/
 categories:

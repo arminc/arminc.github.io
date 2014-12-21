@@ -1,6 +1,5 @@
 ---
 title: 'Jason Fried: Why work doesn&#8217;t happen at work'
-author: admin
 layout: post
 permalink: /2010/12/01/jason-fried-why-work-doesnt-happen-at-work/
 aktt_notify_twitter:

@@ -1,6 +1,5 @@
 ---
 title: How to use the HTC Hero kernel
-author: admin
 layout: post
 permalink: /2009/10/26/how-to-use-the-htc-hero-kernel/
 categories:

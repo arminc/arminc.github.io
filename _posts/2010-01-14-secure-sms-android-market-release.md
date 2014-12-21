@@ -1,6 +1,5 @@
 ---
 title: Unpublished
-author: admin
 layout: post
 permalink: /2010/01/14/secure-sms-android-market-release/
 categories:

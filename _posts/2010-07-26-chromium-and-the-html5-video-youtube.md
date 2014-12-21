@@ -1,6 +1,5 @@
 ---
 title: Chromium and the HTML5 video (Youtube)
-author: admin
 layout: post
 permalink: /2010/07/26/chromium-and-the-html5-video-youtube/
 aktt_notify_twitter:

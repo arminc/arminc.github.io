@@ -1,6 +1,5 @@
 ---
 title: Eclipse 3.5 and Ubuntu 9.10 64 bit
-author: admin
 layout: post
 permalink: /2010/01/12/eclipse-3-5-and-ubuntu-9-10-64-bit/
 categories:

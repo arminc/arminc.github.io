@@ -1,6 +1,5 @@
 ---
 title: How to compile the HTC Hero kernel
-author: admin
 layout: post
 permalink: /2009/10/25/how-to-compile-the-htc-hero-kernel/
 categories:

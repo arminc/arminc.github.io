@@ -1,6 +1,5 @@
 ---
 title: How to test EJB3.1 with embedded container?
-author: admin
 layout: post
 permalink: /2010/03/08/how-to-test-ejb3-1-with-embedded-container/
 categories:

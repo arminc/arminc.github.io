@@ -1,6 +1,5 @@
 ---
 title: VirtualBox 4.2 performance in Ubuntu 12.04
-author: admin
 layout: post
 permalink: /2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/
 categories:

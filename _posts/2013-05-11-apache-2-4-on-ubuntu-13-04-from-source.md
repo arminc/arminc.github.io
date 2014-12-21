@@ -1,6 +1,5 @@
 ---
 title: Apache 2.4 on Ubuntu 13.04 from source
-author: admin
 layout: post
 permalink: /2013/05/11/apache-2-4-on-ubuntu-13-04-from-source/
 categories:

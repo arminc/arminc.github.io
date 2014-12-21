@@ -1,6 +1,5 @@
 ---
 title: How to use embedded glassfish maven plugin?
-author: admin
 layout: post
 permalink: /2010/03/09/how-to-use-embedded-glassfish-maven-plugin/
 categories:

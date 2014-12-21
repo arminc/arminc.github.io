@@ -1,6 +1,5 @@
 ---
 title: Creating workspace for the Android source
-author: admin
 layout: post
 permalink: /2009/10/25/creating-workspace-for-the-android-source/
 aktt_notify_twitter:

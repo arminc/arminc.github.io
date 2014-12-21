@@ -1,6 +1,5 @@
 ---
 title: Data visualization
-author: admin
 layout: post
 permalink: /2010/12/07/data-visualization/
 aktt_notify_twitter:

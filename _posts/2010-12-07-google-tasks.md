@@ -1,6 +1,5 @@
 ---
 title: Google Tasks
-author: admin
 layout: post
 permalink: /2010/12/07/google-tasks/
 aktt_notify_twitter:

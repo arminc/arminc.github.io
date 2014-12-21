@@ -1,6 +1,5 @@
 ---
 title: Twitter test 3
-author: admin
 layout: post
 permalink: /2010/03/30/twitter-test-3/
 aktt_notify_twitter:

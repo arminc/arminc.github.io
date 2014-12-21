@@ -1,6 +1,5 @@
 ---
 title: How to use embedded glassfish from junit?
-author: admin
 layout: post
 permalink: /2010/03/09/how-to-use-embedded-glassfish-from-junit/
 categories:

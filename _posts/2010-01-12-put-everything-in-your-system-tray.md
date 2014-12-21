@@ -1,6 +1,5 @@
 ---
 title: Put everything in your system tray
-author: admin
 layout: post
 permalink: /2010/01/12/put-everything-in-your-system-tray/
 categories:

@@ -1,6 +1,5 @@
 ---
 title: Ubuntu 8.10 released
-author: admin
 layout: post
 permalink: /2008/10/30/ubuntu-810-released/
 categories:
