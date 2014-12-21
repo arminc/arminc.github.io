@@ -29,8 +29,7 @@ TODO
 ====
 + Check all migrated pages and fix errors
 	- check post
-+ using "permalink: /:title" breakes archive 
-
+	
 + google analytics
 + Does it work on mobile?
 
@@ -53,3 +52,4 @@ TODO
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
 + Sample post to be used to quickly start
 + fix warning: CRLF will be replaced by LF
++ split _posts in to folders
