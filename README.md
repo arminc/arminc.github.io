@@ -28,7 +28,6 @@ Theme: https://github.com/gayanvirajith/harmony
 TODO
 ====
 + Check all migrated pages and fix errors
-	- add description
 	- check post
 + using "permalink: /:title" breakes archive 
 
@@ -54,3 +53,4 @@ TODO
 + Blog Archive per year and per categorie
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
 + Sample post to be used to quickly start
++ fix warning: CRLF will be replaced by LF

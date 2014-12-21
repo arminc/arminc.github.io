@@ -1,5 +1,5 @@
 ---
-title: 'Jason Fried: Why work doesn't happen at work'
+title: "Jason Fried Why work doesn't happen at work"
 layout: post
 permalink: /2010/12/01/jason-fried-why-work-doesnt-happen-at-work/
 categories:

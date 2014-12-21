@@ -11,7 +11,7 @@ tags:
   - compile hero
   - create hero build
   - hero
-description: **UPDATE1[27.01.2010]** If you search on the Internet you can find a lot of custom roms for android phones but when you start searching for an tutorial on how to create one your self it gets confusing. You need to look very well and learn by trail and error to find all the stuff you need to create an rom of your own. That's why I decided to show you how to create an rom for HTC Hero from scratch. 
+description: UPDATE1[27.01.2010] If you search on the Internet you can find a lot of custom roms for android phones but when you start searching for an tutorial on how to create one your self it gets confusing. You need to look very well and learn by trail and error to find all the stuff you need to create an rom of your own. That's why I decided to show you how to create an rom for HTC Hero from scratch. 
 ---
 **UPDATE1[27.01.2010]** If you search on the Internet you can find a lot of custom roms for android phones but when you start searching for an tutorial on how to create one your self it gets confusing. You need to look very well and learn by trail and error to find all the stuff you need to create an rom of your own. That's why I decided to show you how to create an rom for HTC Hero from scratch. 
 

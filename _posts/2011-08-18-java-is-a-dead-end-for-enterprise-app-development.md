@@ -6,7 +6,7 @@ categories:
   - java
 tags:
   - java
-description: Last day I got a tip about this old article “[Java Is A Dead-End For Enterprise App Development][2]”. My first thought was: “Here we go again, someone who is claiming a programming language is dying. The never ending returning discussion.”
+description: Last day I got a tip about this old article "Java Is A Dead-End For Enterprise App Development”. My first thought was “Here we go again, someone who is claiming a programming language is dying. The never ending returning discussion.”
 ---
 Original post can be found at [It-Eye][1]
 
