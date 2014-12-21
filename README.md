@@ -35,7 +35,6 @@ TODO
 + How fast does the site load online?
 + Switch DNS (does everything stil works?)
 
-+ What does "Related Posts" show?
 + Blog Archive per year and per categorie
 	+ add tags next to the date on the front page of the posts
 
@@ -44,4 +43,5 @@ TODO
 + share posts
 + feed.xml?
 + add linkedin next to github/google+
+	+ see http://zhangwenli.com/blog/2014/07/15/jekyll-related-posts-without-plugin/
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
