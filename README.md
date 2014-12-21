@@ -28,16 +28,14 @@ Theme: https://github.com/gayanvirajith/harmony
 TODO
 ====
 + Check all migrated pages and fix errors
+	- check descriptions
 	- check post
 
 + google analytics
 + Does it work on mobile?
 
 + How fast does the site load online?
-+ Are the links the same as on blog.coralic.nl
 + Switch DNS (does everything stil works?)
-
-+ sublime preview markdown
 
 + Plugins?
 + share posts
@@ -50,5 +48,4 @@ TODO
 + Blog Archive per year and per categorie
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
 + Sample post to be used to quickly start
-+ fix warning: CRLF will be replaced by LF
-+ split _posts in to folders
++ sublime preview markdown
