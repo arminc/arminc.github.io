@@ -30,7 +30,6 @@ TODO
 + make a post that i switched from wordpress to jekyll
 + Check all migrated pages and fix errors
 	- check post 2011 / 2012 / 2013
-	- remove http://blog.coralic.nl/wp-includes/images/smilies/
 	- remove http://files.coralic.nl
 	- remove http://blog.coralic.nl
 	- fix embed-youtube

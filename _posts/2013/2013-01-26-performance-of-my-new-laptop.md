@@ -425,6 +425,6 @@ I am using [Phoronix Test Suite][1] for testing and i am running the "workstati
   </tr>
 </table>
 
-My new lap seems to perform very well <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
+My new lap seems to perform very well :) 
 
  [1]: http://www.phoronix-test-suite.com
