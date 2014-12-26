@@ -27,13 +27,13 @@ Theme: https://github.com/gayanvirajith/harmony
 
 TODO
 ====
++ How fast does the site load online?
++ Switch DNS (does everything stil works?)
++ switch google analytics
+
 + Check all migrated pages and fix errors
 	- check post 2009 / 2010 / 2011 / 2012 / 2013
 	- make sure files are available here
-
-+ google analytics
-+ How fast does the site load online?
-+ Switch DNS (does everything stil works?)
 
 + Blog Archive per year and per categorie
 	+ add tags next to the date on the front page of the posts
@@ -45,4 +45,5 @@ TODO
 + add linkedin next to github/google+
 	+ see http://zhangwenli.com/blog/2014/07/15/jekyll-related-posts-without-plugin/
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
-+ fix code blocks to scrol?
+
++ Turn the old blog off

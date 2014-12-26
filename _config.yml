@@ -16,6 +16,8 @@ harmony:
     twitter: acoralic
     gplus: +103823895018150177843
 
+  google_analytics_key: UA-58019544-1
+
 # Conversion / Build settings 
 markdown:    kramdown
 highlighter: pygments # this is how you put pygments config in jekyll 2.0 instead of pygments: true
