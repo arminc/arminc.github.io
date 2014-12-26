@@ -28,32 +28,28 @@ mknod -m 666 /dev/null c 1 3
 
 Creating /dev/console
 
-    mknod -m 622 console c 5 1
+{% highlight bash %}
+mknod -m 622 console c 5 1
+{% endhighlight %}
 
 Create /dev/random
 
-```bash
+{% highlight bash %}
 mknod -m 0644 /dev/random c 1 8
-```
+{% endhighlight %}
 
 Create /dev/urandom
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
+{% highlight bash %}
       mknod -m 0644 /dev/urandom c 1 9
-    </td>
-  </tr>
-</table>
+{% endhighlight %}
 
 For creating pty, ptmx and tty you need MAKEDEV that can be found in /sbin. If it's not there try to copy it from another machine like I did, and placing it in /sbin.
 
 Create pty,tty,ptmx
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      ./sbin/MAKEDEV pty<br /> ./sbin/MAKEDEV tty<br /> ./sbin/MAKEDEV ptmx
-    </td>
-  </tr>
-</table>
+{% highlight bash %}
+./sbin/MAKEDEV pty
+./sbin/MAKEDEV tty
+./sbin/MAKEDEV ptmx
+{% endhighlight %}
