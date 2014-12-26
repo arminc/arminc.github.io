@@ -17,45 +17,42 @@ As you have seen in my previous post I have compiled the HTC Hero kernel, now is
 
   
 Let me start off with telling you that you can find a lot of information regarding android and boot on the [android-dls.com][1] site.  
-There information is useful and there tools are working fine BUT they don't work for the Hero, actually they do but they miss one thing <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  
+There information is useful and there tools are working fine BUT they don't work for the Hero, actually they do but they miss one thing :)
 Let's cut the chitchat and let me explain you how to boot your Hero with your own fresh kernel. Assume you have compiled your kernel using my way or your own way you get an zImage. Next thing you have to do is download the following things and put them all in one folder including your zImage: [boot.img][2] [mkbootimg][3] [repack-bootimg.pl(altered)][4] [unpack-bootimg.pl][5]
 
 **CAUTION**: Please make an backup with nandroid before proceeding!!!!!!!
 
 Step 1:
 
-<pre>unzip mkbootimg.zip
-</pre>
+{% highlight bash %}unzip mkbootimg.zip{% endhighlight %}
 
 Step 2:
 
-<pre>perl unpack-bootimg.pl boot.img
-</pre>
+{% highlight bash %}perl unpack-bootimg.pl boot.img{% endhighlight %}
 
 Step 3:
 
-<pre>perl repack-bootimg.pl  zImage boot.img-ramdisk netBoot.img
-</pre>
+{% highlight bash %}perl repack-bootimg.pl  zImage boot.img-ramdisk netBoot.img{% endhighlight %}
 
-The repack script was fine but it missed the &#8211;base 0&#215;19200000 statement at the mkbootimg line, that's what I added.
+The repack script was fine but it missed the --base 0x19200000 statement at the mkbootimg line, that's what I added.
 
 Our newBoot.img is ready for work right now. What you need to do now is upload it to your Hero, this can be done in two ways:
 
 Method 1:
 
-<pre>fastboot flash boot newBoot.img
+{% highlight bash %}fastboot flash boot newBoot.img
 fastboot reboot
-</pre>
+{% endhighlight %}
 
 Method 2:
 
-<pre>adb push newBoot.img /sdcard
+{% highlight bash %}adb push newBoot.img /sdcard
 adb shell
-cat /dev/zero &gt; /dev/mtd/mtd2
+cat /dev/zero > /dev/mtd/mtd2
 	- write: No space left on device [this is ok, you can ignore]
 flash_image boot /sdcard/newBoot.img
 reboot your phone
-</pre>
+{% endhighlight %}
 
 If everything went oke your phone should boot with your new kernel. Have Fun!
 

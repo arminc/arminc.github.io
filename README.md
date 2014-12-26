@@ -27,10 +27,11 @@ Theme: https://github.com/gayanvirajith/harmony
 
 TODO
 ====
-+ How fast does the site load online?
 + Check all migrated pages and fix errors
-	- check post 2009 / 2010 / 2011 / 2012 / 2013
+	- check post 2010 / 2011 / 2012 / 2013
 	- make sure files are available here
+	- remove http://blog.coralic.nl/wp-includes/images/smilies/
+	- remove http://files.coralic.nl
 + Blog Archive per year and per categorie
 	+ add tags next to the date on the front page of the posts
 

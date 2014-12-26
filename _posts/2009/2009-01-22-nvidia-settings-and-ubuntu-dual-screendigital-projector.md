@@ -16,22 +16,10 @@ Couple of days ago i needed to connect digital projector and an second screen to
 
 Just install:
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <tr>
-    <td width="100%" valign="top">
-      sudo apt-get install nvidia-settings
-    </td>
-  </tr>
-</table>
+{% highlight bash %}sudo apt-get install nvidia-settings{% endhighlight %}
 
 and then start with:
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      nvidia-settings.
-    </td>
-  </tr>
-</table>
+{% highlight bash %}nvidia-settings{% endhighlight %}
 
 With this tool you are able to change settings, detect external displays and attach them very easily. This settings tool helped me so I thought I would just spread the word.

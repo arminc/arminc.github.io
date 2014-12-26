@@ -16,4 +16,4 @@ I am recovering and fixing everything when I get time, because it's holidays rig
 
 Right now I don't much information to offer but that will change, I will be back with useful stuff. But first I need some more time to setup the server as it was, to make full auto backups and procedures and at last to make some “cold” standbys for if this every happens again.
 
-Have fun and happy summer <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
+Have fun and happy summer :)
