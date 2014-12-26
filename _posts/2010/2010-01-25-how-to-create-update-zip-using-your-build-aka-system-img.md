@@ -9,7 +9,7 @@ tags:
   - system.img
   - system.img to update.zip
   - update.zip
-description: In my previous [post][1] I have already said that I will explain how to create an update.zip from your own build so here it is.
+description: In my previous post I have already said that I will explain how to create an update.zip from your own build so here it is.
 ---
 In my previous [post][1] I have already said that I will explain how to create an update.zip from your own build so here it is.
 

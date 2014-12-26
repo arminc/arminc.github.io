@@ -9,7 +9,7 @@ tags:
   - compare
   - nginx
   - performance
-description: Having setup [Apache 2.4][1] and [Nginx 1.4][2] I wanted to see how they performed. I am not trying to do a scientific performance test here, I am just interested in how Nginx behaves because I haven't used it before.
+description: Having setup Apache and Nginx I wanted to see how they performed. I am not trying to do a scientific performance test here, I am just interested in how Nginx behaves because I haven't used it before.
 ---
 Having setup [Apache 2.4][1] and [Nginx 1.4][2] I wanted to see how they performed. I am not trying to do a scientific performance test here, I am just interested in how Nginx behaves because I haven't used it before.
 

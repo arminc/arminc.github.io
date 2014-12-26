@@ -11,7 +11,7 @@ tags:
   - virtualbox vs vmware
   - vmware
   - vmware player
-description: Yesterday i tested the performance of [VirtualBox][1] and i thought it should be nice to see how it compares against the famous VMware. I chose to test the VMware Player instead of the workstation because it is free. The first big difference between VirtualBox and VMware Player was that the Player did not allow more than 4 cpu's to be assigned. 
+description: Yesterday i tested the performance of VirtualBox and i thought it should be nice to see how it compares against the famous VMware. I chose to test the VMware Player instead of the workstation because it is free. The first big difference between VirtualBox and VMware Player was that the Player did not allow more than 4 cpu's to be assigned. 
 ---
 Yesterday i tested the performance of [VirtualBox][1] and i thought it should be nice to see how it compares against the famous VMware. I chose to test the VMware Player instead of the workstation because it is free. The first big difference between VirtualBox and VMware Player was that the Player did not allow more than 4 cpu's to be assigned. 
 

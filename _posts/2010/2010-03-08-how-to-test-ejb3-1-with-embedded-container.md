@@ -9,7 +9,7 @@ tags:
   - ejb3.1
   - embedded
   - embedded container
-description: This is how you can test your EJB3.1 or the one I made [here][1] using an new embedded container provided in the new EJB. You can download the full package to test this [here][2]
+description: This is how you can test your EJB3.1 or the one I made apost using an new embedded container provided in the new EJB. You can download the full package to test this.
 ---
 This is how you can test your EJB3.1 or the one I made [here][1] using an new embedded container provided in the new EJB. You can download the full package to test this [here][2]
 

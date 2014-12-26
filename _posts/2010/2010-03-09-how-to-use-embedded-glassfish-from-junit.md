@@ -10,7 +10,7 @@ tags:
   - embedded
   - embedded glassfish
   - glassfish
-description: In my previous [post][1] I explaind that with the new EJB you can use an embedded EJB container to test your EJB. But there is also another way and that is to use embedded glassfish that is started from inside an junit. The nice thing here is that it you can start an embedded glassfish with the container you need, with EJB or with WEB or both if you need.
+description: In my previous post I explaind that with the new EJB you can use an embedded EJB container to test your EJB. But there is also another way and that is to use embedded glassfish that is started from inside an junit. The nice thing here is that it you can start an embedded glassfish with the container you need, with EJB or with WEB or both if you need.
 ---
 In my previous [post][1] I explaind that with the new EJB you can use an embedded EJB container to test your EJB. But there is also another way and that is to use embedded glassfish that is started from inside an junit. The nice thing here is that it you can start an embedded glassfish with the container you need, with EJB or with WEB or both if you need.
 

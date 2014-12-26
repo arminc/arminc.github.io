@@ -11,7 +11,7 @@ tags:
   - ubuntu
   - ubuntu on android
   - ubuntu on galaxy s
-description: In my previous [post][1] I showed you how to create an chroot environment for the arm and run it on your Ubuntu. But it's much nicer to see it work on a real device or on an Android device like Samsun Galaxy S GT-I9000.
+description: In my previous post I showed you how to create an chroot environment for the arm and run it on your Ubuntu. But it's much nicer to see it work on a real device or on an Android device like Samsun Galaxy S GT-I9000.
 ---
 In my previous [post][1] I showed you how to create an chroot environment for the arm and run it on your Ubuntu. But it's much nicer to see it work on a real device or on an Android device like Samsun Galaxy S GT-I9000.
 

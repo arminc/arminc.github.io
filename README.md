@@ -28,7 +28,6 @@ Theme: https://github.com/gayanvirajith/harmony
 TODO
 ====
 + Check all migrated pages and fix errors
-	- check descriptions
 	- check post
 
 + google analytics
