@@ -23,7 +23,7 @@ I am using VirtualBox for a long time now, although i know there is an performan
 
 *AMD Phenom II X6 1090T @ 3.19GHz (6 Cores), Memory: 5120MB, Disk: 21GB VBOX HDD (on the raid disks), Graphics: InnoTek VirtualBox*
 
-I am using [Phoronix Test Suite][1] for testing and i am running the &#8220;workstation&#8221; suite.
+I am using [Phoronix Test Suite][1] for testing and i am running the "workstation"; suite.
 
 **The results:**
 

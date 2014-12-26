@@ -50,15 +50,15 @@ Boot in to your OS X installation
 ![][3]
 
 **Step 4:**  
-On the &#8220;Select a Destination&#8221; screen you need to prepare the disk for OS X otherwise you will not able to select it, to do so do the following:
+On the "Select a Destination"; screen you need to prepare the disk for OS X otherwise you will not able to select it, to do so do the following:
 
   * Got to “Utilities” → “Disk utility”
-  * Select the harddrive and erase it with the format option &#8220;Mac OS Extended (Journaled)&#8221;
+  * Select the harddrive and erase it with the format option "Mac OS Extended (Journaled)";
 
 ![][4]
 
 **Step 5:**  
-On the &#8220;Install Summary&#8221; screen select Customize to add some additional settings to let it work, under iDeneb Patches 10.5.7 Ready -> Bootloaded and DSDT select the following:
+On the "Install Summary"; screen select Customize to add some additional settings to let it work, under iDeneb Patches 10.5.7 Ready -> Bootloaded and DSDT select the following:
 
   * Chameleon V2
   * DSDT Patcher

@@ -29,6 +29,7 @@ TODO
 ====
 + Check all migrated pages and fix errors
 	- check post
+	- make sure files are available here
 
 + google analytics
 + How fast does the site load online?

@@ -22,33 +22,19 @@ I am not giving you a solution to ONE problem or anything like that here. I am s
 
 Creating /dev/null
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      mknod -m 666 /<em>dev/null</em> c 1 3
-    </td>
-  </tr>
-</table>
+{% highlight bash %}
+mknod -m 666 /dev/null c 1 3
+{% endhighlight %}
 
 Creating /dev/console
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      mknod -m 622 console c 5 1
-    </td>
-  </tr>
-</table>
+    mknod -m 622 console c 5 1
 
 Create /dev/random
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      mknod -m 0644 /dev/random c 1 8
-    </td>
-  </tr>
-</table>
+```bash
+mknod -m 0644 /dev/random c 1 8
+```
 
 Create /dev/urandom
 

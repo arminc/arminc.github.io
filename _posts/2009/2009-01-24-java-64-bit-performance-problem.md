@@ -17,7 +17,7 @@ This is going to be a weird blog post so I am warning you. The reason why I am s
 
 
   
-When I was doing some testing with the Java application I found out that when I used 32 bit JVM instead of 64 bit JVM the application was much faster. In the smaller size &#8220;things&#8221; the performance was almost the same but when the &#8220;things&#8221; got bigger the performance of 64 bit was much much lower then 32 bit in terms of time. You could say that at some point 32 bit was 3 times faster than 64 bit.
+When I was doing some testing with the Java application I found out that when I used 32 bit JVM instead of 64 bit JVM the application was much faster. In the smaller size "things"; the performance was almost the same but when the "things"; got bigger the performance of 64 bit was much much lower then 32 bit in terms of time. You could say that at some point 32 bit was 3 times faster than 64 bit.
 
 I started to investigate where the problem could be, I was able to trace the problem to one function. This function is actually very simple it takes two ArrayLists and then it loops trough array1 and at every iteration it asks the array2 to see if the iteration value of array1 could be found in array2. Something like this
 

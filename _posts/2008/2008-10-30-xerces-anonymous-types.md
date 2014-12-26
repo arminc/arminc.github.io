@@ -24,13 +24,9 @@ Sample XSD:
 
 Sample OUTPUT:
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      There has been a schema validation error in &#8220;file:///home/..&#8221; on line number 23, column number 88. Error message: cvc-pattern-valid: Value '1&#8242; is not facet-valid with respect to pattern &#8216;([0-9]{6})' for type &#8216;null'.
-    </td>
-  </tr>
-</table>
+<pre>
+There has been a schema validation error in "file:///home/.." on line number 23, column number 88. Error message: cvc-pattern-valid: Value '1' is not facet-valid with respect to pattern '([0-9]{6})' for type 'null'.
+</pre>
 
 **What is the fix?**
 
@@ -38,23 +34,21 @@ The fix is made by Michael Glavassevich in 2007 but has not been released jet. S
 
 it replaces this
 
-<pre class="brush: java; title: ; notranslate" title="">fXSSimpleType = schemaFactory.createTypeRestriction(null,schemaDoc.fTargetNamespace,(short)0,baseValidator,null);
-</pre>
+{% highlight java %}
+fXSSimpleType = schemaFactory.createTypeRestriction(null,schemaDoc.fTargetNamespace,(short)0,baseValidator,null);
+{% endhighlight %}
 
 to this:
 
-<pre class="brush: java; title: ; notranslate" title="">String name = genAnonTypeName(simpleContentElement);
+{% highlight java %}
+String name = genAnonTypeName(simpleContentElement);
 fXSSimpleType = schemaFactory.createTypeRestriction(name,schemaDoc.fTargetNamespace,(short)0,baseValidator,null);
 if (fXSSimpleType instanceof XSSimpleTypeDecl) {
 ((XSSimpleTypeDecl)fXSSimpleType).setAnonymous(true); }
-</pre>
+{% endhighlight %}
 
 Sample OUTPUT now:
 
-<table border="1" cellspacing="0" cellpadding="4" width="100%">
-  <col width="256"></col> <tr>
-    <td width="100%" valign="top">
-      There has been a schema validation error in &#8220;file:///home/&#8230;&#8221; on line number 23, column number 88. Error message: cvc-pattern-valid: Value '1&#8242; is not facet-valid with respect to pattern &#8216;([0-9]{6})' for type &#8216;#AnonType_nonNegativeInteger6CItemType'.
-    </td>
-  </tr>
-</table>
+<pre>
+There has been a schema validation error in "file:///home/..." on line number 23, column number 88. Error message: cvc-pattern-valid: Value '1' is not facet-valid with respect to pattern '([0-9]{6})' for type '#AnonType_nonNegativeInteger6CItemType'.
+</pre>

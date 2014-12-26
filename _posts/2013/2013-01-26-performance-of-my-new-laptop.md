@@ -24,7 +24,7 @@ Couple of days ago I got my new laptop (Dell M4700) to replace my old one. I was
 
 *Intel Core i7-3840QM, Memory: 24GB, Disk: 120GB Intel SSD, Graphics: NVIDIA Quadro K2000M*
 
-I am using [Phoronix Test Suite][1] for testing and i am running the &#8220;workstation&#8221; suite.
+I am using [Phoronix Test Suite][1] for testing and i am running the "workstation"; suite.
 
 **The results:**
 
