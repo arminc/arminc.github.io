@@ -14,7 +14,7 @@ With your chromium try to watch this movie:
 
 If you are not able to play it do this, install the non free codec provided by chromium:
 
-<pre class="brush: bash; title: ; notranslate" title="">sudo aptitude install chromium-codecs-ffmpeg-nonfree
-</pre>
+{% highlight bash %}sudo aptitude install chromium-codecs-ffmpeg-nonfree
+{% endhighlight %}
 
 Now restart chromium and you are off. Does it work now?

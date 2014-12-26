@@ -17,7 +17,7 @@ Step 1:
 Connect your iPad to your PC and make a backup with your lovely (sarcasm) itunes.
 
 Step 2:  
-Download “greenpois0n” from [here][1]{.broken_link}
+Download “greenpois0n” from [here][1]
 
 Step 3:  
 Start greenpois0n and connect your iPad to your PC if it wasn't connected already

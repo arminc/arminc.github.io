@@ -27,7 +27,7 @@ There are enough books, tips and principles to achieve this clean and readable c
 
 Bad example, we can all conclude that this peace of code is not easy to read.
 
-<pre class="brush: java; title: ; notranslate" title="">@Override
+{% highlight java %}@Override
     public void onCreate(Bundle savedInstanceState)
     {
 	context = getApplicationContext();
@@ -108,11 +108,11 @@ Bad example, we can all conclude that this peace of code is not easy to read.
 	// set focus on the sms text field
 	txtSmsText.requestFocus();
     }
-</pre>
+{% endhighlight %}
 
 Good example, I hope we all agree when I say that this code is easy to read and to follow. 
 
-<pre class="brush: java; title: ; notranslate" title="">@Override
+{% highlight java %}@Override
     public void onCreate(Bundle savedInstanceState)
     {
 	Log.d(Const.TAG_MAIN, "Starting the application");
@@ -131,7 +131,7 @@ Good example, I hope we all agree when I say that this code is easy to read and 
 	// set focus on the sms text field
 	txtSmsText.requestFocus();
     }
-</pre>
+{% endhighlight %}
 
 Both the first and the second example do exactly the same but the second one can be understood in seconds where the first one first needs to be interpreted. In the second example I left the “detailed” code out on purpose because it is not about the detailed code. When we talk about documentation we want to know more about the flow and the relations not the details. If done correctly the details should already be tested and can be reviewed by looking at the test cases.
 

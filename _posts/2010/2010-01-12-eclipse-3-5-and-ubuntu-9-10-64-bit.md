@@ -21,10 +21,9 @@ Go to [here][1] and download the 3.6 version of eclipse.
 Second one:  
 Make an bash script in your eclipse folder that looks like this:
 
-<pre class="prettyprint">#!/bin/sh
+{% highlight bash %}#!/bin/sh
 export GDK_NATIVE_WINDOWS=1
 ./eclipse &
-
-</pre>
+{% endhighlight %}
 
  [1]: http://download.eclipse.org/eclipse/downloads/

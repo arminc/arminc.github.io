@@ -28,47 +28,47 @@ Camel lets you create the Enterprise Integration Patterns to implement routing a
 
 As always a POM file:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;
-    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+{% highlight xml %}<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-    &lt;groupId&gt;nl.iteye&lt;/groupId&gt;
-    &lt;artifactId&gt;camel-example&lt;/artifactId&gt;
-    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
-    &lt;packaging&gt;jar&lt;/packaging&gt;
+    <groupId>nl.iteye</groupId>
+    <artifactId>camel-example</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    &lt;name&gt;camel-example&lt;/name&gt;
-    &lt;url&gt;http://maven.apache.org&lt;/url&gt;
+    <name>camel-example</name>
+    <url>http://maven.apache.org</url>
 
-    &lt;properties&gt;
-        &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
-    &lt;/properties&gt;
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-    &lt;dependencies&gt; 
-        &lt;dependency&gt; 
-            &lt;groupId&gt;junit&lt;/groupId&gt; 
-            &lt;artifactId&gt;junit&lt;/artifactId&gt; 
-            &lt;version&gt;4.8.1&lt;/version&gt; 
-            &lt;scope&gt;test&lt;/scope&gt; 
-        &lt;/dependency&gt; 
-        &lt;dependency&gt; 
-            &lt;groupId&gt;org.apache.camel&lt;/groupId&gt; 
-            &lt;artifactId&gt;camel-core&lt;/artifactId&gt; 
-            &lt;version&gt;2.6.0&lt;/version&gt; 
-        &lt;/dependency&gt; 
-        &lt;dependency&gt; 
-            &lt;groupId&gt;org.apache.camel&lt;/groupId&gt; 
-            &lt;artifactId&gt;camel-test&lt;/artifactId&gt; 
-            &lt;version&gt;2.6.0&lt;/version&gt; 
-            &lt;scope&gt;test&lt;/scope&gt; 
-        &lt;/dependency&gt; 
-    &lt;/dependencies&gt; 
-&lt;/project&gt;
-</pre>
+    <dependencies> 
+        <dependency> 
+            <groupId>junit</groupId> 
+            <artifactId>junit</artifactId> 
+            <version>4.8.1</version> 
+            <scope>test</scope> 
+        </dependency> 
+        <dependency> 
+            <groupId>org.apache.camel</groupId> 
+            <artifactId>camel-core</artifactId> 
+            <version>2.6.0</version> 
+        </dependency> 
+        <dependency> 
+            <groupId>org.apache.camel</groupId> 
+            <artifactId>camel-test</artifactId> 
+            <version>2.6.0</version> 
+            <scope>test</scope> 
+        </dependency> 
+    </dependencies> 
+</project>
+{% endhighlight %}
 
 And of course we created some code:
 
-<pre class="brush: java; title: ; notranslate" title="">package nl.iteye.camelexample;
+{% highlight java %}package nl.iteye.camelexample;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
@@ -112,12 +112,12 @@ public class CamelExampleTest extends CamelTestSupport {
         MockEndpoint resultEndpoint2 = context.getEndpoint("mock:endpoint2", MockEndpoint.class);
         resultEndpoint2.expectedMessageCount(0);
         resultEndpoint2.expectedMessageCount(1);
-        template.requestBody("direct:startpoint", "&lt;root&gt;&lt;name&gt;abc&lt;/name&gt;&lt;/root&gt;");
+        template.requestBody("direct:startpoint", "<root><name>abc</name></root>");
         resultEndpoint.assertIsSatisfied();
         resultEndpoint2.assertIsSatisfied();
     }
 }
-</pre>
+{% endhighlight %}
 
 And that's it, but what does this example do.
 

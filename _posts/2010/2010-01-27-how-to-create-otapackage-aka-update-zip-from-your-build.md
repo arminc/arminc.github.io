@@ -8,7 +8,7 @@ description: When you compile your android source and you want to create an auto
 ---
 When you compile your android source and you want to create an automatic update.zip instead of your own then do this: 
 
-<pre class="brush: bash; title: ; notranslate" title="">TARGET_NO_RADIOIMAGE=true make otapackage
-</pre>
+{% highlight bash %}TARGET_NO_RADIOIMAGE=true make otapackage
+{% endhighlight %}
 
-You can leave the TARGET\_NO\_RADIOIMAGE=true out if you wish it just tells the make script to leave out the RADIOIMAGE.
+You can leave the TARGET_NO_RADIOIMAGE=true out if you wish it just tells the make script to leave out the RADIOIMAGE.

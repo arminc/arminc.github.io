@@ -16,20 +16,20 @@ Some of you may have heard about Jamvm, for all others, Jamvm is an very small o
 
 To use Jamvm we need to download and compile it:
 
-<pre>wget http://downloads.sourceforge.net/project/jamvm/jamvm/JamVM%201.5.4/jamvm-1.5.4.tar.gz?use_mirror=ovh
+{% highlight bash %}wget http://downloads.sourceforge.net/project/jamvm/jamvm/JamVM%201.5.4/jamvm-1.5.4.tar.gz?use_mirror=ovh
 tar xvf jamvm-1.5.4.tar.gz
 cd jamvm-1.5.4/
 ./configure
 make
 sudo make install
-</pre>
+{% endhighlight %}
 
 The default installation location is /usr/local. If you need more info or want to change options please look in to the INTALL doc.
 
 Now that we have jamvm compiled we need to make it work. Jamvm uses GNU classpath. GNU classpath is available as source [here][1] but can be also installed as binary:
 
-<pre>sudo aptitude install classpath classpath-common classpath-gtkpeer
-</pre>
+{% highlight bash %}sudo aptitude install classpath classpath-common classpath-gtkpeer
+{% endhighlight %}
 
 I was going to show you how to compile GNU classes here but after countless tries on my own machine with different java versions I just gave up, I could not get it to compile. To get it to work I just installed the binary version and used that.
 

@@ -14,7 +14,7 @@ description: You may have heard or maybe not but there is an 2.2 version availab
 ---
 You may have heard or maybe not but there is an 2.2 version available for the Samsung Galaxy S. You may also know that the update over Kies will take a wile because Samsung has not released that yet. You may also know that you can flash your device with Odin witch is fine off course, but there is also a third method using the recovery and I am going to show you how.
 
-First of all if you like Odin then stick to that <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> if not this is how you can upgrade your Samsung Galaxy S using the recovery mode and the update.zip
+First of all if you like Odin then stick to that :) if not this is how you can upgrade your Samsung Galaxy S using the recovery mode and the update.zip
 
 First of all you need to have clockwork [recovery][1].You can use auto or manual way, I am going to show you the manual way. Download the recovery for Galaxy S from koush's [website][2].
 
@@ -52,7 +52,7 @@ STEP 8:
 Now install the rom using the option “install zip from sdcard” and selecting the doc's rom.
 
 STEP 9:  
-Now you just wait and be patience until the install finishes. If all goes well you will return back to clockwork recovery. If so then choose reboot <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
+Now you just wait and be patience until the install finishes. If all goes well you will return back to clockwork recovery. If so then choose reboot :)
 
 STEP 10:  
 You are done, the phone is booting in to your new ROM!

@@ -15,7 +15,8 @@ This post describes how to create an simple Entity and Session bean with EJB3.1.
   
 I am telling you using EJB now is as easy as programming POJOs. This is how you define an simple Entity bean.
 
-<pre class="brush: java; title: ; notranslate" title="">package nl.coralic.blog.ejb31;
+{% highlight java %}
+package nl.coralic.blog.ejb31;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -50,11 +51,11 @@ public class Item
 		return itemid;
 	}
 }
-</pre>
+{% endhighlight %}
 
 And this is how you define an simple Session bean.
 
-<pre class="brush: java; title: ; notranslate" title="">package nl.coralic.blog.ejb31;
+{% highlight java %}package nl.coralic.blog.ejb31;
 
 import java.util.List;
 
@@ -78,7 +79,7 @@ public class ItemService
 		return this.em.find(Item.class, id);
 	}
 
-	public List&lt;Item&gt; getItems()
+	public List<Item> getItems()
 	{
 		return this.em.createNamedQuery(Item.findAll).getResultList();
 	}
@@ -92,20 +93,21 @@ public class ItemService
 		}
 	}
 }
-</pre>
+{% endhighlight %}
 
 To be able to save the entity you need some kind of an persistence, this is an example of the persistance.xml
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"&gt;
-  &lt;persistence-unit name="itemDataBase" transaction-type="JTA"&gt;
-    &lt;provider&gt;org.eclipse.persistence.jpa.PersistenceProvider&lt;/provider&gt;
-    &lt;jta-data-source&gt;jdbc/itemDataBase&lt;/jta-data-source&gt;
-    &lt;properties&gt;
-      &lt;property name="eclipselink.ddl-generation" value="drop-and-create-tables"/&gt;
-    &lt;/properties&gt;
-  &lt;/persistence-unit&gt;
-&lt;/persistence&gt;
-</pre>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="itemDataBase" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/itemDataBase</jta-data-source>
+    <properties>
+      <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>
+{% endhighlight %}
 
 This is it, this is all you need to create an ejb jar file that is deployable to the server.

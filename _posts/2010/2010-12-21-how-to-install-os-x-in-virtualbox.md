@@ -72,7 +72,7 @@ Proceed with the installation, after the installation is done before rebooting u
 Reboot and finish the post installation.
 
 **Step 8:**  
-You have your self an OS X runing <img src='http://blog.coralic.nl/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> Have fun&#8230;.
+You have your self an OS X runing :)Have fun&#8230;.
 
 ![][6]
 

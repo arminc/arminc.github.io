@@ -18,24 +18,24 @@ The reason I like git after only using it couple of days is that I have my own l
 
 First of all let's install git:
 
-<pre>sudo aptitude install git-core git-svn
-</pre>
+{% highlight bash %}sudo aptitude install git-core git-svn
+{% endhighlight %}
 
 Now lets import an existing svn project in to our own local git repository:
 
-<pre>mkdir Something
+{% highlight bash %}mkdir Something
 cd Something
 git svn init http://coralic.googlecode.com/svn/trunk/Beta-SMS
 git svn fetch -r23
 git svn rebase
-</pre>
+{% endhighlight %}
 
-Now you are ready to use your git repository. If you wish to work with eclipse use this [plugin][1]{.broken_link}.
+Now you are ready to use your git repository. If you wish to work with eclipse use this [plugin][1].
 
 After you have made some changes to your local git repository you can commit those changes to your svn repository by doing this:
 
-<pre>git svn dcommit
-</pre>
+{% highlight bash %}git svn dcommit
+{% endhighlight %}
 
 Hope this helps out.
 

@@ -19,38 +19,38 @@ When you are behind a ISA server in let's say business network you can use Firef
 Step 1)
 Download [NTLMAPS][3]
 
-<pre>wget http://jaist.dl.sourceforge.net/sourceforge/ntlmaps/ntlmaps-0.9.9.0.1.tar.gz</pre>
+{% highlight bash %}wget http://jaist.dl.sourceforge.net/sourceforge/ntlmaps/ntlmaps-0.9.9.0.1.tar.gz{% endhighlight %}
 
 Step 2)  
 Unpack the tar file
 
-<pre>tar xvfz  ntlmaps-0.9.9.0.1.tar.gz</pre>
+{% highlight bash %}tar xvfz  ntlmaps-0.9.9.0.1.tar.gz{% endhighlight %}
 
 Step 3)  
 Install python
 
-<pre>sudo apt-get install python</pre>
+{% highlight bash %}sudo apt-get install python{% endhighlight %}
 
 Step 4)  
 Edit server.cfg
 
-<pre>gedit server.cfg</pre>
+{% highlight bash %}gedit server.cfg{% endhighlight %}
 
 Interesting things to edit in the server.cfg are:  
 
-<pre>
+{% highlight bash %}
 LISTEN_PORT (local port on witch your local proxy server will listen)  
 PARENT_PROXY (IP address of the ISA server)  
 PARENT_PROXY_PORT (port on witch the ISA server is listening mostly port 80)  
 NT_DOMAIN (fill in the domain)  
 USER (your domain user)  
 PASSWORD (your domain user password)
-</pre>
+{% endhighlight %}
 
 Step 5)  
 Start NTLMAPS
 
-<pre>./main.py</pre>
+{% highlight bash %}./main.py{% endhighlight %}
 
 Step 6)  
 Setup your Ubuntu to use your local proxy. You can set the proxy setting for Ubuntu:

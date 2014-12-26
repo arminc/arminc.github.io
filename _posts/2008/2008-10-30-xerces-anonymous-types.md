@@ -20,13 +20,13 @@ Anonymous type name is not assigned to the simple type definition of a complex t
 
 Sample XSD:
 
-<pre class="brush: xml; title: ; notranslate" title=""></pre>
+{% highlight xml %}{% endhighlight %}
 
 Sample OUTPUT:
 
-<pre>
+{% highlight bash %}
 There has been a schema validation error in "file:///home/.." on line number 23, column number 88. Error message: cvc-pattern-valid: Value '1' is not facet-valid with respect to pattern '([0-9]{6})' for type 'null'.
-</pre>
+{% endhighlight %}
 
 **What is the fix?**
 
@@ -49,6 +49,6 @@ if (fXSSimpleType instanceof XSSimpleTypeDecl) {
 
 Sample OUTPUT now:
 
-<pre>
+{% highlight bash %}
 There has been a schema validation error in "file:///home/..." on line number 23, column number 88. Error message: cvc-pattern-valid: Value '1' is not facet-valid with respect to pattern '([0-9]{6})' for type '#AnonType_nonNegativeInteger6CItemType'.
-</pre>
+{% endhighlight %}

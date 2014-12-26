@@ -18,65 +18,65 @@ You can get the whole package to get you started from [here][2].
 
 Again we start of with an pom.xml for maven
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"&gt;
-	&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
-	&lt;groupId&gt;coralic&lt;/groupId&gt;
-	&lt;artifactId&gt;ejbembeddedtest&lt;/artifactId&gt;
-	&lt;packaging&gt;jar&lt;/packaging&gt;
-	&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;
-	&lt;name&gt;ejbembeddedtest&lt;/name&gt;
-	&lt;url&gt;http://maven.apache.org&lt;/url&gt;
-	&lt;dependencies&gt;
-		&lt;dependency&gt;
-			&lt;groupId&gt;junit&lt;/groupId&gt;
-			&lt;artifactId&gt;junit&lt;/artifactId&gt;
-			&lt;version&gt;4.7&lt;/version&gt;
-			&lt;scope&gt;test&lt;/scope&gt;
-		&lt;/dependency&gt;
-		&lt;dependency&gt;
-			&lt;groupId&gt;org.glassfish.extras&lt;/groupId&gt;
-			&lt;artifactId&gt;glassfish-embedded-all&lt;/artifactId&gt;
-			&lt;version&gt;3.0&lt;/version&gt;
-			&lt;scope&gt;provided&lt;/scope&gt;
-		&lt;/dependency&gt;
-	&lt;/dependencies&gt;
-	&lt;build&gt;
-		&lt;plugins&gt;
-			&lt;plugin&gt;
-				&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
-				&lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
-				&lt;version&gt;2.0.2&lt;/version&gt;
-				&lt;configuration&gt;
-					&lt;source&gt;1.6&lt;/source&gt;
-					&lt;target&gt;1.6&lt;/target&gt;
-				&lt;/configuration&gt;
-			&lt;/plugin&gt;
-						&lt;plugin&gt;
-				&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
-				&lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;
-				&lt;configuration&gt;
-					&lt;includes&gt;
-						&lt;include&gt;**/*TestItemSuite.java&lt;/include&gt;
-					&lt;/includes&gt;
-				&lt;/configuration&gt;
-			&lt;/plugin&gt;
-		&lt;/plugins&gt;
-	&lt;/build&gt;
-&lt;/project&gt;
-</pre>
+{% highlight xml %}<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>coralic</groupId>
+	<artifactId>ejbembeddedtest</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ejbembeddedtest</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.7</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.extras</groupId>
+			<artifactId>glassfish-embedded-all</artifactId>
+			<version>3.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+						<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<includes>
+						<include>**/*TestItemSuite.java</include>
+					</includes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+{% endhighlight %}
 
 Now we take the sources from [here][3] and copy them to src/main/java/nl/coralic/blog/ejb31/
 
 The presistance.xml from that sample goes here src/main/resources/META-INF
 
-If you have read my other post “How to test EJB3.1 with embedded container?” [http://blog.coralic.nl/2010/03/08/how-to-test-ejb3-1-with-embedded-container/] you have seen that for an embedded container we needed an domain.xml and ds\_jdbc\_ra. Luckily using embedded glassfish this way we don't need that anymore. Two reasons for that:  
-1)when you do your test glassfish does complain about that it can not find ds\_jdbc\_ra and then goes off and creates it for it self, so no problem here  
+If you have read my other post [“How to test EJB3.1 with embedded container?”][1]  you have seen that for an embedded container we needed an domain.xml and ds_jdbc_ra. Luckily using embedded glassfish this way we don't need that anymore. Two reasons for that:  
+1)when you do your test glassfish does complain about that it can not find ds_jdbc_ra and then goes off and creates it for it self, so no problem here  
 2)we don't need the domain.xml to tell glassfish how to configure it self because we can do that in our junit test
 
 We need some junit to test our EJB, first we create an junit test.
 
-<pre class="brush: java; title: ; notranslate" title="">package test;
+{% highlight java %}package test;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -101,11 +101,11 @@ public class ItemTest {
 
 	}
 }
-</pre>
+{% endhighlight %}
 
 And as last we create an junit suite that starts and stops our server and invokes our test.
 
-<pre class="brush: java; title: ; notranslate" title="">package test;
+{% highlight java %}package test;
 
 import java.io.File;
 
@@ -200,13 +200,13 @@ public class TestItemSuite
 		}
 	}
 }
-</pre>
+{% endhighlight %}
 
 Everything need for this test is setup all you have to do is fire up the test with maven
 
-<pre class="brush: bash; title: ; notranslate" title="">mvn clean compile jar:jar test
-</pre>
+{% highlight bash %}mvn clean compile jar:jar test
+{% endhighlight %}
 
- [1]: http://blog.coralic.nl/2010/03/08/how-to-test-ejb3-1-with-embedded-container/
+ [1]: {{ site.baseurl }}/2010/03/08/how-to-test-ejb3-1-with-embedded-container/
  [2]: http://files.coralic.nl/ejbe31mbeddedglassfish.zip
- [3]: http://blog.coralic.nl/2010/03/07/how-to-create-ejb-3-1/
+ [3]: {{ site.baseurl }}/2010/03/07/how-to-create-ejb-3-1/

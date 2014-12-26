@@ -10,6 +10,6 @@ description:
 ---
 I did some updates yesterday:
 
-1)Updated WordPress to the latest  
-2)Added download posts as PDF  
-3)Adjusted the theme to be more wide (everyone these days uses high resolutions)
+1. Updated WordPress to the latest  
+2. Added download posts as PDF  
+3. Adjusted the theme to be more wide (everyone these days uses high resolutions)

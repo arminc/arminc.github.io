@@ -17,35 +17,35 @@ I worked with Apache for a long time and I never had the chance to do something 
 
 Prepare the build server
 
-<pre class="brush: bash; title: ; notranslate" title="">sudo apt-get install build-essential
+{% highlight bash %}sudo apt-get install build-essential
 cd ~/Downloads/
-</pre>
+{% endhighlight %}
 
 Download all the necessary files. Nginx needs pcre to be build. 
 
-<pre class="brush: bash; title: ; notranslate" title="">wget http://nginx.org/download/nginx-1.4.1.tar.gz
+{% highlight bash %}wget http://nginx.org/download/nginx-1.4.1.tar.gz
 wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.32.tar.gz
-</pre>
+{% endhighlight %}
 
 Unpack the compressed files
 
-<pre class="brush: bash; title: ; notranslate" title="">tar xvfz nginx-1.4.1.tar.gz
+{% highlight bash %}tar xvfz nginx-1.4.1.tar.gz
 tar xvzf pcre-8.32.tar.gz
-</pre>
+{% endhighlight %}
 
 Build nginx where we tell it the pcre location, where we want to install it and we also tell it we don't want to use gzip at the moment. To speed up the build you can use make -j 4 (or any other amount of threads)
 
-<pre class="brush: bash; title: ; notranslate" title="">cd nginx-1.4.1
+{% highlight bash %}cd nginx-1.4.1
 ./configure --prefix=/home/armin/nginx --with-pcre=/home/armin/Downloads/pcre-8.32 --without-http_gzip_module
 make
 make install
-</pre>
+{% endhighlight %}
 
 We can start nginx now
 
-<pre class="brush: bash; title: ; notranslate" title="">cd ~/nginx/sbin
+{% highlight bash %}cd ~/nginx/sbin
 sudo ./nginx
-</pre>
+{% endhighlight %}
 
 Nginx can be used to serve the pages now but it is not configured completely, it needs to be fine tuned.
 

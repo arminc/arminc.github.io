@@ -21,18 +21,18 @@ Quote from [akka.io][1] “We believe that writing correct concurrent, fault-tol
 For the purpose of the sample we have a trivial working unit that simulates CPU intensive task that can find a factorial for a large number. We assume that we need to find factorials for many different numbers, for the purpose of consistency the number is now fixed.  
 Factorial calculator
 
-<pre class="brush: java; title: ; notranslate" title="">public class CalculateFactorial {
+{% highlight java %}public class CalculateFactorial {
     public BigInteger calculate() {
         BigInteger fact = BigInteger.valueOf(1);
-        for (int i = 1; i &lt;= 739; i++)
+        for (int i = 1; i <= 739; i++)
             fact = fact.multiply(BigInteger.valueOf(i));
         return fact;}}
-</pre>
+{% endhighlight %}
 
 **Java way**  
 The most simple way of implementing this is to loop through the numbers and calculate the factorial for them, like this.
 
-<pre class="brush: java; title: ; notranslate" title="">public class JavaWay {
+{% highlight java %}public class JavaWay {
     private final long messages = 100;
     
     public static void main(String[] array) {
@@ -45,12 +45,12 @@ The most simple way of implementing this is to loop through the numbers and calc
         printElapsedTime(time);}
 
     private void calculateFactorial() {
-        for (int i = 0; i &lt; messages; i++) {
+        for (int i = 0; i < messages; i++) {
             list.add(new CalculateFactorial().calculate());}}
 
     private void printElapsedTime(Time time) {
         System.out.println("Done: " + time.elapsedTimeMilliseconds());}}
-</pre>
+{% endhighlight %}
 
 This is a simple solution that works well, but the problem with it is that the processing speed entirely depends on one thread on the local machine even though the messages could be processed simultaneously. It is possible to solve this problem in many different ways, for example by using a container managed environment. Although it can solve the problem it brings complexity and overhead to the project. Another way is to use threading, but that means working on a low level coding and it does not allow distributed scaling. But there is also Akka way. 
 
@@ -59,7 +59,7 @@ Akka can be used as a library like in this sample, as a microkernel or part of t
 
 Bootstrapping Akka consists of starting the ActorSystem, creating the master actor and telling it to start processing.
 
-<pre class="brush: java; title: ; notranslate" title="">public class AkkaWay {
+{% highlight java %}public class AkkaWay {
 
     public static void main(String[] args) {
         new AkkaWay().run();}
@@ -68,11 +68,11 @@ Bootstrapping Akka consists of starting the ActorSystem, creating the master act
         ActorSystem system = ActorSystem.create("CalcSystem");
         ActorRef master = system.actorOf(Master.createMaster(), "master");
         master.tell(new Calculate(), ActorRef.noSender());}}
-</pre>
+{% endhighlight %}
 
 Master actor is responsible for processing the messages, meaning telling the Worker actor to calculate the factorial. Akka has different ways to scale, in this sample RoundRobinRouter is being used so that multiple Worker actors can do their work at once. Master worker is also responsible for receiving the results from the Worker actors and knowing when all messages are processed. 
 
-<pre class="brush: java; title: ; notranslate" title="">public class Master extends UntypedActor {
+{% highlight java %}public class Master extends UntypedActor {
 
     private long messages = 100;
     private long processed = 0;
@@ -99,7 +99,7 @@ Master actor is responsible for processing the messages, meaning telling the Wor
     }
 
     private void processMessages() {
-        for (int i = 0; i &lt; messages; i++) {
+        for (int i = 0; i < messages; i++) {
             workerRouter.tell(new Work(), getSelf());}}
 
     private void end() {
@@ -108,12 +108,12 @@ Master actor is responsible for processing the messages, meaning telling the Wor
         getContext().system().shutdown();}
 
     public static Props createMaster() {
-        return Props.create(Master.class, new ArraySeq&lt;Object&gt;(0));}}
-</pre>
+        return Props.create(Master.class, new ArraySeq<Object>(0));}}
+{% endhighlight %}
 
 Worker actor is responsible for the actual factorial calculation and returning a response to the parent (master actor) when done.
 
-<pre class="brush: java; title: ; notranslate" title="">public class Worker extends UntypedActor {
+{% highlight java %}public class Worker extends UntypedActor {
 
     @Override
     public void onReceive(Object message) {
@@ -125,12 +125,12 @@ Worker actor is responsible for the actual factorial calculation and returning a
     }
 
     public static Props createWorker() {
-        return Props.create(Worker.class, new ArraySeq&lt;Object&gt;(0));}}
-</pre>
+        return Props.create(Worker.class, new ArraySeq<Object>(0));}}
+{% endhighlight %}
 
 For communication between actors Akka uses triggers (messages) that are immutable objects.
 
-<pre class="brush: java; title: ; notranslate" title="">public class Calculate {}
+{% highlight java %}public class Calculate {}
 
 public class Result {
 
@@ -141,7 +141,7 @@ public class Result {
 
     public BigInteger getFactorial() {
         return this.bigInt;}}
-</pre>
+{% endhighlight %}
 
 This is all the code that is needed to take advantage of parallelism. If local scaling is not enough Akka also has a simple distributed solution build in that allows the Worker actor to be run remotely without changing the code. 
 

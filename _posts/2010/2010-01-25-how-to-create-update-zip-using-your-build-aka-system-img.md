@@ -17,39 +17,39 @@ In my previous [post][1] I have already said that I will explain how to create a
 To do anything at all you need to extract your system.img, but you can not do that with normal zip because it's an special format. You need unyaffs to extract it, you can get the c en h file from [here][2] or download the zip containing those two files [here][3]. I made an small change in my unyaffs.c file so it does not create symbolic links, this way I don't need to fix that later.  
 Now let's compile it:
 
-<pre class="brush: bash; title: ; notranslate" title="">gcc -o unyaffs unyaffs.c
-</pre>
+{% highlight bash %}gcc -o unyaffs unyaffs.c
+{% endhighlight %}
 
 **Extract system.img**  
 To do this follow these command's.
 
-<pre class="brush: bash; title: ; notranslate" title="">mkdir ~/update
+{% highlight bash %}mkdir ~/update
 cd ~/update
 mkdir system
 cd system
 ~/unyaffs  ~/myandroid/out/target/product/hero/system.img
 cd ..
-</pre>
+{% endhighlight %}
 
 **Prepare your files for zip**  
 You need to create some folders:
 
-<pre class="brush: bash; title: ; notranslate" title="">mkdir -p META-INF/com/google/android
-</pre>
+{% highlight bash %}mkdir -p META-INF/com/google/android
+{% endhighlight %}
 
 In the META-INF goes a so called update-script, this scripts says what to do when the update.zip is run. Download the update-scriptNoBoot.txt [HERE][4] and put it in META-INF\com\google\android. Do not remember to rename it to update-script!!! It's not a txt file.
 
 **Create the update.zip**  
 Zip the system folder and the META-INF folder to update.zip
 
-<pre class="brush: bash; title: ; notranslate" title="">cd ~/update
+{% highlight bash %}cd ~/update
 zip -r update.zip system META-INF
-</pre>
+{% endhighlight %}
 
 **Sign your update.zip**
 
-<pre class="brush: bash; title: ; notranslate" title="">java -jar ~/myandroid/out/host/linux-x86/framework/signapk.jar ~/myandroid/build/target/product/security/testkey.x509.pem ~/myandroid/build/target/product/security/testkey.pk8 ~/update/update.zip ~/update/signed-update.zip
-</pre>
+{% highlight bash %}java -jar ~/myandroid/out/host/linux-x86/framework/signapk.jar ~/myandroid/build/target/product/security/testkey.x509.pem ~/myandroid/build/target/product/security/testkey.pk8 ~/update/update.zip ~/update/signed-update.zip
+{% endhighlight %}
 
 All that's left to do is rename your signed-update.zip to update.zip, upload it to your sdcard, reboot your phone to nandroid, do a wipe and then select install update.zip.
 
@@ -57,7 +57,7 @@ If you have done everything right you can reboot your phone and you will have a 
 
 DO NOT FORGET to make an backup with nandroid!!!
 
- [1]: http://blog.coralic.nl/2010/01/21/how-to-create-a-custom-rom-for-hero-from-android-sources/
+ [1]: {{ site.baseurl }}/2010/01/21/how-to-create-a-custom-rom-for-hero-from-android-sources/
  [2]: http://code.google.com/p/unyaffs/downloads/list
  [3]: http://files.coralic.nl/unyaffs.zip
  [4]: http://files.coralic.nl/update-scriptNoBoot.txt

@@ -19,29 +19,29 @@ First of all you need these three tools, [deodexerant][1] , [baksmali][2] and [s
 
 Connect your phone with USB and make sure you can acces adb and then do the following:
 
-<pre class="brush: bash; title: ; notranslate" title="">adb push deodexerant /data/local
+{% highlight bash %}adb push deodexerant /data/local
 adb shell chmod 755 /data/local/deodexerant
 adb forward tcp:1234 tcp:1234
 adb pull /system/app/com.htc.framework.odex .
 adb shell /data/local/deodexerant /system/app/com.htc.framework.odex 1234 &
 java -jar baksmali.jar -x :1234 com.htc.framework.odex
-</pre>
+{% endhighlight %}
 
 Now that you have a deodexd files in the out folder you need to create the classes.dex file again.
 
-<pre class="brush: bash; title: ; notranslate" title="">java -jar smali-1.1.jar -d classes.dex out
-</pre>
+{% highlight bash %}java -jar smali-1.1.jar -d classes.dex out
+{% endhighlight %}
 
 It's time to put the classes.dex in to the empty com.htc.framework.jar.
 
-<pre class="brush: bash; title: ; notranslate" title="">adb pull  com.htc.framework.jar
+{% highlight bash %}adb pull  com.htc.framework.jar
 zip com.htc.framework.jar classes.dex
-</pre>
+{% endhighlight %}
 
 You have an deodexd com.htc.framework.jar, if you wish to use it you need to sign it:
 
-<pre class="brush: bash; title: ; notranslate" title="">java -jar ~/myandroid/out/host/linux-x86/framework/signapk.jar ~/myandroid/build/target/product/security/testkey.x509.pem ~/myandroid/build/target/product/security/testkey.pk8 com.htc.framework.jar signed.jar
-</pre>
+{% highlight bash %}java -jar ~/myandroid/out/host/linux-x86/framework/signapk.jar ~/myandroid/build/target/product/security/testkey.x509.pem ~/myandroid/build/target/product/security/testkey.pk8 com.htc.framework.jar signed.jar
+{% endhighlight %}
 
 You are done!
 

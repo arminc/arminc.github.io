@@ -11,15 +11,15 @@ tags:
   - root galaxy s
 description: This is an “how to”. I will show you how to root your Samsung Galaxy S. The credits go to LeshaK for rooting method and lmfwtw for providing a small tutorial that this how to is based upon.
 ---
-This is an “how to”. I will show you how to root your Samsung Galaxy S. The credits go to LeshaK for rooting method and lmfwtw for providing a small tutorial that this how to is based upon. Also credits to these sites [Samdroid][1] and [Samsung Firmwares][2]{.broken_link}.
+This is an “how to”. I will show you how to root your Samsung Galaxy S. The credits go to LeshaK for rooting method and lmfwtw for providing a small tutorial that this how to is based upon. Also credits to these sites [Samdroid][1] and [Samsung Firmwares][2].
 
 So lets start and try to root our phone. 
 
 THERE IS ALSO AN SECOND METHOD LOOK [HERE][3]
 
-**BUT FIRST BEFORE I BEGIN PLEASE, PLEASE DO NOT TRY THIS IF YOU DON'T KNOW WHAT YOU ARE DOING OR YOU DON'T WANT TO RISK YOUR PHONE BEEING BRICKED. ALTHOUGH THE HOW TO WORKED FOR ME AND OTHERS THAT DOES NOT MEAN IT CAN NOT GO WRONG. I TAKE NO RESPONSOBILITY ON THIS, YOU ARE ON YOUR OWN.</p> 
+**BUT FIRST BEFORE I BEGIN PLEASE, PLEASE DO NOT TRY THIS IF YOU DON'T KNOW WHAT YOU ARE DOING OR YOU DON'T WANT TO RISK YOUR PHONE BEEING BRICKED. ALTHOUGH THE HOW TO WORKED FOR ME AND OTHERS THAT DOES NOT MEAN IT CAN NOT GO WRONG. I TAKE NO RESPONSOBILITY ON THIS, YOU ARE ON YOUR OWN.**
 
-YOU HAVE BEEN WARN!</strong>
+**YOU HAVE BEEN WARN!**
 
 **STEP1:**  
 Not sure if it is really needed but just in case. On your phone go to Settings > Applications > Development > Check USB Debugging
@@ -34,7 +34,7 @@ Connect your Galaxy to the PC and wait for the drivers to get installed
 Disconnect your Galaxy from the PC and shut it down.
 
 **STEP5:**  
-Now it's time to download Odin. Odin is the flashing program. You can download it from [here][2]{.broken_link} or you can download it directly from me [here][6]
+Now it's time to download Odin. Odin is the flashing program. You can download it from [here][2] or you can download it directly from me [here][6]
 
 **STEP6:**  
 Connect your phone to your PC
@@ -46,8 +46,8 @@ Boot your phone in to download mode, to do this press HOME + DOWN + POWER
 You should see that Odin has recognized your phone
 
 **STEP9:**  
-To proceed further you need to download two things and that is the pit file from [here][2]{.broken_link} or directly from me [here][7].  
-You also need to download the patched kernel from LeshaK from [here][1] or directly from [here][8]{.broken_link} or from me [here][9]
+To proceed further you need to download two things and that is the pit file from [here][2] or directly from me [here][7].  
+You also need to download the patched kernel from LeshaK from [here][1] or directly from [here][8] or from me [here][9]
 
 **STEP10:**  
 In Odin select the pit file and the pda file and then press start.
@@ -61,16 +61,16 @@ Login to your phone and connect it to the PC where you have setup adb. For info 
 **STEP13:**  
 Open up a terminal/commandline and do the following:
 
-<pre class="brush: bash; title: ; notranslate" title="">adb shell 
+{% highlight bash %}adb shell 
 su 
-cat /sbin/su &gt; /system/bin/su 
+cat /sbin/su > /system/bin/su 
 chmod 4755 /system/bin/su
 exit
 exit
-</pre>
+{% endhighlight %}
 
 **STEP14:**  
-Now you have two options you can keep this kernel or you can go back to the stock kernel. The kernel provided by LeshaK could be unstable (these are his words) so it's up to you. If you wish to go back just flash the stock kernel like you did with LeshaK kernel. You can find different firmwares [here][2]{.broken_link} just download your firmware and then look inside the tar files find the one with zImage in it. Remove everything besides the zImage, now you can flash that kernel.
+Now you have two options you can keep this kernel or you can go back to the stock kernel. The kernel provided by LeshaK could be unstable (these are his words) so it's up to you. If you wish to go back just flash the stock kernel like you did with LeshaK kernel. You can find different firmwares [here][2] just download your firmware and then look inside the tar files find the one with zImage in it. Remove everything besides the zImage, now you can flash that kernel.
 
 I my self was running XXJF3 firmware but there is no firmware online for that so I just installed the kernel from XXJF5. You can download the tar file I used [here][11]
 
@@ -82,15 +82,15 @@ Unzip the zip file.
 **STEP16:**  
 Connect your Galaxy to your PC where you have adb working and do the following:
 
-<pre class="brush: bash; title: ; notranslate" title="">adb push PATH_TO_SU_FROM_THEZIP/su /sdcard 
+{% highlight bash %}adb push PATH_TO_SU_FROM_THEZIP/su /sdcard 
 adb shell 
 su 
-cat /sdcard/su &gt; /system/bin/su 
+cat /sdcard/su > /system/bin/su 
 chmod 4755 /system/bin/su 
 exit 
 exit 
 adb install PATH_TO_SUPERUSER_FROM_THEZIP/Superuser.apk
-</pre>
+{% endhighlight %}
 
 **STEP17:**  
 From the market download an terminal for example the “*android terminal emulator*”.

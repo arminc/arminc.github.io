@@ -12,9 +12,9 @@ To do this you need couple of things, a workspace, eclair sources, hero vendor s
 
 Let's start by creating an workspace, to make it easy for you guys I made an script that will do everything for you. You can download it [HERE][3]. Be CAREFULL if you already have used my other [script][4] you will already have an folder called myandroid in your home directory. If so then you have two choices you can delete the myandroid folder
 
-<pre class="brush: bash; title: ; notranslate" title="">cd ~
+{% highlight bash %}cd ~
 rm -rf myandroid
-</pre>
+{% endhighlight %}
 
 or you could replace the words “myandroid” to “myeclair” in the script.
 
@@ -24,58 +24,58 @@ Before we can compile we need to do two more things.
 **First:**  
 I found some problems with the Hero vendor settings so I had to modify them, this is what I did.
 
-<pre class="brush: bash; title: ; notranslate" title="">gedit ~/myandroid/vendor/community/products/AndroidProducts.mk
-</pre>
+{% highlight bash %}gedit ~/myandroid/vendor/community/products/AndroidProducts.mk
+{% endhighlight %}
 
 Remove this:
 
-<pre class="brush: bash; title: ; notranslate" title="">$(LOCAL_DIR)/community_hero_eu.mk \
-</pre>
+{% highlight bash %}$(LOCAL_DIR)/community_hero_eu.mk \
+{% endhighlight %}
 
-Now remove community\_hero\_eu.mk:
+Now remove community_hero_eu.mk:
 
-<pre class="brush: bash; title: ; notranslate" title="">rm ~/myandroid/vendor/community/products/ community_hero_eu.mk
-</pre>
+{% highlight bash %}rm ~/myandroid/vendor/community/products/ community_hero_eu.mk
+{% endhighlight %}
 
 **Second:**  
 Download the HERO21 rom from [HERE][5] and save it in “~/myandroid” as “update-hero.zip”. Now unzip the files needed by doing:
 
-<pre class="brush: bash; title: ; notranslate" title="">cd ~/myandroid
+{% highlight bash %}cd ~/myandroid
 pushd vendor/community/hero && ./unzip-files.sh && popd
-</pre>
+{% endhighlight %}
 
 If everything worked well you are ready to build your eclair for Hero. Do the following:
 
-<pre class="brush: bash; title: ; notranslate" title="">cd ~/myandroid
+{% highlight bash %}cd ~/myandroid
 . build/envsetup.sh
 lunch community_hero_us-eng
 make -j4
-</pre>
+{% endhighlight %}
 
 You will have to wait for some time, but if it all goes right you have just created eclair for Hero. Bear in mind that this is an clean Android no HTC no Google stuff!
 
 It's time to build an update.zip. There are two methods for that, you could run the following:
 
-<pre class="brush: bash; title: ; notranslate" title="">make otapackage
-</pre>
+{% highlight bash %}make otapackage
+{% endhighlight %}
 
 but this did not work for me.
 
 Or you could create an update.zip from system.img as I did. I already have explained how to do this [here][6].  
 There are some changes, use this [update-script][7], copy the boot.img from “~/myandroid/out/target/product/hero/system.img” to “~/update”
 
-<pre class="brush: bash; title: ; notranslate" title="">cp ~/myandroid/out/target/product/hero/boot.img ~/update
-</pre>
+{% highlight bash %}cp ~/myandroid/out/target/product/hero/boot.img ~/update
+{% endhighlight %}
 
 and as last don't run this:
 
-<pre class="brush: bash; title: ; notranslate" title="">zip -r update.zip system META-INF
-</pre>
+{% highlight bash %}zip -r update.zip system META-INF
+{% endhighlight %}
 
 but run this instead:
 
-<pre class="brush: bash; title: ; notranslate" title="">zip -r update.zip system META-INF boot.img
-</pre>
+{% highlight bash %}zip -r update.zip system META-INF boot.img
+{% endhighlight %}
 
 When you finish signing your update.zip upload it to your phone, but DO NOT forget to make an backup with nandroid.  
 Also BE AWARE that booting could take some time, for instance I had to wait 1 minute before the screen changed from “Hero” to “Android” and after that I needed to wait another minute for the phone to show login screen.
@@ -83,7 +83,7 @@ Also BE AWARE that booting could take some time, for instance I had to wait 1 mi
  [1]: http://wiki.github.com/loxK/android_vendor_community/compiling-for-htc-hero
  [2]: http://htcpedia.com/forum/showthread.php?t=1448
  [3]: http://files.coralic.nl/createAndroidEclairRepo.sh
- [4]: http://blog.coralic.nl/2009/10/25/creating-workspace-for-the-android-source/
+ [4]: {{ site.baseurl }}/2009/10/25/creating-workspace-for-the-android-source/
  [5]: http://www.4shared.com/file/180010369/db272d/HERO21-18-Community-signed.html
- [6]: http://blog.coralic.nl/2010/01/25/how-to-create-update-zip-using-your-build-aka-system-img/
+ [6]: {{ site.baseurl }}/2010/01/25/how-to-create-update-zip-using-your-build-aka-system-img/
  [7]: http://files.coralic.nl/update-scriptEclair.txt

@@ -19,46 +19,46 @@ Let's look at some “'Hello World” coding examples. [Source][2]
 
 Java
 
-<pre class="brush: java; title: ; notranslate" title="">class HelloWorld {
+{% highlight java %}class HelloWorld {
   static public void main( String args[] ) {
     System.out.println( "Hello World!" );
   }
 }
-</pre>
+{% endhighlight %}
 
 C#
 
-<pre class="brush: csharp; title: ; notranslate" title="">class HelloWorld
+{% highlight csharp %}class HelloWorld
 {
     static void Main()
     {
         System.Console.WriteLine("Hello, World!");
     }
 }
-</pre>
+{% endhighlight %}
 
 C++
 
-<pre class="brush: cpp; title: ; notranslate" title="">#include &lt;iostream.h&gt;
+{% highlight c++ %}#include <iostream.h>
 
 main()
 {
-    cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+    cout << "Hello World!" << endl;
     return 0;
 }
-</pre>
+{% endhighlight %}
 
 Scala
 
-<pre class="brush: scala; title: ; notranslate" title="">object HelloWorld with Application {
+{% highlight scala %}object HelloWorld with Application {
      Console.println("Hello world!");
 }
-</pre>
+{% endhighlight %}
 
 Python
 
-<pre class="brush: python; title: ; notranslate" title="">print "Hello World"
-</pre>
+{% highlight python %}print "Hello World"
+{% endhighlight %}
 
 We can see that Java, C# and C++ pretty much look the same, Scala is a little bit smaller and python the smallest. Warning: This is not a scientific comparison but one to help understand the point.
 
