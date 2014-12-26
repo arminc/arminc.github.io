@@ -28,7 +28,7 @@ Theme: https://github.com/gayanvirajith/harmony
 TODO
 ====
 + Check all migrated pages and fix errors
-	- check post
+	- check post 2009 / 2010 / 2011 / 2012 / 2013
 	- make sure files are available here
 
 + google analytics
@@ -45,3 +45,4 @@ TODO
 + add linkedin next to github/google+
 	+ see http://zhangwenli.com/blog/2014/07/15/jekyll-related-posts-without-plugin/
 + Make the upper menu bigger or hover (when you scrole it comes down with the scroll)
++ fix code blocks to scrol?
