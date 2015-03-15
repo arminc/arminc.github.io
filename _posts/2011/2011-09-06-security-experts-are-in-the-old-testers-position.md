@@ -21,13 +21,14 @@ Following the security news here are 3 hacks that happened in a weak.
   * [Nokia Developer forum hacked][2]
   * [Linux Source Code Repository Kernel.Org Gets Hacked][3] 
   * [DigiNotar Damage Disclosure][4]
-    It's not just those 3 there are many of them. As we go online in to the cloud and start exposing more and more services to the outside world we need to know that our applications are safe. This kind of responsibility can not be given to a software engineer or an architect it needs to be given to a specialist aka the security experts.
     
-    We struggled to get the tester in to the team and now that we have achieved that goal it seems we need to struggle again to do the same for the security specialist. 
+It's not just those 3 there are many of them. As we go online in to the cloud and start exposing more and more services to the outside world we need to know that our applications are safe. This kind of responsibility can not be given to a software engineer or an architect it needs to be given to a specialist aka the security experts.
     
-    That's why I asked my self: “Aren't security experts in the old testers position?”
+We struggled to get the tester in to the team and now that we have achieved that goal it seems we need to struggle again to do the same for the security specialist. 
+    
+That's why I asked my self: “Aren't security experts in the old testers position?”
 
- [1]: http://www.it-eye.nl/2011/09/05/security-experts-are-in-the-old-testers-position/
- [2]: http://www.ubergizmo.com/2011/08/nokia-developer-forum-hacked/
- [3]: http://www.securityweek.com/linux-source-code-repository-kernelorg-gets-hacked
- [4]: https://blog.torproject.org/blog/diginotar-damage-disclosure
+[1]: http://www.it-eye.nl/2011/09/05/security-experts-are-in-the-old-testers-position/
+[2]: http://www.ubergizmo.com/2011/08/nokia-developer-forum-hacked/
+[3]: http://www.securityweek.com/linux-source-code-repository-kernelorg-gets-hacked
+[4]: https://blog.torproject.org/blog/diginotar-damage-disclosure
