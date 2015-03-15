@@ -20,7 +20,7 @@ Following the security news here are 3 hacks that happened in a weak.
 
   * [Nokia Developer forum hacked][2]
   * [Linux Source Code Repository Kernel.Org Gets Hacked][3] 
-      * [DigiNotar Damage Disclosure][4]</ul> 
+  * [DigiNotar Damage Disclosure][4]
     It's not just those 3 there are many of them. As we go online in to the cloud and start exposing more and more services to the outside world we need to know that our applications are safe. This kind of responsibility can not be given to a software engineer or an architect it needs to be given to a specialist aka the security experts.
     
     We struggled to get the tester in to the team and now that we have achieved that goal it seems we need to struggle again to do the same for the security specialist. 
