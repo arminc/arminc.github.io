@@ -10,7 +10,7 @@ If you are like me and are using chromium (dev channel) instead of chrome you ma
 
 With your chromium try to watch this movie: 
 
-<span class='embed-youtube' style='text-align:center; display: block;'></span>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_nQDU7HOStc" frameborder="0" allowfullscreen></iframe>
 
 If you are not able to play it do this, install the non free codec provided by chromium:
 
