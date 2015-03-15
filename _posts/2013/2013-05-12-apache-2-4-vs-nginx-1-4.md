@@ -531,5 +531,5 @@ It clearly shows that Nginx uses less CPU than Apache for the same work, the dif
 
 I like what I see from Nginx and I am definitely going to play more with it.
 
- [1]: http://blog.coralic.nl/2013/05/11/apache-2-4-on-ubuntu-13-04-from-source/
- [2]: http://blog.coralic.nl/2013/05/12/nginx-1-4-on-ubuntu-13-04-from-source/
+ [1]: {{ site.baseurl }}/2013/05/11/apache-2-4-on-ubuntu-13-04-from-source/
+ [2]: {{ site.baseurl }}/2013/05/12/nginx-1-4-on-ubuntu-13-04-from-source/

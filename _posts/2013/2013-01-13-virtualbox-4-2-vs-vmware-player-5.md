@@ -511,4 +511,4 @@ Looking at the results i think the conclusion is that VMware Player gives better
 
 VMware player lacks some of the features VirtualBox has but if you don't need those maybe it is a better choice?
 
- [1]: http://blog.coralic.nl/2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/
+ [1]: {{ site.baseurl }}/2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/

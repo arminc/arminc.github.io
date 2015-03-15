@@ -617,5 +617,5 @@ The settings for this test are the same as for [VirtualBox][2].
 
 Overall KVM gives better performance than VirtualBox and VMware, i find it strange that the memory is the one that is slower. KVM gives better performance when looking at the rough power but when it comes to desktop (graphics) it really is behind the other two. There are options to speed it up but it is still not great. I would say use KVM for headless instances.
 
- [1]: http://blog.coralic.nl/2013/01/13/virtualbox-4-2-vs-vmware-player-5/
- [2]: http://blog.coralic.nl/2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/
+ [1]: {{ site.baseurl }}/2013/01/13/virtualbox-4-2-vs-vmware-player-5/
+ [2]: {{ site.baseurl }}/2013/01/12/virtualbox-4-2-performance-in-ubuntu-12-04/
