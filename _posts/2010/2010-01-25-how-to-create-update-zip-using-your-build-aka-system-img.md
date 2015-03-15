@@ -59,5 +59,5 @@ DO NOT FORGET to make an backup with nandroid!!!
 
  [1]: {{ site.baseurl }}/2010/01/21/how-to-create-a-custom-rom-for-hero-from-android-sources/
  [2]: http://code.google.com/p/unyaffs/downloads/list
- [3]: http://files.coralic.nl/unyaffs.zip
- [4]: http://files.coralic.nl/update-scriptNoBoot.txt
+ [3]: {{ site.baseurl }}/assets/files/unyaffs.zip
+ [4]: {{ site.baseurl }}/assets/files/update-scriptNoBoot.txt

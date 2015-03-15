@@ -22,7 +22,7 @@ Apache Camel is a powerful open source integration framework based on known Ente
 
 Camel lets you create the Enterprise Integration Patterns to implement routing and mediation rules in either a Java based Domain Specific Language (or Fluent API), via Spring based Xml Configuration files or via the Scala DSL. This means you get smart completion of routing rules in your IDE whether in your Java, Scala or XML editor. [source][2]
 
-[<img src="http://files.coralic.nl/jpg/camel-components.png" alt="" title="Business_Model_Canvas_1024" width="1024" height="683" class="aligncenter size-full wp-image-1061" />][3]
+[<img src="{{ site.baseurl }}/assets/files/jpg/camel-components.png" alt="" title="Business_Model_Canvas_1024" width="1024" height="683" class="aligncenter size-full wp-image-1061" />][3]
 
 **What did we produce?**
 
@@ -143,7 +143,7 @@ For more information look at:
 
  [1]: http://www.it-eye.nl/2011/03/18/10-minutes-hands-on-apache-camel/
  [2]: http://camel.apache.org/
- [3]: http://files.coralic.nl/jpg/camel-components.png
+ [3]: {{ site.baseurl }}/assets/files/jpg/camel-components.png
  [4]: http://maven.apache.org/
  [5]: http://netbeans.org/community/releases/70/
  [6]: http://www.junit.org/

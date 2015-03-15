@@ -243,4 +243,4 @@ All the required components ready to use, so lets start the test by running mave
 That's it, this is all you have to do to test your EJB. Very easy and useful.
 
  [1]: {{ site.baseurl }}/2010/03/07/how-to-create-ejb-3-1/
- [2]: http://files.coralic.nl/ejb31EmbeddedCont.zip
+ [2]: {{ site.baseurl }}/assets/files/ejb31EmbeddedCont.zip

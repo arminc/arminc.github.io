@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="git://github.com/" />
+
+	<!-- Swap the qualcomm repos -->
+	<remove-project name="platform/vendor/qcom/android-open" />
+	<project path="platform/vendor/qcom/android-open" name="kiall/android_platform_vendor_qcom_android-open" remote="github" />
+	<remove-project name="platform/vendor/qcom/proprietary-open" />
+	<project path="platform/vendor/qcom/proprietary-open" name="kiall/android_platform_vendor_qcom_proprietary-open" remote="github" />
+
+	<!-- Split system into multiple projects -->
+	<remove-project name="platform/system/extras" />
+	<project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
+
+	<!-- Add Superuser -->
+	<project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
+
+	<!-- init.d filesystem fix, etc. -->
+	<remove-project name="platform/system/core" />
+	<project path="system/core" name="jnwhiteh/android_system_core" remote="github" />
+
+	<!-- Calendar provider fix -->
+	<remove-project name="platform/packages/providers/CalendarProvider" />
+	<project path="packages/providers/CalendarProvider" name="jnwhiteh/android_packages_providers_CalendarProvider" remote="github" />
+
+	<!-- Build busybox from source -->
+	<project path="external/busybox" name="dylex/android_external_busybox" remote="github" revision="master" />
+	<remove-project name="platform/bionic"/>
+	<project path="bionic" name="jnwhiteh/android_bionic" remote="github"/>
+
+	<!-- Settings for widget fixes, etc. -->
+	<remove-project name="platform/packages/apps/Settings" />
+	<project path="packages/apps/Settings" name="kiall/android_packages_apps_Settings" remote="github" />
+
+	<!-- Community repo -->
+	<project path="vendor/community" name="loxK/android_vendor_community" remote="github" />
+</manifest>

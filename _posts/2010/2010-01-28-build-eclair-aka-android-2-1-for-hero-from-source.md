@@ -82,8 +82,8 @@ Also BE AWARE that booting could take some time, for instance I had to wait 1 mi
 
  [1]: http://wiki.github.com/loxK/android_vendor_community/compiling-for-htc-hero
  [2]: http://htcpedia.com/forum/showthread.php?t=1448
- [3]: http://files.coralic.nl/createAndroidEclairRepo.sh
+ [3]: {{ site.baseurl }}/assets/files/createAndroidEclairRepo.sh
  [4]: {{ site.baseurl }}/2009/10/25/creating-workspace-for-the-android-source/
  [5]: http://www.4shared.com/file/180010369/db272d/HERO21-18-Community-signed.html
  [6]: {{ site.baseurl }}/2010/01/25/how-to-create-update-zip-using-your-build-aka-system-img/
- [7]: http://files.coralic.nl/update-scriptEclair.txt
+ [7]: {{ site.baseurl }}/assets/files/update-scriptEclair.txt

@@ -102,8 +102,8 @@ As always there are people I would like to give credits to, and this time it's [
 **UPDATE** For those who don't like to do all this here is an img I created: [Download][6]
 
  [1]: http://en.wikipedia.org/wiki/Chroot
- [2]: http://files.coralic.nl/ArmChrootUbuntu/start.sh
- [3]: http://files.coralic.nl/ArmChrootUbuntu/config.sh
- [4]: http://files.coralic.nl/ArmChrootUbuntu/stop.sh
+ [2]: {{ site.baseurl }}/assets/files/ArmChrootUbuntu/start.sh
+ [3]: {{ site.baseurl }}/assets/files/ArmChrootUbuntu/config.sh
+ [4]: {{ site.baseurl }}/assets/files/ArmChrootUbuntu/stop.sh
  [5]: http://nexusonehacks.net/nexus-one-hacks/how-to-install-ubuntu-on-your-nexus-oneandroid/
  [6]: http://www.megaupload.com/?d=YKUX4Q89

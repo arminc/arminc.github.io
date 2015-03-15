@@ -56,6 +56,6 @@ That's it, no more no less :)
 Oh I have also created two movies, first one shows how to setup and the second one is the prove it works on galaxy S. Have fun watching.
 
  [1]: {{ site.baseurl }}/2010/08/12/creating-chroot-for-arm-on-ubuntu-with-rootstock/
- [2]: http://files.coralic.nl/ArmChrootUbuntu/startA_ubuntu.sh
- [3]: http://files.coralic.nl/ArmChrootUbuntu/stopA_ubuntu.sh
+ [2]: {{ site.baseurl }}/assets/files/ArmChrootUbuntu/startA_ubuntu.sh
+ [3]: {{ site.baseurl }}/assets/files/ArmChrootUbuntu/stopA_ubuntu.sh
  [4]: http://www.megaupload.com/?d=YKUX4Q89

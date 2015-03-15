@@ -12,7 +12,7 @@ I totally forgot to post this on my own blog so here it is, the original one can
 
 On our last IT-Eye openspace meeting we got a great explanation of The Business Model Canvas from our colleague Tim Pinchetti. I found it very interesting to see how simple The Business Model Canvas is for sketching new or existing business models. As this was not a presentation but an open discussion we soon ended up in sketching a real life business model. While we discussed our new business model it was clear to me that the only thing you needed to know to be able to fully understand what the model meant were the 9 blocks on the canvas. When you know the meaning of those 9 blocks you are capable to sketch, understand or discuss The Business Model Canvas.
 
-[<img class="aligncenter size-full wp-image-1061" title="Business_Model_Canvas_1024" src="http://files.coralic.nl/jpg/Business_Model_Canvas_1024.png" alt="" width="1024" height="683" />][2]
+[<img class="aligncenter size-full wp-image-1061" title="Business_Model_Canvas_1024" src="{{ site.baseurl }}/assets/files/jpg/Business_Model_Canvas_1024.png" alt="" width="1024" height="683" />][2]
 
 Here are the 9 blocks ([source][3]):
 
@@ -45,7 +45,7 @@ More info:
   * Blog: [Business Model Alchemist][5]
 
  [1]: http://www.it-eye.nl/2011/02/18/the-business-model-canvas/
- [2]: http://files.coralic.nl/jpg/Business_Model_Canvas_1024.png
+ [2]: {{ site.baseurl }}/assets/files/jpg/Business_Model_Canvas_1024.png
  [3]: http://en.wikipedia.org/wiki/Business_Model_Canvas
  [4]: http://www.businessmodelgeneration.com/
  [5]: http://www.businessmodelalchemist.com/

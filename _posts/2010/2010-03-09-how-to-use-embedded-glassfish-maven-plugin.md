@@ -109,5 +109,5 @@ Now go back to your commandline where the embedded server is running and press e
 
 To test your hello.html brows to <http://localhost:8888/server>
 
- [1]: http://files.coralic.nl/embeddedglassfishmavenplugin.zip
+ [1]: {{ site.baseurl }}/assets/files/embeddedglassfishmavenplugin.zip
  [2]: {{ site.baseurl }}/2010/03/08/how-to-test-ejb3-1-with-embedded-container/

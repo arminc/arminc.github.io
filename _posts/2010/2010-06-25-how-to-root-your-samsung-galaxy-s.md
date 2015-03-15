@@ -105,12 +105,12 @@ Have FUN.
  [3]: http://forum.samdroid.net/f49/superuser-su-busybox-i9000-26-06-2010-a-1355/
  [4]: http://www.samsungapps.com/about/onPc.as
  [5]: http://service.samsungmobile.com/Kies/download.jsp?reg_country=gb&#038;model_code=GT-S8500&#038;language=en
- [6]: http://files.coralic.nl/Odin3-v1.0.zip
- [7]: http://files.coralic.nl/GalaxyS-pitFile.zip
+ [6]: {{ site.baseurl }}/assets/files/Odin3-v1.0.zip
+ [7]: {{ site.baseurl }}/assets/files/GalaxyS-pitFile.zip
  [8]: http://files.samdroid.net/files/2forum/i9000_Kernel_LK9_01b9.7z
- [9]: http://files.coralic.nl/i9000_Kernel_LK9_01b9.7z
+ [9]: {{ site.baseurl }}/assets/files/i9000_Kernel_LK9_01b9.7z
  [10]: http://developer.android.com/guide/developing/tools/adb.html
- [11]: http://files.coralic.nl/StockKernelXXJF5-UpnackThis.zip
+ [11]: {{ site.baseurl }}/assets/files/StockKernelXXJF5-UpnackThis.zip
  [12]: http://forum.xda-developers.com/showthread.php?t=682828
  [13]: http://bit.ly/brI0EV
- [14]: http://files.coralic.nl/u-2.1-e-unpacked.zip
+ [14]: {{ site.baseurl }}/assets/files/u-2.1-e-unpacked.zip

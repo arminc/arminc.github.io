@@ -99,8 +99,8 @@ fastboot reboot
 If everything went well your Hero will boot with your own cupcake build, have fun.
 
  [1]: {{ site.baseurl }}/2009/10/25/creating-workspace-for-the-android-source/
- [2]: http://files.coralic.nl/createAndroidRepo.sh
+ [2]: {{ site.baseurl }}/assets/files/createAndroidRepo.sh
  [3]: http://github.com/loxK/cupcake_platform_vendor_htc_hero
- [4]: http://files.coralic.nl/hero-configfiles.zip
+ [4]: {{ site.baseurl }}/assets/files/hero-configfiles.zip
  [5]: {{ site.baseurl }}/2010/01/27/deodexing-com-htc-framework
  [6]: http://android-dls.com/files/linux/fastboot

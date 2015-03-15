@@ -208,5 +208,5 @@ Everything need for this test is setup all you have to do is fire up the test wi
 {% endhighlight %}
 
  [1]: {{ site.baseurl }}/2010/03/08/how-to-test-ejb3-1-with-embedded-container/
- [2]: http://files.coralic.nl/ejbe31mbeddedglassfish.zip
+ [2]: {{ site.baseurl }}/assets/files/ejbe31mbeddedglassfish.zip
  [3]: {{ site.baseurl }}/2010/03/07/how-to-create-ejb-3-1/

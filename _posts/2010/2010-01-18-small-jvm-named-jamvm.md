@@ -48,4 +48,4 @@ Just run run.sh and you will see “Hello World!”
 Some additional info, I tried adding HelloWorldApp to classpath so jamvm can run it but for some reason I needed to add it to -Xbootclasspath instead of classpath.
 
  [1]: http://www.gnu.org/software/classpath/downloads/downloads.html
- [2]: http://files.coralic.nl/jamvm.zip
+ [2]: {{ site.baseurl }}/assets/files/jamvm.zip

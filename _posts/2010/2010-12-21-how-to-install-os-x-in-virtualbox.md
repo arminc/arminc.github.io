@@ -76,9 +76,9 @@ You have your self an OS X runing :)Have fun&#8230;.
 
 ![][6]
 
- [1]: http://files.coralic.nl/osxscreens/osx1.png
- [2]: http://files.coralic.nl/osxscreens/osx2.png
- [3]: http://files.coralic.nl/osxscreens/osx3.png
- [4]: http://files.coralic.nl/osxscreens/osx4.png
- [5]: http://files.coralic.nl/osxscreens/osx5.png
- [6]: http://files.coralic.nl/osxscreens/osx6.png
+ [1]: {{ site.baseurl }}/assets/files/osxscreens/osx1.png
+ [2]: {{ site.baseurl }}/assets/files/osxscreens/osx2.png
+ [3]: {{ site.baseurl }}/assets/files/osxscreens/osx3.png
+ [4]: {{ site.baseurl }}/assets/files/osxscreens/osx4.png
+ [5]: {{ site.baseurl }}/assets/files/osxscreens/osx5.png
+ [6]: {{ site.baseurl }}/assets/files/osxscreens/osx6.png

@@ -57,7 +57,7 @@ reboot your phone
 If everything went oke your phone should boot with your new kernel. Have Fun!
 
  [1]: http://android-dls.com/wiki/index.php?title=HOWTO:_Unpack%2C_Edit%2C_and_Re-Pack_Boot_Images
- [2]: http://files.coralic.nl/boot.img
- [3]: http://files.coralic.nl/mkbootimg.zip
- [4]: http://files.coralic.nl/repack-bootimg.pl
- [5]: http://files.coralic.nl/unpack-bootimg.pl
+ [2]: {{ site.baseurl }}/assets/files/boot.img
+ [3]: {{ site.baseurl }}/assets/files/mkbootimg.zip
+ [4]: {{ site.baseurl }}/assets/files/repack-bootimg.pl
+ [5]: {{ site.baseurl }}/assets/files/unpack-bootimg.pl
