@@ -1,7 +1,7 @@
 ---
 title: Continuous Delivery of Docker Images
 layout: post
-permalink: /2015/06/07/start-again-with-jeklly/
+permalink: /2015/06/12/continuous-delivery-of-docker-images/
 categories:
   - docker
 tags:
