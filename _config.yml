@@ -8,24 +8,25 @@ harmony:
   basetheme: theme-base-01
 
   # Google Analytics key, leave blank to ignore
-  google_analytics_key: 
+  google_analytics_key:
 
   # Profile links, leave blank to ignore
-  social: 
+  social:
     github: arminc
     twitter: acoralic
     gplus: +103823895018150177843
+    feed: feed.xml
 
   google_analytics_key: UA-58019544-1
 
-# Conversion / Build settings 
+# Conversion / Build settings
 markdown:    kramdown
 highlighter: pygments # this is how you put pygments config in jekyll 2.0 instead of pygments: true
 
 # Permalinks
 permalink: /:title/
 
-exclude: 
+exclude:
   - CNAME
   - Gemfile
   - README.md
