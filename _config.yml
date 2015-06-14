@@ -1,5 +1,6 @@
 # Base URL
 baseurl:
+feedurl: http://blog.coralic.nl
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
