@@ -3,6 +3,11 @@ layout: default
 title: Blog archive
 permalink: /archive/
 ---
+<style>
+  #menuArchive {
+    font-weight: bold;
+  }
+</style>
 <div class="page-content wc-container">
 	<h1>Archive - year</h1>
   	{% for post in site.posts %}

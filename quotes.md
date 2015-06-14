@@ -3,7 +3,11 @@ layout: page
 title: Quotes
 permalink: /quotes/
 ---
-
+<style>
+	#menuQuotes {
+    font-weight: bold;
+	}
+</style>
 On this page you will find some quotes that I came across that inspired me. Some of the quotes are actual quotes from other people and others are a combination of that and my creativity.
 
 * Sometimes, it’s best to ignore your expert customers.
