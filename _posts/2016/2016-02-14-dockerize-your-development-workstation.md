@@ -12,4 +12,4 @@ description: This is my Dutch Docker Day talk "Dockerize your Development Workst
 
 This is my Dutch Docker Day talk "Dockerize your Development Workstation"
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=WVGRaApIwkU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVGRaApIwkU" frameborder="0" allowfullscreen></iframe>
