@@ -29,7 +29,7 @@ Depending on your context all five options might work or are considered good eno
 
 AWS has released a service called Parameter Store, although it is not as sophisticated as Vault it serves a purpose. If you are starting or want to keep things simpel please try using the [Parameter Store][5].  But if you need full control and want more flexibility then go ahead and use Vault.
 
-***Parameter Store
+###Parameter Store
 
 Parameter Store allows you to store key value data in a key value store with the values encrypted using KMS. Because Parameter Store uses IAM it is a great fit for AWS ECS because you can control the access to the secrets per container.
 
@@ -39,7 +39,7 @@ The blog post is great but I am not really impressed with the run.sh script in w
 
 I really thought so but we could not find any, so we chose to create one.
 
-***Dockerfy
+###Dockerfy
 
 Without trying to invent the wheel again we took the simpel but useful app "dockerfy" and extended it. More information on [Dockerfy can be found here][7]. Dockerfy already handles ENV's and secret files, and it uses templating for simpel usage of secrets.
 
