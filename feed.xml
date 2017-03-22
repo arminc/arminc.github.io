@@ -16,8 +16,8 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url }}</link>
-        <guid isPermaLink="true">{{ post.url }}</guid>
+        <link>{{ post.url | prepend: site.feedurl }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.feedurl }}</guid>
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
