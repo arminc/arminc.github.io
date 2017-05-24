@@ -1,7 +1,7 @@
 ---
 title: Production ready AWS ECS (EC2 Container Service)
 layout: post
-permalink: /2017/24/05/production-ready-aws-ecs-ec2-container-service/
+permalink: /2017/05/24/production-ready-aws-ecs-ec2-container-service/
 categories:
   - docker
   - cloud
