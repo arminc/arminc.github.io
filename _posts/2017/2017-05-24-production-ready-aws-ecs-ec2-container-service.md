@@ -15,6 +15,6 @@ Original post can be found at [Xebia](http://blog.xebia.com/production-ready-aws
 
 Are you looking to run Docker containers on AWS? Or are you looking to use AWS ECS (EC2 Container Service)? Does it need to be production ready?
 
-If so, then speedup your process and be ready today by looking at my [GitHub repository on ECS](https://github.com/arminc/terraform-ecs). It contains infrastructure as code with Terraform for a quick production ready setup. But most importantly it contains information on how the infrastructure is setup. It explains why things are done in a certain way and where to watch for. And finally shows how to do simpel but fully automatic deployments.
+If so, then speedup your process and be ready today by looking at my [GitHub repository on ECS](https://github.com/arminc/terraform-ecs). It contains infrastructure as code with Terraform for a quick production ready setup. But most importantly it contains information on how the infrastructure is setup. It explains why things are done in a certain way and where to watch for. And finally, shows how to do simple but fully automatic deployments.
 
 If you live in the Netherlands then join me at the [Open Kitchen: Simplify DevOps with AWS ECS](https://pages.xebia.com/open-kitchen-simplify-devops-with-aws-ecs)
